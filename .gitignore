@@ -1,0 +1,8 @@
+# Some commons folders and files to ignore because of MacOs, Node, etc
+.vscode
+node_modules
+.DS_Store
+
+# Ignore all pdf files generated
+*.pdf
+
