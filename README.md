@@ -1,12 +1,12 @@
 # Bienvenue chez Sirius School 2024
 
-![Présentation](src\Images\webdev-header.png)
+![Présentation](src/Images/webdev-header.png)
 
 Tu te prépares à embarquer pour 6 mois de plaisir et de (légères) souffrances dans le monde du développement web ! 😈 🔥
 
 Ensemble nous apprendrons les bases des 3 langages principaux du web, autrement dit l'HTML, le CSS et le JavaScript ! 💪 🛠️
 
-![trinity](src\Images\trinity.png)
+![trinity](src/Images/trinity.png)
 
 ## Au programme
 
