@@ -106,7 +106,7 @@ Résultat:
 
 > L'équivalent en HTML de \<ol> et \<ul>
 
-### Images
+### images
 
 ```md
 ![Logo](logo.png)
@@ -185,7 +185,7 @@ Le Markdown prend en compte l'HTML que vous intégrez à votre document. Il est 
 
 ## Quelques plugin intéressant pour rédiger du MD
 
-![previewGH](src/Images/preview_md.gif)
+![previewGH](src/images/preview_md.gif)
 
 [Markdown Preview Github Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)
 Lorsque vous aurez besoin d'écrire des Readme pour vos repository, ce plugin vous permettra d'afficher une prévisualisation en direct de votre document avec le style de Github, vous pourrez vérifier si votre contenu s'affiche correctement.
