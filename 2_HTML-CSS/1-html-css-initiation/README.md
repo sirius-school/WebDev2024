@@ -34,8 +34,8 @@ Bienvenue dans le cours d'initiation à l'HTML et le CSS! On va apprendre les ba
 
 ## La règle d'OR
 
-![google-that-shit](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2IxazVrYTY2NzFzcTR4NjlzeDN6b3UzNHo2Ymg2d2tnaXFqNnh4diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rcmg2ogSBedUs/giphy.gif)
+![google-that-shit](./img/google-it.gif)
 
 Consulte la documentation, Google, la théorie, tes collègues ou ton super formateur trop gentil si tu as la moindre question! Tu es là pour apprendre, si quelque chose t'échappe, tu risquerais de prendre du retard et de ne plus rien comprendre. ALORS SURTOUT T'HÉSITE PAS!!! OK???
 
-![just-do-it](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmh4ZG42Nm5nMzNxa3kxMG5wMDhpenlqMGQwdGtiNWtybHhxMG5oaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/24xRxrDCLxhT2/giphy.gif)
+![just-do-it](./img/just-do-it.gif)
