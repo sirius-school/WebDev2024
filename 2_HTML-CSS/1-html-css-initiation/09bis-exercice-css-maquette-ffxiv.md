@@ -1,6 +1,6 @@
-# Maquette Discord
+# Maquette Final Fantasy XIV
 
-Il est temps de mettre en pratique tout ce qu'on a vu jusqu'à maintenant. Tu vas devoir réaliser la page ci-dessous sans que je te donnes toutes les étapes.
+Bon, on va complexifier un peu les choses. Voici une maquette un poil plus compliquée à réaliser, surtout sans l'aide de Flexbox ou Grid (que nous verrons plus loin). Mais je ta rassure, c'est faisable avec toutes les propriétés CSS déjà vue.
 
 ## :memo: Objectifs
 
@@ -17,8 +17,8 @@ Il est temps de mettre en pratique tout ce qu'on a vu jusqu'à maintenant. Tu va
 
 ## Mise en place
 
-1. Crée un nouveau repository public nommé "Maquette Discord" sur ton compte Github flambant neuf et fais en sorte que ton travail y soit push!
-2. Copie et colle le code HTML fournit plus bas dans un nouveau fichier HTML. (Si t'es vraiment chaud, tu peux essayer de faire le code HTML toi même)
+1. Crée un nouveau repository public nommé "Maquette FFXIV" sur ton compte Github et push ton travail!
+2. Copie et colle le code HTML fournit plus bas dans un nouveau fichier HTML. (Si t'es vraiment chaud, tu peux essayer de faire le code HTML toi même avec le texte fournit plus bas également)
 3. Crée une nouvelle feuille de style et lie-là à ton fichier HTML.
 4. Affiche la page dans ton navigateur (avec Live Server) pour voir le résultat. Tous les éléments sont là mais rien n'est mis en place.
 5. Regarde le screenshot plus bas et tente de reproduire le même style.
