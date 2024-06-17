@@ -20,7 +20,7 @@ Regarde donc ce [Motherfucking Website](https://motherfuckingwebsite.com/). Ce n
     - [Créer ses propres balises sémantique](#créer-ses-propres-balises-sémantique)
     - [SEO](#seo)
     - [Accessibilité](#accessibilité)
-  - [Classe et ID](#classe-et-id)
+  - [Class et ID](#class-et-id)
   - [La balise `<div>`](#la-balise-div)
   - [La balise `<p>`](#la-balise-p)
   - [La balise `<hr>`](#la-balise-hr)
@@ -96,11 +96,11 @@ On veut que votre page soit accessible au plus de personne possible, y compris l
 
 [:arrow_up: Revenir au top](#table-des-matières)
 
-## Classe et ID
+## Class et ID
 
-Pour identifier nos différentes balises et les différentier, on peut leurs attribuer des `classes`et des `id`.
+Pour identifier nos différentes balises et les différentier, on peut leurs attribuer des `classe`et des `id`.
 
-- **classe**: peut être multiple sur la page.
+- **class**: peut être multiple sur la page.
 - **id**: doit être unique sur la page.
 
 ## La balise `<div>`
