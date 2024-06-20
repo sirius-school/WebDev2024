@@ -52,7 +52,7 @@ Sujets déjà abordés (correspondant aux sections des exercices sur W3School):
 
 Réalise [les exercices sur Codingame](https://www.codingame.com/playgrounds/36092/exercices-css/introduction)
 
-> ❗ On a pas encore vu la matière pour résoudrele chapitre 4. Tu peux essayer si tu veux ceci dit! 
+> ❗ On a pas encore vu la matière pour résoudre le chapitre 4. Tu peux essayer si tu veux ceci dit!
 
 ## Ta recette gagne un niveau
 
@@ -62,9 +62,9 @@ Pas de consigne précise, mets quelques propriétés pour changer la couleur du 
 
 ## CSS Zen Garden (exercice optionnel)
 
-1. Télécharge le fichier HTML et CSS sur la page principale de [CSS Zen Garden](http://www.csszengarden.com/) ou [sur ce repo](https://github.com/sirius-school/WebDev2024/tree/main/2_HTML-CSS/1-html-css-initiation/assets/css-zen-garden).
+1. Télécharge le fichier HTML et CSS sur la page principale de [CSS Zen Garden](http://www.csszengarden.com/) ou [📁 sur ce repo](https://github.com/sirius-school/assets/tree/main/html-css/css-zen-garden).
 2. Ouvre les fichiers et jette un coup d'oeil.
-3. Créer une nouvelle feuille de style et inspire toi de la leur pour créer ton propre style CSS pour CSS Zen Garden
+3. Créer une nouvelle feuille de style et inspire toi de la leur pour créer ton propre style CSS pour CSS Zen Garden. Tu peux évidement copier-coller du CSS de la page originale pour avoir plus facile.
 4. Laisse allez ton imagination, essaye des propriétés, fais des recherches sur le net, va voir des exemples.
 
 ## CV (exercice optionnel)

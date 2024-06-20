@@ -77,9 +77,7 @@ index.html
 
 ## Les ressources
 
-Tu peux retrouver les images et logos nécessaires à la réalisation de cet exercice par ici:
-
-[https://github.com/sirius-school/WebDev/tree/main/HTML_CSS/1-html-css-debutant/assets/feelthemusic](https://github.com/sirius-school/WebDev/tree/main/HTML_CSS/1-html-css-debutant/assets/feelthemusic)
+Tu peux retrouver les images et logos nécessaires à la réalisation de cet exercice par ici: [📁 Assets](https://github.com/sirius-school/assets/tree/main/html-css/feelthemusic)
 
 ## Les couleurs
 

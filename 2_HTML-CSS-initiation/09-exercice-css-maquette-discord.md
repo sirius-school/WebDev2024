@@ -80,6 +80,10 @@ Le premier screenshot représente la page "zoomée", mais au final tu dois arriv
 </html>
 ```
 
+## Ressources
+
+Tu peux aussi télécharger les images ici: [📁 Assets](https://github.com/sirius-school/assets/tree/main/html-css/discord)
+
 ## Couleurs
 
 - Fond de la page: #0f0e17
@@ -96,7 +100,7 @@ Le premier screenshot représente la page "zoomée", mais au final tu dois arriv
 ## Tailles
 
 - le logo fait 100px de large.
-- la largeur des sections est de 790px **max**. ❗ Attention à la taille réelle (inscpecte ton élément!!)... Indice: `content-box`
+- la largeur des sections est de 790px **max**. ❗ Attention à la taille réelle (inspecte ton élément!!)... Indice: `content-box`
 - pour ce qui est des margin et padding, utilise les valeurs que tu veux tant que ça ressemble un minimum à ce qu'il y a sur les screenshots.
 
 ## Positions

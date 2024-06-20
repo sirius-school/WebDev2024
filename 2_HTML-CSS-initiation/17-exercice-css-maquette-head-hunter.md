@@ -25,9 +25,7 @@ Voici une autre maquette assez identique à la précédente en terme de mise en 
 
 ## Les ressources
 
-Tu peux retrouver les images nécessaires à la réalisation de cet exercice par ici:
-
-[https://github.com/sirius-school/WebDev/tree/main/HTML_CSS/1-html-css-debutant/assets/head-hunter](https://github.com/sirius-school/WebDev/tree/main/HTML_CSS/1-html-css-debutant/assets/head-hunter)
+Tu peux retrouver les images nécessaires à la réalisation de cet exercice par ici: [📁 Assets](https://github.com/sirius-school/assets/tree/main/html-css/head-hunter)
 
 ## Les couleurs
 
