@@ -54,7 +54,7 @@ Le premier screenshot représente la page "zoomée", mais au final tu dois arriv
 <body>
   <header>
     <div class="container">
-      <img src="https://raw.githubusercontent.com/sirius-school/WebDev/main/HTML_CSS/1-html-css-debutant/assets/discord/logo-discord.png" alt="logo-discord">
+      <img src="https://raw.githubusercontent.com/sirius-school/assets/main/html-css/discord/logo-discord.png">
       <nav>
         <ul>
           <li><a href="#">Home</a></li>
@@ -71,7 +71,7 @@ Le premier screenshot représente la page "zoomée", mais au final tu dois arriv
   </section>
   <section>
     <h2>Téléchargez-le!</h2>
-    <img src="https://raw.githubusercontent.com/sirius-school/WebDev/8bf4b3c7ea8075b16d5053cd3f3ced7cf43f315f/HTML_CSS/1-html-css-debutant/assets/discord/illu-discord.svg" alt="">
+    <img src="https://raw.githubusercontent.com/sirius-school/assets/main/html-css/discord/illu-discord.svg" alt="">
   </section>
   <footer>
     <div>Mon premier site web qu'avec du HTML et CSS simple</div>
