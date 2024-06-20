@@ -1,6 +1,6 @@
-# Maquette Discord
+# Maquette Final Fantasy XIV
 
-Il est temps de mettre en pratique tout ce qu'on a vu jusqu'à maintenant. Tu vas devoir réaliser la page ci-dessous sans que je te donnes toutes les étapes.
+Bon, on va complexifier un peu les choses. Voici une maquette un poil plus compliquée à réaliser, surtout sans l'aide de Flexbox ou Grid (que nous verrons plus loin). Mais je ta rassure, c'est faisable avec toutes les propriétés CSS déjà vue.
 
 ## :memo: Objectifs
 
@@ -17,8 +17,8 @@ Il est temps de mettre en pratique tout ce qu'on a vu jusqu'à maintenant. Tu va
 
 ## Mise en place
 
-1. Crée un nouveau repository public nommé "Maquette Discord" sur ton compte Github flambant neuf et fais en sorte que ton travail y soit push!
-2. Copie et colle le code HTML fournit plus bas dans un nouveau fichier HTML. (Si t'es vraiment chaud, tu peux essayer de faire le code HTML toi même)
+1. Crée un nouveau repository public nommé "Maquette FFXIV" sur ton compte Github et push ton travail!
+2. Copie et colle le code HTML fournit plus bas dans un nouveau fichier HTML. (Si t'es vraiment chaud, tu peux essayer de faire le code HTML toi même avec le texte fournit plus bas également)
 3. Crée une nouvelle feuille de style et lie-là à ton fichier HTML.
 4. Affiche la page dans ton navigateur (avec Live Server) pour voir le résultat. Tous les éléments sont là mais rien n'est mis en place.
 5. Regarde le screenshot plus bas et tente de reproduire le même style.
@@ -54,7 +54,7 @@ Le premier screenshot représente la page "zoomée", mais au final tu dois arriv
 <body>
   <header>
     <div class="container">
-      <img src="https://raw.githubusercontent.com/sirius-school/assets/main/html-css/discord/logo-discord.png">
+      <img src="https://raw.githubusercontent.com/sirius-school/WebDev/main/HTML_CSS/1-html-css-debutant/assets/discord/logo-discord.png" alt="logo-discord">
       <nav>
         <ul>
           <li><a href="#">Home</a></li>
@@ -71,7 +71,7 @@ Le premier screenshot représente la page "zoomée", mais au final tu dois arriv
   </section>
   <section>
     <h2>Téléchargez-le!</h2>
-    <img src="https://raw.githubusercontent.com/sirius-school/assets/main/html-css/discord/illu-discord.svg" alt="">
+    <img src="https://raw.githubusercontent.com/sirius-school/WebDev/8bf4b3c7ea8075b16d5053cd3f3ced7cf43f315f/HTML_CSS/1-html-css-debutant/assets/discord/illu-discord.svg" alt="">
   </section>
   <footer>
     <div>Mon premier site web qu'avec du HTML et CSS simple</div>
