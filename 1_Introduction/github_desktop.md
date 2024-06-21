@@ -1,6 +1,12 @@
 <!-- omit in toc -->
 # Github desktop
 
+Ce logiciel va faire partie de vos meilleurs amis au même titre que VSCode et Emmet (qu'on verra très bientôt).
+
+Le principe de Github Desktop est d'offrir une interface graphique à Git. Ce dernier étant un petit logiciel qui va nous aider à travailler de manière efficace sur nos différents projets solo ou en équipe! C'est un logiciel est massivement utilisé en entreprise et peut sembler (pas que) très complexe. On va essayer de simplifier au max pour ce cours. Tu devras sûrement peaufiner tes compétences en Git plus tard!
+
+Voyons ensemble les termes et techniques à connaître pour devenir un pro de Git!
+
 <!-- omit in toc -->
 ## Table des matières
 
@@ -83,6 +89,7 @@ En cliquant sur le bouton *Add* ou *Ajouter* tu auras 3 possibilités :
 ### Une autre façon d'ajouter un repository
 
 Si un projet qui est déjà sur Github.com mais pas sur Github Desktop ni sur ta machine, tu peux l'ajouter directement cliquant sur le bouton vert **code** puis sur **"Open with Github Desktop"** :
+
 ![Alt text](./src/images/github-desktop/openInGithubDesktop.png)
 
 ## Naviguer avec Github Desktop
@@ -112,7 +119,7 @@ Dès que vous modifier une ligne de code, ne serais-ce que d'un caractère (mêm
 - L’icône jaune indique des fichiers modifiés.
 - L’icône verte indique des fichiers ajoutés.
 
-Avec *Github Desktop* vous avez la possibilité de supprimer les changements fichier par fichier. En cliquant droit sur l'un des éléments modifiés dans la liste de gauche et en sélectionnant **Discard changed...**. :exclamation: Cette action est irréversible!
+Avec *Github Desktop* vous avez la possibilité de supprimer les changements fichier par fichier. En cliquant droit sur l'un des éléments modifiés dans la liste de gauche et en sélectionnant **Discard changes...**. :exclamation: Cette action est irréversible!
 
 ![Alt text](./src/images/github-desktop/discardChanges.png)
 
