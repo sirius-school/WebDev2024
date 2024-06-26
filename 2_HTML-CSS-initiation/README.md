@@ -18,7 +18,7 @@ Bienvenue dans le cours d'initiation à l'HTML et le CSS! On va apprendre les ba
 6. [Théorie - CSS - les sélecteurs](06-theorie-css-selecteurs.md)
 7. [Théorie - CSS - les propriétés](07-theorie-css-prorietes.md)
 8. [Exercices intermédiaires CSS](08-exercices-intermediaires-css.md)
-9. [Exercice - CSS - Maquette Discord](09-exercice-css-maquette-discord.md)
+9. Exercice - CSS - [Maquette Discord](09a-exercice-css-maquette-discord.md) et [Maquette Discord Variante](09b-exercice-css-maquette-discord.md)
 10. [Théorie - Pseudo-sélecteur](10-theorie-css-pseudo-selecteurs.md)
 11. [Exercices intermédiaires - CSS - Pseudo-sélecteurs](11-exercices-css-pseudo-selecteurs.md)
 12. [Exercices - CSS - Maquette Variations](12-exercice-css-maquette-variations.md)
