@@ -60,6 +60,21 @@ Maintenant que tu as vu quelques propriétés CSS, il est temps d'améliorer ta 
 
 Pas de consigne précise, mets quelques propriétés pour changer la couleur du texte de tes titres et paragraphes. Change la couleur de ton fond. Arrondis les coins de ton image. Bref, lâche toi !
 
+## Float par ici, float par là
+
+### Images
+
+Tout d'abord voyons ensemble comment placer une image avec float.
+
+1. Crée une nouvelle page html avec son squelette.
+2. Place une image à l'intérieur d'une balise `<main>`
+3. Place à la suite de l'image un paragraphe puis du texte avec la commande Emmet suivante: `lorem*5`
+4. On veut que notre contenu
+
+### Colones
+
+Nous allons créer ensemble un système de colones avec float
+
 ## CSS Zen Garden (exercice optionnel)
 
 1. Télécharge le fichier HTML et CSS sur la page principale de [CSS Zen Garden](http://www.csszengarden.com/) ou [sur ce repo](https://github.com/sirius-school/WebDev2024/tree/main/2_HTML-CSS/1-html-css-initiation/assets/css-zen-garden).
