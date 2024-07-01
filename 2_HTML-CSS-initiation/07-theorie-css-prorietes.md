@@ -342,7 +342,7 @@ body{
 
 Cette propriété va permettre une mise en forme avancée. Voici quelques valeurs possibles: **block**, **inline**, **inline-block**, **none**,... Certaines de ces valeurs sont appliquées par défaut en fonction des éléments (par exemple un `<p>` ou un `<div>` prend par défaut un **display:block**)
 
-Sans CSS, les éléments en `display:block;` prennent toute la largeur de leur parent et sont suivis d'un retour à la ligne (body, html, p, div,...)
+Sans CSS, les éléments en `display:block;` prennent toute la largeur de leur parent et sont suivis d'un retour à la ligne (body, html, p, div,...). C'est ce qu'on appel plus communément le flux de la page. C'est à dire que tous les blocs se suivent l'un en dessous de l'autre. On va pouvoir modifier cela grâce aux propriétés **display**, **float**, **flex** ou encore **grid**. Pour le moment nous ne verrons que les deux premières propriétés.
 
 Les éléments en `display:inline;` (span, a, strong, img,...) prennent la largeur et hauteur de leur contenu et ne sont pas suivis d'un retour à la ligne.
 
