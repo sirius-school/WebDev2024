@@ -33,9 +33,13 @@ Les propriétés CSS vont servir à changer nos éléments sélectionnées et à
   - [display: inline-block](#display-inline-block)
   - [display: none](#display-none)
 - [Dimensions, margin et padding](#dimensions-margin-et-padding)
-  - [Inline et block](#inline-et-block)
   - [width \& height (max \& min)](#width--height-max--min)
+  - [Fit-content, max-content et min-content](#fit-content-max-content-et-min-content)
+    - [Fit-content](#fit-content)
+    - [Max-content](#max-content)
+    - [Min-content](#min-content)
   - [object-fit \& object-position](#object-fit--object-position)
+  - [Overflow](#overflow)
   - [margin \& padding](#margin--padding)
   - [box-sizing](#box-sizing)
   - [Calculer une largeur avec des marges avec la fonction calc()](#calculer-une-largeur-avec-des-marges-avec-la-fonction-calc)
@@ -338,6 +342,14 @@ body{
 
 Cette propriété va permettre une mise en forme avancée. Voici quelques valeurs possibles: **block**, **inline**, **inline-block**, **none**,... Certaines de ces valeurs sont appliquées par défaut en fonction des éléments (par exemple un `<p>` ou un `<div>` prend par défaut un **display:block**)
 
+Sans CSS, les éléments en `display:block;` prennent toute la largeur de leur parent et sont suivis d'un retour à la ligne (body, html, p, div,...)
+
+Les éléments en `display:inline;` (span, a, strong, img,...) prennent la largeur et hauteur de leur contenu et ne sont pas suivis d'un retour à la ligne.
+
+Les éléments en inline-block peuvent prendre une hauteur spécifique contrairement aux éléments en `display:inline;`
+
+![inline-block](img/07/inline-block.png)
+
 ### display: block
 
 ```css
@@ -386,23 +398,11 @@ img{
 }
 ```
 
-Permet de retirer un élément de la page. Il ne sera plus visible et ne prendra plus de place. 
+Permet de retirer un élément de la page. Il ne sera plus visible et ne prendra plus de place. Mais il restera bien dans le code. Cela sert notamment à cacher un élément quand on fait du responsive.
 
 [:arrow_up: Revenir au top](#table-des-matières)
 
 ## Dimensions, margin et padding
-
-### Inline et block
-
-Sans CSS, les éléments en `display:block;` prennent toute la largeur de leur parent et sont suivis d'un retour à la ligne (body, html, p, div,...)
-
-Les éléments en `display:inline;` (span, a, strong, img,...) prennent la largeur et hauteur de leur contenu et ne sont pas suivis d'un retour à la ligne.
-
-Les éléments en inline-block peuvent prendre une hauteur spécifique contrairement aux éléments en `display:inline;`
-
-![inline-block](img/07/inline-block.png)
-
-[:arrow_up: Revenir au top](#table-des-matières)
 
 ### width & height (max & min)
 
@@ -410,9 +410,9 @@ Les éléments en inline-block peuvent prendre une hauteur spécifique contraire
 >
 > height = hauteur
 
-Prends comme valeurs: **auto**, **px**, **%** ou **em**
+Prends une valeurs numérique en: **px**, **%**, **em**, **rem**,...
 
-Il est également possible de préciser une valeur minimum ou maximum pour ces tailles.
+Il est également possible de préciser une valeur minimum ou maximum pour ces tailles. On utilisera alors la propriété **min-width**, **min-height**, **max-width** ou **max-height**. Il est évidement possible d'utiliser *min* et *max* sur le même élément.
 
 ```css
 img{
@@ -421,6 +421,54 @@ img{
 ```
 
 > Dans cet exemple, l'image ne ferra jamais plus de 100 px de large.
+
+### Fit-content, max-content et min-content
+
+Il existe aussi des valeurs mot-clé, que l'on peut appliquer à notre width et height. Il s'agit de **fit-content**, **max-content** et **min-content**.
+
+#### Fit-content 
+
+```css
+h1{
+  width: fit-content;
+}
+```
+
+> Dans cet exemple, la taille de notre box H1 sera égale à la largeur nécessaire par son contenu. Autrement dit, c'est une bonne propriété qui nous permet de ne pas devoir mettre une valeur fixe à remplacer si on change notre titre!
+
+#### Max-content
+
+```html
+<div id="container">
+  <div class="item">Item</div>
+  <div class="item">
+    Item with more text in it which will overflow the fixed width box.
+  </div>
+</div>
+```
+
+```css
+#container {
+  background-color: #8cffa0;
+  padding: 10px;
+  width: 200px;
+}
+
+.item {
+  width: max-content;
+  background-color: #8ca0ff;
+  padding: 5px;
+  margin-bottom: 1em;
+}
+```
+
+> Dans cet exemple, nous avons notre container qui fait 200px. A l'intérieur nous avons 2 div avec la classe *item*. Le comportement normal voudrait que ces dernières ne dépassent pas la largeur fixe de notre container. Cependant, si on ajoute la valeur **max-content** à nos div, celle-ci prendront toujours la largeur maximum par rapport à leur contenu et ne s'adapteront plus à leurs parent.
+
+![example-max-content](./img/07/exemple-max-content.gif)
+
+#### Min-content
+
+Cette valeur fait l'effet inverse de *max-content*, la taille de ma box sera égale à la taille minimale nécessaire pour afficher le contenu. Autrement dit, un mot, une image,... 
 
 [:arrow_up: Revenir au top](#table-des-matières)
 
@@ -441,7 +489,33 @@ img{
 }
 ```
 
-  [:arrow_up: Revenir au top](#table-des-matières)
+[:arrow_up: Revenir au top](#table-des-matières)
+
+### Overflow
+
+Un concept à bien appréhender aussi lorsqu'on manipule les tailles de nos box, c'est que si il y a du contenu en trop, qu'il est censé dépassé, c'est ce qu'on appel l'overflow. Par défaut, l'overflow va faire en sorte que mon contenu dépasse de ma box, tant pis si la box est trop petite. Cela n'est pas un comportement que l'on souhaite généralement, si on a donné une taille à notre box, c'est pour une raison. Du coup il y a moyen de cacher ce qui dépasse grâce à cette propriété **overflow**
+
+```html
+<div class="container">
+  <p>lorem</p>
+</div>
+```
+
+```css
+.container{
+  width: 250px;
+  height: 100px;
+  background: red;
+  overflow: hidden;
+}
+```
+
+Il y a plusieurs valeurs possibles pour **overflow**:
+
+- **visible**: comportement par défaut, laisse visible le surplus.
+- **hidden**: cache le surplus qui dépasse
+- **scroll**: ajoutera des barres de défilement pour permettre d'afficher le surplus.
+- **auto**: ajoutera les barres de défilement que si c'est nécessaire. Aussi non se comporte comme *visible*
 
 ### margin & padding
 
