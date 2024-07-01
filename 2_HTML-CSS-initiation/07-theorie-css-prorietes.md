@@ -517,6 +517,8 @@ Il y a plusieurs valeurs possibles pour **overflow**:
 - **scroll**: ajoutera des barres de défilement pour permettre d'afficher le surplus.
 - **auto**: ajoutera les barres de défilement que si c'est nécessaire. Aussi non se comporte comme *visible*
 
+> :bulb: Il est également possible d'impacter seulement le contenu qui dépasse horizontalement (x) ou verticalement (y). On va utiliser **overflow-x** ou **overflow-y** et y appliquer les mêmes valeurs que pour `overflow`
+
 ### margin & padding
 
 ![marges](img/07/marges.png)
