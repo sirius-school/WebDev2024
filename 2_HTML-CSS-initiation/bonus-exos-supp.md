@@ -23,7 +23,7 @@ Exigeant: 😅
 Impossible?: 😡
 
 <!-- omit in toc -->
-## Table des matières
+## Liste des exercices
 
 - [😄 Exercise 1: Styling Headings](#-exercise-1-styling-headings)
 - [😊 Exercise 2: Creating Navigation Menu](#-exercise-2-creating-navigation-menu)
