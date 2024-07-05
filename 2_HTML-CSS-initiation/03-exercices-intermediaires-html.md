@@ -4,12 +4,21 @@
 Voici quelques exercices simples pour apprendre à manipuler un peu toutes les balises HTML qu'on vient de voir.
 
 <!-- omit in toc -->
+## Légende des difficultés
+
+Facile: 😄
+Modéré: 😊
+Exigeant: 😅
+Épineux: 😰
+Impossible?: 😡
+
+<!-- omit in toc -->
 ## Liste des exercices
 
-- [Exercice 0](#exercice-0)
-- [Exercice 1](#exercice-1)
-- [Exercice 2 (optionnel)](#exercice-2-optionnel)
-- [Exercice 3 (optionnel)](#exercice-3-optionnel)
+- [😊 Exercice 0](#-exercice-0)
+- [😄 Exercice 1](#-exercice-1)
+- [😅 Exercice 2 (optionnel)](#-exercice-2-optionnel)
+- [😊 Exercice 3 (optionnel)](#-exercice-3-optionnel)
 
 <!-- omit in toc -->
 ## :memo: Objectifs
@@ -25,7 +34,7 @@ Voici quelques exercices simples pour apprendre à manipuler un peu toutes les b
 - La syntaxe est correcte
 - L'indentation est correcte
 
-## Exercice 0
+## 😊 Exercice 0
 
 Avant de te lancer, si tu veux tu peux revoir ce dont on a déjà parlé dans le cours en réalisant [les exercices sur W3School](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_attributes1).
 
@@ -46,7 +55,7 @@ Sujets déjà abordés (correspondant aux sections des exercices sur W3School):
 
 [Revenir à la liste des exercices](#liste-des-exercices)
 
-## Exercice 1
+## 😄 Exercice 1
 
 <!-- omit in toc -->
 ### Etape 1
@@ -96,7 +105,7 @@ Tu devrais avoir quelque chose dans ce goût-là. Si c'est le cas, tant mieux tu
 
 [Revenir à la liste des exercices](#liste-des-exercices)
 
-## Exercice 2 (optionnel)
+## 😅 Exercice 2 (optionnel)
 
 Dans cet exercice je vais te guider pour faire une mise en page un rien plus complexe. On va aussi mettre un peu de style. Alors oui, on a pas encore vu de CSS, mais je te donne les consignes. Si tu es à l'aise avec le CSS ou l'anglais, tu peux essayer de le modifier.
 
@@ -119,7 +128,7 @@ Voilà le résultat que tu devrais avoir.
 
 ![ex-magik](./img/03/ex-magik.png)
 
-## Exercice 3 (optionnel)
+## 😊 Exercice 3 (optionnel)
 
 Allez on va terminer par une exercice simple mais sans pas-à-pas. Juste quelques consignes.
 
