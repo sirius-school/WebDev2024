@@ -31,6 +31,7 @@ Impossible?: 😡
 ## Liste des exercices
 
 - [😊 CSS Diner (obligatoire)](#-css-diner-obligatoire)
+- [😊 CSS Sélecteurs](#-css-sélecteurs)
 - [😊 W3 School (obligatoire)](#-w3-school-obligatoire)
 - [😄 Ta première page HTML gagne un niveau (obligatoire)](#-ta-première-page-html-gagne-un-niveau-obligatoire)
 - [😊 Ta recette gagne un niveau (obligatoire)](#-ta-recette-gagne-un-niveau-obligatoire)
@@ -47,6 +48,20 @@ Essaye de compléter les niveaux jusqu'au 14.
 [http://flukeout.github.io/](http://flukeout.github.io/)
 
 Tu peux allez plus loin mais on a pas encore vu la théorie, ça arrive ne te tracasse pas.
+
+## 😊 CSS Sélecteurs
+
+>Sujets: css, sélecteurs, html
+
+Voici un petit exercice pour essayé de comprendre les sélecteurs CSS dans un environnement plus proche de la réalité qu'avec CSS Diner.
+
+1. Télécharge l'archive .zip [🗜️ ici](https://github.com/sirius-school/assets/blob/main/html-css/css-selector/selectors.zip)
+2. Extrais le contenu dans un dossier de ton choix
+3. Ouvre le dossier dans VSCode
+4. Ouvre le fichier `index.html` dans ton navigateur grâce à l'extension Live Server
+5. Lis les instructions sur la page et choisis un exercice
+
+> ❗ Tu ne dois en aucun cas modifié le fichier HTML ou ajouter des propriétés CSS. Tu dois seulement ajouter les sélecteurs CSS dans le fichier CSS pour que les exercices fonctionnent.
 
 ## 😊 W3 School (obligatoire)
 
@@ -124,7 +139,7 @@ Nous allons créer ensemble un système de colones avec float. Ce n'est pas la m
 1. Crée une `div` avec la classe `row`. A l'intérieur place 2 `div` avec la classe `col50`.
 2. En CSS, sélectionne la classe `col50` et donne lui une **taille de 50%** ainsi que la propriété `float` adéquate.
 3. Toujours en CSS, ajoute la propriété `clear:both;` à la classe `row` pour qu'on soit sûr qu'il n'y ai jamais de problème avec les différentes rangés et le float.
-4. Répète l'étape 1 et 2 en changeant la classe `col50` par **33** et **25**
+4. Répète l'étape 1 et 2 en ajoutant une classe **col33** et **col25**
 5. **BONUS**: Tu peux rajouter des margins pour que le texte ne soit pas trop collés. Dans ce cas tu devras utiliser la fonction **calc()** pour t'assurer que les margins soient prisent en compte lors du calcul de la taille.
 
 Voici le résultat que tu devrais avoir:
