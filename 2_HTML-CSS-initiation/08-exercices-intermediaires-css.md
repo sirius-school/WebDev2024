@@ -55,7 +55,7 @@ Tu peux allez plus loin mais on a pas encore vu la théorie, ça arrive ne te tr
 
 Voici un petit exercice pour essayé de comprendre les sélecteurs CSS dans un environnement plus proche de la réalité qu'avec CSS Diner.
 
-1. Télécharge l'archive .zip [🗜️ ici](https://github.com/sirius-school/assets/blob/main/html-css/css-selector/selectors.zip)
+1. Télécharge l'archive .zip [🗜️ ici](https://github.com/sirius-school/assets/blob/main/html-css/css-selector/selectors.zip) et clic sur "View Raw".
 2. Extrais le contenu dans un dossier de ton choix
 3. Ouvre le dossier dans VSCode
 4. Ouvre le fichier `index.html` dans ton navigateur grâce à l'extension Live Server
