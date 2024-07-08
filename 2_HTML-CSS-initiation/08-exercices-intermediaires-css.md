@@ -31,7 +31,7 @@ Impossible?: 😡
 ## Liste des exercices
 
 - [😊 CSS Diner (obligatoire)](#-css-diner-obligatoire)
-- [😊 CSS Sélecteurs](#-css-sélecteurs)
+- [😊 CSS Sélecteurs (obligatoire)](#-css-sélecteurs-obligatoire)
 - [😊 W3 School (obligatoire)](#-w3-school-obligatoire)
 - [😄 Ta première page HTML gagne un niveau (obligatoire)](#-ta-première-page-html-gagne-un-niveau-obligatoire)
 - [😊 Ta recette gagne un niveau (obligatoire)](#-ta-recette-gagne-un-niveau-obligatoire)
@@ -49,7 +49,7 @@ Essaye de compléter les niveaux jusqu'au 14.
 
 Tu peux allez plus loin mais on a pas encore vu la théorie, ça arrive ne te tracasse pas.
 
-## 😊 CSS Sélecteurs
+## 😊 CSS Sélecteurs (obligatoire)
 
 >Sujets: css, sélecteurs, html
 
