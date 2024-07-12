@@ -309,9 +309,10 @@ Sélectionne un élément si il n'a pas d'enfant
 <section>
   <div>Plop</div>
 </section>
-<section>
-</section>
+<section></section>
 ```
+
+> :exclamation: **Attention**, il faut vraiment que la balise soit vide de tout enfant, y compris des caractères ou des espaces vides (saut à la ligne, espace, tabulation,...)
 
 ```css
 section:empty{
