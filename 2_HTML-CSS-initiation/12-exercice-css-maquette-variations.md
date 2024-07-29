@@ -1,6 +1,6 @@
 # Exercice variation style CSS
 
-Voici encore un exercice dans lequel tu vas devoir mettre tes compétences à l'épreuve pour réaliser la maquette.
+Le but de cet exercice est de créer une structure HTML et de ne plus y toucher par après mais de proposer des variantes grâce au CSS. Utilise tout ce que tu as appris jusqu'ici: les sélecteurs, les pseudo-sélecteurs, les propriétés,...
 
 ## :memo: Objectifs
 
@@ -16,8 +16,6 @@ Voici encore un exercice dans lequel tu vas devoir mettre tes compétences à l'
 - L'indentation est correcte
 
 ## Mise en place
-
-Le but de cet exercice est de créer une structure HTML et de ne plus y toucher par après mais de proposer des variantes grâce au CSS. Utilise tout ce que tu as appris jusqu'ici: les sélecteurs, les pseudo-sélecteurs, les propriétés,...
 
 1. Crée un nouveau dossier `exercices-variations` et un fichier html `index.html`.
 2. Essaye de créer la structure HTML en te basant sur les screenshots plus bas.
