@@ -33,7 +33,7 @@ Impossible?: 😡
 - [😊 W3 School - Pseudo Class (obligatoire)](#-w3-school---pseudo-class-obligatoire)
 - [😊 W3 School - Pseudo Elements (obligatoire)](#-w3-school---pseudo-elements-obligatoire)
 - [😅 Codingame (obligatoire)](#-codingame-obligatoire)
-- [😰 CSS Battle](#-css-battle)
+- [😰 CSS Battle (totalement optionnel)](#-css-battle-totalement-optionnel)
 
 ## 😊 CSS Diner (obligatoire)
 
@@ -132,11 +132,11 @@ Réalise les exercices sur [W3School](https://www.w3schools.com/css/exercise.asp
 
 ## 😅 Codingame (obligatoire)
 
-Réalise les exercices sur [Codingame](https://www.codingame.com/playgrounds/36092/exercices-css/finale)
+Réalise l'exercice 1 - Pseudo-Classes sur [Codingame](https://www.codingame.com/playgrounds/36092/exercices-css/finale)
 
-## 😰 CSS Battle
+## 😰 CSS Battle (totalement optionnel)
 
-Alors, tu crois maintenant être un as du CSS ? Prouve-le en réalisant les défis de [CSS Battle](https://cssbattle.dev/battle/1). Tu vas devoir reproduire des formes en utilisant uniquement du CSS. Le but est normalement d'utiliser le moins de caractères possibles. Mais ne t'inquiète pas trop de ça pour le moment. Essaye déjà de reproduire la forme. Tu vas avoir besoin de tout ce qu'on a déjà vu mais pas que... il va parfois être très difficile de reproduire un exercice sans Flexbox ou Grid, mais ce n'est pas impossible. Ne t'en fais pas, cet exercice est là pour ceux qui veulent se challenger tout au long de l'année! Donc quand tu t'ennuieras, tu pourras toujours revenir ici pour t'amuser un peu.
+Alors, tu crois maintenant être un as du CSS ? Prouve-le en réalisant les défis de [CSS Battle](https://cssbattle.dev/battle/1). Tu vas devoir reproduire des formes en utilisant uniquement du CSS. Le but est normalement d'utiliser le moins de caractères possibles. Mais ne t'inquiète pas trop de ça pour le moment. Essaye déjà de reproduire la forme. Tu vas avoir besoin de tout ce qu'on a déjà vu mais pas que... il va parfois être très difficile de reproduire un exercice sans Flexbox ou Grid, mais ce n'est pas impossible. Ne t'en fais pas, **cet exercice est là pour ceux qui veulent se challenger tout au long de l'année!** Donc quand tu t'ennuieras, tu pourras toujours revenir ici pour t'amuser un peu.
 
 Bonne chance !
 
