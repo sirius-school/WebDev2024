@@ -62,9 +62,9 @@ Et tu n'en as pas encore assez de Flexbox? Et bien tiens, voici encore un p'tit 
 
 ### 😄 Exercice 1
 
-Reproduis la mise en page suivante. Il faut 4 `<div>` par rangé, il y a donc 2 rangés.
+Reproduis la mise en page suivante. Il faut 4 `<div>` par rangé, il y a donc 2 rangés. Le tout doit resté `flexible`. Ne te fie pas aux tailles que tu vois sur le screenshot.
 
-![ex1](img/14/flexbox-ex1.png)
+![ex1](img/14/flexbox-ex1.gif)
 
 Pour ce faire tu auras besoin du code HTML et CSS suivant:
 
@@ -114,7 +114,7 @@ span { background-color: rgba(255, 255, 255, .5); border-radius: 50%; display: b
 /* CSS SETUP END */
 
 
-/* Modifie ici */
+/* Ajoute et modifie ici */
 section{
   display:block;
 }
@@ -122,9 +122,9 @@ section{
 
 ### 😊 Exercice 2
 
-Reproduis la mise en page suivante. Attention au sens des `<div>`, ce n'est plus de gauche à droite mais de haut en bas. On a donc 3 colonnes.
+Reproduis la mise en page suivante. Attention au sens des `<div>`, ce n'est plus de gauche à droite mais de haut en bas. On a donc 3 colonnes. Le tout doit resté `flexible`. Ne te fie pas aux tailles que tu vois sur le screenshot.
 
-![ex2](img/14/flexbox-ex2.png)
+![ex2](img/14/flexbox-ex2.gif)
 
 Reprends le code HTML plus haut, rajoute cette `<div>` et trouve comment faire en sorte qu'elle soit différente comme sur le screenshot.
 
@@ -134,9 +134,9 @@ Reprends le code HTML plus haut, rajoute cette `<div>` et trouve comment faire e
 
 ### 😅 Exercice 3
 
-Reproduis la mise en page suivante.
+Reproduis la mise en page suivante. Le tout doit resté `flexible`. Ne te fie pas aux tailles que tu vois sur le screenshot.
 
-![ex2](img/14/flexbox-ex3.png)
+![ex2](img/14/flexbox-ex3.gif)
 
 Utilise l'HTML et CSS suivant.
 
@@ -185,7 +185,7 @@ li:nth-of-type(5n+4) { background-color: #118ab2; }
 a { color: white; font-size: 16px; line-height: 50px; text-decoration: none; }
 /* CSS SETUP END */
 
-/* Modifie ici */
+/* Ajoute et modifie ici */
 ```
 
 [:rewind: Retour au sommaire du cours](./README.md#table-des-matières)
