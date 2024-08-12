@@ -150,7 +150,7 @@ Utilise l'HTML et CSS suivant.
   <title>Flexbox #03</title>
 </head>
 <body>
-  <header>LOGO DU MON SITE</header>
+  <header>LOGO DU SITE</header>
     <nav>
       <ul>
         <li><a href="#">lien 1</a></li>
