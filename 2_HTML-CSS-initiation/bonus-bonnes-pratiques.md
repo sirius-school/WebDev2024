@@ -26,7 +26,7 @@ Ne pas positionner des éléments avec des margins/padding et des valeurs en pix
 <!-- omit in toc -->
 ### Petit à petit l'oiseau...
 
-Lorsque tu dois écrire ton HTML, commence par mettre tout le contenu sans aucune `classes` ou `id`. Penses aux balises sémantiques (section, main, header, footer, nav,...) pour structurer au mieux ta page. Tu viendras placer des balises qu'au dernier moment quand tu en as vraiment besoin dans ton CSS pour cibler l'élément.
+Lorsque tu dois écrire ton HTML, commence par mettre tout le contenu sans aucune `classes` ou `id`. Penses aux balises sémantiques (section, main, header, footer, nav,...) pour structurer au mieux ta page. Tu viendras placer des classes qu'au dernier moment quand tu en as vraiment besoin dans ton CSS pour cibler l'élément.
 
 <!-- omit in toc -->
 ### Div-hell
@@ -114,7 +114,7 @@ body > header > nav > ul > li {
 }
 ```
 
-> :bulb: ici on est trop spécifique, on passe par trop de 'chemins' pour accéder à nos `li`. Si le code change d'un coup, genre la nav qui doit quitter le `header`, ce genre de sélecteur pourrait poser problème et il faudrait le refaire.
+> :bulb: ici on est trop spécifique, on passe par trop de 'chemins' pour accéder à nos `li`. Si le code change d'un coup, genre la nav qui doit quitter le `header` ou qu'on rajoute une `div` englobant les `li`, ce genre de sélecteur pourrait poser problème et il faudrait le refaire.
 
 ```css
 nav li{
