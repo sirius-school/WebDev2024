@@ -15,6 +15,7 @@ JavaScript est un langage de programmation utilisé principalement pour rendre l
   - [Conclusion](#conclusion)
 - [Console.log](#consolelog)
 - [Variables](#variables)
+  - [Réassigner une variable](#réassigner-une-variable)
 - [Types de données](#types-de-données)
   - [String](#string)
   - [Number](#number)
@@ -22,12 +23,11 @@ JavaScript est un langage de programmation utilisé principalement pour rendre l
   - [Array](#array)
   - [Object](#object)
   - [null et undefined](#null-et-undefined)
-  - [Conclusion](#conclusion-1)
-- [Conditions](#conditions)
-- [Boucles](#boucles)
-- [Fonctions](#fonctions)
-- [Tableaux](#tableaux)
-- [Objets](#objets)
+- [Opérateurs](#opérateurs)
+  - [Opérateurs arithmétiques : +, -, \*, /, %](#opérateurs-arithmétiques-------)
+  - [Opérateurs de comparaison : ==, ===, !=, \>, \<, \>=, \<=](#opérateurs-de-comparaison--------)
+- [Prompt et alert](#prompt-et-alert)
+- [Conclusion des bases](#conclusion-des-bases)
 
 ## Principe de base d'écriture du JS
 
@@ -105,7 +105,7 @@ Bien que les deux approches fonctionnent, le JavaScript dans un fichier externe 
 
 ## Console.log
 
-On va souvent avoir besoin de tester notre script tout au long de sa conception. Pour ce faire il nous faut une méthode simple et efficace pour vérifier si ça fonctionne ou non. C'est là qu'entre en jeu notre premier bout de code: `console.log()`. Celui-ci va nous permettre d'afficher des messages dans la console de notre navigateur ou de VSCode pour vérifier si tout se passe comme prévu. 
+On va souvent avoir besoin de tester notre script tout au long de sa conception. Pour ce faire il nous faut une méthode simple et efficace pour vérifier si ça fonctionne ou non. C'est là qu'entre en jeu notre premier bout de code: `console.log()`. Celui-ci va nous permettre d'afficher des messages dans la console de notre navigateur ou de VSCode pour vérifier si tout se passe comme prévu.
 
 Vous pouvez retrouver votre console dans les outils de développements de votre navigateur (F12 ou inspecter).
 
@@ -114,18 +114,29 @@ Vous pouvez retrouver votre console dans les outils de développements de votre 
 Pour utiliser `console.log()` c'est fort simple, suivez les étapes suivantes:
 
 1. Créez un nouveau fichier HTML comme d'habitude.
-2. Dans la balise `<body>` on va insérer une balise `<script>`
-3. A l'intérieur de `<script>` écrivez simplement `console.log()`
+2. A la fin de la balise `<body>` on va insérer une balise `<script>`.
+3. A l'intérieur de `<script>` écrivez simplement `console.log()`.
 4. Ensuite à l'intérieur des parenthèses on va ajouter des guillemets et écrire un petit mot entre les guillemets
 5. Ensuite ouvrez la page dans votre navigateur, ouvrez les outils de développements (F12) et allez dans l'onglet "Console" pour y retrouver votre message.
 
-```js
-console.log("Hello World!")
+```html
+<script>console.log("Hello World!")</script>
 ```
 
 Bravo, tu as réalisé ta première ligne de code JavaScript! 🎉
 
 Par après `console.log()` nous servira à de multiples occasions pour vérifier nos fonctions et autres bouts de code JS.
+
+<!-- omit in toc -->
+### Petit plus
+
+Il est possible d'insérer plusieurs valeurs d'affilés dans le même console.log() en séparant chaque valeurs par une virgules ou avec un +. Attention, si on utilise le signe + il va tenter d'additionner les éléments. Cela fonctionne avec des caractères mais par si on utilise des variables.
+
+```js
+let prenom = "Alice";
+const age = 25;
+console.log("Prénom :", prenom, "Âge :", age);
+```
 
 ## Variables
 
@@ -153,12 +164,27 @@ Alors c'est encore une fois très simple pour le moment, on va tout simplement �
 **Exercice pratique**
 
 1. Dans votre page précédente, ajouter au dessus de votre `console.log("")` une nouvelle ligne.
-2. Ajouter la variable `nom` et `prénom` en utilisant `let`.
+2. Ajouter deux variables, l'une `nom` et l'autre `prénom` en utilisant `let`.
 3. Ajouter une valeur texte entre guillemets avec votre nom et prénom
-4. Ajouter ensuite une nouvelle variable constante avec votre âge. Ici il s'agit d'une valeur numérique, pas besoin de guillemets. On verra plus tard pourquoi.
+4. Ajouter ensuite une nouvelle variable constante avec votre âge en utilisant `const`. Ici il s'agit d'une valeur numérique, pas besoin de guillemets. On verra plus tard pourquoi.
 5. Il est temps d'afficher tout ça dans notre console. Ajouter 3 `console.log()` à la suite de celle de l'exercice précédent.
 6. Pour chacun de ces `console.log()` on va appeler une variable. Insérer entre parenthèse le nom de la variable. **Attention** cette fois-ci on ne met pas de guillemets car ce n'est pas du texte que l'on veut afficher mais le contenu d'une variable.
 7. Regardez ensuite votre console pour voir si vous voyez les différentes valeurs que vous avez stockés.
+
+### Réassigner une variable
+
+Le but d'une variable est aussi de chancer de valeur en cours d'exécution du script en fonction des données introduites par l'utilisateur ou des résultats de nos opérations. Pour réassigner une valeur à une variable c'est très simple, il suffit d'indiquer la nom de la variable sans le "let", "var" ou "const", de placer un signe égale et de mettre la nouvelle valeur. Vous pouvez faire ça où vous voulez dans votre script (même si le scope posera problème plus tard, mais on en reparlera) tant que c'est après la déclaration de la variable
+
+```js
+let prénom = John;
+
+let nom = Smith;
+console.log(nom); // Smith
+
+// Réassignation
+nom = Bond;
+console.log(nom); // Bond
+```
 
 ## Types de données
 
@@ -289,18 +315,134 @@ let y = null;
 console.log(y); // null
 ```
 
-### Conclusion
+<!-- omit in toc -->
+### Conclusion des types de données
 
 Tout ceci fait beaucoup d'information d'un coup, mais c'est la base qu'il faut comprendre pour pouvoir commencer son périple en JavaScript. Vous allez forcément vous tromper dans les types de données que vous utiliserez au début, c'est tout à fait normal, JS peut être très bordélique au début, mais vous verrez que très vite tout ferra sens.
 
 ![js-confusing](./img/01/js-confusing.png)
 
-## Conditions
+## Opérateurs
 
-## Boucles
+Maintenant que l'on a vu comment stocker des données et quels type de données existent, voyons ce que l'ont peut faire avec. On va utiliser différents opérateurs pour manipuler nos données.
 
-## Fonctions
+### Opérateurs arithmétiques : +, -, *, /, %
 
-## Tableaux
+C'est simplement pour faire des opérations mathématique sur des nombres. Rien de bien sorcier.
 
-## Objets
+```js
+let a = 10;
+let b = 2;
+let somme = a + b; // 12
+let produit = a * b; // 20
+let modulo = a % b; // 0 (reste de la division)
+```
+
+### Opérateurs de comparaison : ==, ===, !=, >, <, >=, <=
+
+Les opérateurs de comparaison en JavaScript permettent de comparer deux valeurs et de retourner un résultat booléen (true ou false). Ces opérateurs sont essentiels pour la prise de décision dans les conditions (if, else, etc.). Voici une explication détaillée des principaux opérateurs de comparaison que vous avez mentionnés :
+
+```js
+let x = 5;
+let y = "5";
+
+console.log(x == y);  // true, car les valeurs sont égales
+console.log(x === y); // false, car les types sont différents
+```
+
+<!-- omit in toc -->
+#### == (égalité lâche)
+
+L’opérateur == compare deux valeurs **sans tenir compte de leur type**. Si les valeurs sont différentes mais peuvent être converties l’une dans l’autre, JavaScript fera une **coercition de type** (tentera de convertir les valeurs) pour tenter de les égaliser.
+
+```js
+console.log(5 == "5");  // true (car "5" est converti en 5 avant la comparaison)
+console.log(true == 1); // true (car `true` est converti en 1)
+console.log(false == 0); // true (car `false` est converti en 0)
+```
+
+Cela peut entraîner des résultats inattendus car JavaScript essaie de forcer la conversion des types pour effectuer la comparaison. On lui préférera l'égalité stricte la plus part du temps
+
+<!-- omit in toc -->
+#### === (égalité stricte)
+
+L’opérateur === compare deux valeurs **en tenant compte de leur type**. Les deux valeurs doivent être identiques en valeur et en type pour que la comparaison soit vraie.
+
+```js
+console.log(5 === "5");  // false (car les types sont différents : Number et String)
+console.log(5 === 5);    // true (car les valeurs et les types sont identiques)
+console.log(true === 1); // false (car `true` est de type Boolean et 1 est de type Number)
+```
+
+L’opérateur === est généralement préféré à == car il évite les erreurs dues à la coercition implicite de type.
+
+<!-- omit in toc -->
+#### != (différence lâche)
+
+L’opérateur != compare deux valeurs pour vérifier si elles **ne sont pas égales**, mais sans prendre en compte leur type. Comme pour ==, il effectue une **coercition de type** si nécessaire.
+
+```js
+console.log(5 != "5");  // false (car "5" est converti en 5, donc ils sont égaux)
+console.log(5 != 6);    // true (car 5 n'est pas égal à 6)
+console.log(false != 0); // false (car `false` est converti en 0, donc ils sont égaux)
+```
+
+<!-- omit in toc -->
+#### !== (différence stricte)
+
+L’opérateur !== vérifie si deux valeurs **ne sont pas égales** ou si elles sont de **types différents**. Il compare la valeur et le type, comme le fait ===.
+
+```js
+console.log(5 !== "5");  // true (les types sont différents : Number et String)
+console.log(5 !== 5);    // false (les valeurs et les types sont identiques)
+console.log(false !== 0); // true (car `false` est de type Boolean et 0 est de type Number)
+```
+
+<!-- omit in toc -->
+#### > et < (supérieur à et inférieur à)
+
+L’opérateur > vérifie si la valeur de gauche est **strictement supérieure** à la valeur de droite tandis que l’opérateur < vérifie si la valeur de gauche est **strictement inférieure** à la valeur de droite.
+
+```js
+console.log(10 > 5);  // true (car 10 est plus grand que 5)
+console.log(5 > 10);  // false (car 5 est plus petit que 10)
+console.log("b" > "a"); // true (comparaison lexicographique, "b" vient après "a")
+
+console.log(5 < 10);  // true (car 5 est plus petit que 10)
+console.log(10 < 5);  // false (car 10 est plus grand que 5)
+console.log("a" < "b"); // true (comparaison lexicographique, "a" vient avant "b")
+```
+
+<!-- omit in toc -->
+#### >= et <= (supérieur ou égale à et inférieur ou égale à)
+
+L’opérateur >= vérifie si la valeur de gauche est **supérieure ou égale** à la valeur de droite.
+tandis que l’opérateur >= vérifie si la valeur de gauche est **inférieur ou égale** à la valeur de droite.
+
+```js
+console.log(10 >= 5);  // true (car 10 est plus grand que 5)
+console.log(5 >= 5);   // true (car 5 est égal à 5)
+console.log(5 >= 10);  // false (car 5 est plus petit que 10)
+
+console.log(5 <= 10);  // true (car 5 est plus petit que 10)
+console.log(5 <= 5);   // true (car 5 est égal à 5)
+console.log(10 <= 5);  // false (car 10 est plus grand que 5)
+```
+
+## Prompt et alert
+
+Pour interagir avec l’utilisateur, JavaScript propose les fonctions prompt et alert. Cela représente la façon la plus simple pour ajouter de l’interactivité sur votre site. Cela fait appel à des modales (sortes de fenêtre pop-up dans votre navigateur) pour demander quelque chose à votre utilisateur ou pour afficher quelque chose.
+
+Ce n'est plus trop d'actualité de nos jours car on préférera quand même utiliser la puissance de JS pour utiliser un formulaire ou un affichage directement dans le site ou l'application. Mais pour débuter c'est plutôt sympa 😉
+
+- prompt : demande à l’utilisateur de saisir une valeur.
+- alert : affiche un message à l’utilisateur. Utiliser le signe + pour ajouter une string et une variable dans votre alerte.
+
+```js
+let nom = prompt("Quel est votre nom ?");
+alert("Bonjour " + nom + "!");
+```
+
+## Conclusion des bases
+
+Et voilà qui conclut déjà le chapitre sur les bases de JS. Cela fait beaucoup de matière déjà et pas mal de pratique à venir pour bien incorporez tout ça. Pas de panique on va y allez petit à petit. Il reste encore beaucoup de chose à voir mais passons d'abord à quelques exercices pratiques.

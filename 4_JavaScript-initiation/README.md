@@ -5,11 +5,11 @@ Bienvenue dans le cours d'initiation à JavaScript! On va apprendre les bases de
 ## Table des matières
 
 1. [Théorie - JavaScript - les bases](./01-theorie-js-bases.md)
-2. [Exercices intermédiaires JavaScript]()
+2. [Exercices intermédiaires JavaScript](./02-exercices-intermediaires-js.md)
 3. [Théorie - JavaScript - les bases avancées](./03-theorie-js-advanced.md)
-4. [Exercices intermédiaires JavaScript avancés]()
-5. [Théorie - JavaScript - le DOM]()
-6. 
+4. [Exercices intermédiaires JavaScript avancés](./04-exercices-intermediaires-js-advanced.md)
+5. [Théorie - JavaScript - les méthodes](./05-theorie-js-methods.md)
+6. [Théorie - JavaScript - le DOM]()
 
 ## La règle d'OR
 

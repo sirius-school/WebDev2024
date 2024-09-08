@@ -1,6 +1,13 @@
+🚨 🧰 *Work in progress*
+
 # JavaScript Avancé
 
 ## 
 
+## Conditions
 
-## Les méthodes les plus communes
+<!-- omit in toc -->
+####
+## Boucles
+
+## Fonctions
