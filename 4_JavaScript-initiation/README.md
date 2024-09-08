@@ -6,7 +6,7 @@ Bienvenue dans le cours d'initiation à JavaScript! On va apprendre les bases de
 
 1. [Théorie - JavaScript - les bases](./01-theorie-js-bases.md)
 2. [Exercices intermédiaires JavaScript]()
-3. [Théorie - JavaScript - les bases avancées]()
+3. [Théorie - JavaScript - les bases avancées](./03-theorie-js-advanced.md)
 4. [Exercices intermédiaires JavaScript avancés]()
 5. [Théorie - JavaScript - le DOM]()
 6. 
