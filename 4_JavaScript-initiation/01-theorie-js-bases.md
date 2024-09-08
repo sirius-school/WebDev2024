@@ -33,6 +33,8 @@ JavaScript est un langage de programmation utilisé principalement pour rendre l
 
 Tout d'abord, on va devoir écrire notre JavaScript quelque part. Tout comme pour l'HTML et le CSS, il y a un endroit bien spécifique pour. Soit on l'insère directement dans notre page HTML, mais du coup le code sera utilisable que sur cette page et risque d'agrandir le nombre de lignes de code de notre fichier HTML et par conséquent le rendre moins lisible. Ou alors on peut tout simplement créer une page `.js` qui contiendra notre code et qu'on appellera sur notre page HTML, comme notre CSS.
 
+Quand on écrit du JavaScript, on écrit généralement chaque instructions sur une ligne et **on finit par un point-virgule**. Comme quand on écrit des propriétés en CSS.
+
 ### Code directement dans la balise `<script>` (Inline JavaScript)
 
 ```html
@@ -144,9 +146,9 @@ Un des premiers concept à appréhender en JavaScript c'est le principe d'une va
 
 Une variable c'est un espace de stockage pour des valeurs. Vous pouvez déclarer des variables en utilisant les mots-clés `var`, `let`, ou `const`. Cela permet d'accéder à ces informations pour les réutiliser ou les modifier dans le processus de notre programme/fonctionnalité.
 
--**var** : utilisé pour déclarer des variables, mais a un comportement global ou fonctionnel.
--**let** : similaire à var, mais sa portée est limitée au bloc de code dans lequel elle est déclarée.
--**const** : pour les variables dont la valeur ne doit pas changer.
+- **var** : utilisé pour déclarer des variables, mais a un comportement global ou fonctionnel.
+- **let** : similaire à var, mais sa portée est limitée au bloc de code dans lequel elle est déclarée.
+- **const** : pour les variables dont la valeur ne doit pas changer.
 
 ```js
 var ville = "Paris"; // portée globale ou fonctionnelle
@@ -159,7 +161,7 @@ Pour le moment on a pas encore parlé de porté ou **scope**, donc ne vous en fa
 <!-- omit in toc -->
 ### Utilisation des variables
 
-Alors c'est encore une fois très simple pour le moment, on va tout simplement écrire notre variable et lui dire ce qu'elle doit contenir, ensuite on y accédera et l'affichera dans notre console. Pour ce faire on écrit `let` suivi du nom que l'on veut donner à notre variable, ensuite un signe égale puis la valeur.
+Alors c'est encore une fois très simple pour le moment, on va tout simplement écrire notre variable et lui dire ce qu'elle doit contenir, ensuite on y accédera et l'affichera dans notre console. Pour ce faire on écrit `let` suivi du nom que l'on veut donner à notre variable, ensuite un signe égale puis la valeur. **On ne met pas de variables avec des caractères spéciaux et des espaces.**
 
 **Exercice pratique**
 
@@ -186,17 +188,23 @@ nom = Bond;
 console.log(nom); // Bond
 ```
 
+**Exercice pratique**
+
+1. Reprenez votre page
+2. A la fin de vos `console.log`, ajouter une réassignation de variable pour votre nom.
+3. Remettez un nouveau `console.log` à la fin de votre nom.
+
 ## Types de données
 
 Maintenant que l'on sait comment stockés des données, voyons un peu quelques types de données spécifiques au JS. En effet, pour créer du code fonctionnel il faut bien faire comprendre à l'ordinateur ce avec quoi on travail. Les types de données en JavaScript sont essentiels pour comprendre comment manipuler et traiter l’information dans vos programmes. Ils définissent la nature des valeurs que vous pouvez stocker dans les variables et utiliser dans vos opérations. Est-ce que c'est du texte? Un chiffre? Un tableau? Un objet? Il va falloir faire preuve de rigueur pour utiliser correctement ces données pour éviter tout problème dans notre future code.
 
 Les principaux types de données en JavaScript sont :
 
--**String** : Chaînes de caractères
--**Number** : Nombres (entiers ou décimaux)
--**Boolean** : true ou false
--**Array** : Tableaux (collection de données)
--**Object** : Objets (données structurées)
+- **String** : Chaînes de caractères
+- **Number** : Nombres (entiers ou décimaux)
+- **Boolean** : true ou false
+- **Array** : Tableaux (collection de données)
+- **Object** : Objets (données structurées)
 
 ```js
 let texte = "Bonjour"; // String
