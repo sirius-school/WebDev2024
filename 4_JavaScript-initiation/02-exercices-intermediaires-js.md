@@ -23,7 +23,6 @@ Impossible?: 😡
 - [😊 Exercice 6 - Création d'un objet](#-exercice-6---création-dun-objet)
 - [😅 Exercice 7 - Comparaison entre deux nombres](#-exercice-7---comparaison-entre-deux-nombres)
 
-
 <!-- omit in toc -->
 ## :memo: Objectifs
 
