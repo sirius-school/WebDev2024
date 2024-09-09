@@ -111,7 +111,8 @@ On va souvent avoir besoin de tester notre script tout au long de sa conception.
 
 Vous pouvez retrouver votre console dans les outils de développements de votre navigateur (F12 ou inspecter).
 
-**Exercice pratique**
+<!-- omit in toc -->
+### Exercice pratique
 
 Pour utiliser `console.log()` c'est fort simple, suivez les étapes suivantes:
 
@@ -120,6 +121,9 @@ Pour utiliser `console.log()` c'est fort simple, suivez les étapes suivantes:
 3. A l'intérieur de `<script>` écrivez simplement `console.log()`.
 4. Ensuite à l'intérieur des parenthèses on va ajouter des guillemets et écrire un petit mot entre les guillemets
 5. Ensuite ouvrez la page dans votre navigateur, ouvrez les outils de développements (F12) et allez dans l'onglet "Console" pour y retrouver votre message.
+
+<!-- omit in toc -->
+### Exemple
 
 ```html
 <script>console.log("Hello World!")</script>
@@ -133,6 +137,9 @@ Par après `console.log()` nous servira à de multiples occasions pour vérifier
 ### Petit plus
 
 Il est possible d'insérer plusieurs valeurs d'affilés dans le même console.log() en séparant chaque valeurs par une virgules ou avec un +. Attention, si on utilise le signe + il va tenter d'additionner les éléments. Cela fonctionne avec des caractères mais par si on utilise des variables.
+
+<!-- omit in toc -->
+#### Exemple
 
 ```js
 let prenom = "Alice";
@@ -150,6 +157,9 @@ Une variable c'est un espace de stockage pour des valeurs. Vous pouvez déclarer
 - **let** : similaire à var, mais sa portée est limitée au bloc de code dans lequel elle est déclarée.
 - **const** : pour les variables dont la valeur ne doit pas changer.
 
+<!-- omit in toc -->
+### Exemple
+
 ```js
 var ville = "Paris"; // portée globale ou fonctionnelle
 let nom = "Alice"; // variable modifiable
@@ -163,7 +173,8 @@ Pour le moment on a pas encore parlé de porté ou **scope**, donc ne vous en fa
 
 Alors c'est encore une fois très simple pour le moment, on va tout simplement écrire notre variable et lui dire ce qu'elle doit contenir, ensuite on y accédera et l'affichera dans notre console. Pour ce faire on écrit `let` suivi du nom que l'on veut donner à notre variable, ensuite un signe égale puis la valeur. **On ne met pas de variables avec des caractères spéciaux et des espaces.**
 
-**Exercice pratique**
+<!-- omit in toc -->
+### Exercice pratique
 
 1. Dans votre page précédente, ajouter au dessus de votre `console.log("")` une nouvelle ligne.
 2. Ajouter deux variables, l'une `nom` et l'autre `prénom` en utilisant `let`.
@@ -176,6 +187,9 @@ Alors c'est encore une fois très simple pour le moment, on va tout simplement �
 ### Réassigner une variable
 
 Le but d'une variable est aussi de chancer de valeur en cours d'exécution du script en fonction des données introduites par l'utilisateur ou des résultats de nos opérations. Pour réassigner une valeur à une variable c'est très simple, il suffit d'indiquer la nom de la variable sans le "let", "var" ou "const", de placer un signe égale et de mettre la nouvelle valeur. Vous pouvez faire ça où vous voulez dans votre script (même si le scope posera problème plus tard, mais on en reparlera) tant que c'est après la déclaration de la variable
+
+<!-- omit in toc -->
+### Exemple
 
 ```js
 let prenom = "John";
@@ -218,6 +232,9 @@ let objet = { nom: "Alice", age: 30 }; // Object
 
 Une chaîne de caractères (ou string) est une série de caractères entourée de guillemets simples ('), doubles (") ou backticks (`) pour les chaînes de caractères multi-lignes et les templates de chaînes.
 
+<!-- omit in toc -->
+#### Exemple
+
 ```js
 let message = "Bonjour";
 let salutation = 'Salut';
@@ -230,12 +247,18 @@ Les chaînes de caractères sont immuables, ce qui signifie qu’une fois créé
 
 Le type number représente à la fois les entiers et les nombres à virgule flottante (nombres décimaux). Il n’y a pas de distinction entre les deux en JavaScript.
 
+<!-- omit in toc -->
+#### Exemple
+
 ```js
 let entier = 42;
 let decimal = 3.14;
 ```
 
 JavaScript prend en charge des opérations mathématiques comme l’addition, la soustraction, la multiplication, la division et le modulo. Nous exécuterons ce genre d'opération plus tard. 
+
+<!-- omit in toc -->
+#### Exemple
 
 ```js
 let number = 42; 
@@ -250,12 +273,18 @@ Si on essaye d'utiliser les deux variables plus haut pour les additionner on aur
 
 Un type boolean ne peut avoir que deux valeurs : true (vrai) ou false (faux). Ce type est principalement utilisé dans les conditions et les comparaisons. Nous verrons ce sujet un peu plus tard.
 
+<!-- omit in toc -->
+#### Exemple
+
 ```js
 let estMajeur = true;
 let aFiniLaTache = false;
 ```
 
 Les booléens sont souvent le résultat d’opérations de comparaison :
+
+<!-- omit in toc -->
+#### Exemple
 
 ```js
 let x = 10;
@@ -271,12 +300,18 @@ console.log(x === y); // false
 
 Un tableau est une collection ordonnée d’éléments. En JavaScript, les tableaux peuvent contenir des valeurs de différents types (nombres, chaînes, objets, etc.). On crée un tableau en ouvrant des crochets et en séparant les données par des virgules.
 
+<!-- omit in toc -->
+#### Exemple
+
 ```js
 let nombres = [1, 2, 3, 4, 5];
 let melange = ["Bonjour", 42, true];
 ```
 
 Les éléments d’un tableau sont accessibles via leur indice, qui commence à 0 :
+
+<!-- omit in toc -->
+#### Exemple
 
 ```js
 let fruits = ["Pomme", "Banane", "Orange"];
@@ -290,6 +325,9 @@ On peut manipuler ces tableaux mais ça sera pour plus tard aussi.
 
 Un objet est une collection de paires clé-valeur. Contrairement aux tableaux, qui sont des listes ordonnées, les objets sont des collections où chaque valeur est associée à une clé (ou propriété).
 
+<!-- omit in toc -->
+#### Exemple
+
 ```js
 let personne = {
   nom: "Alice",
@@ -299,6 +337,9 @@ let personne = {
 ```
 
 Vous pouvez accéder aux valeurs des propriétés d’un objet en utilisant la notation par point ou la notation par crochets :
+
+<!-- omit in toc -->
+#### Exemple
 
 ```js
 console.log(personne.nom);     // "Alice"
@@ -311,12 +352,18 @@ Comme pour les tableaux on peut apprendre à manipuler ces objets, tout cela fer
 
 Une variable est **undefined** lorsqu’elle a été déclarée mais n’a pas encore reçu de valeur.
 
+<!-- omit in toc -->
+#### Exemple
+
 ```js
 let x;
 console.log(x); // undefined
 ```
 
 Une valeur qui représente volontairement “aucune valeur” est dites **null**. C’est souvent utilisé pour indiquer qu’une variable est vide intentionnellement.
+
+<!-- omit in toc -->
+#### Exemple
 
 ```js
 let y = null;
@@ -338,6 +385,9 @@ Maintenant que l'on a vu comment stocker des données et quels type de données 
 
 C'est simplement pour faire des opérations mathématique sur des nombres. Rien de bien sorcier.
 
+<!-- omit in toc -->
+#### Exemple
+
 ```js
 let a = 10;
 let b = 2;
@@ -349,6 +399,9 @@ let modulo = a % b; // 0 (reste de la division)
 ### Opérateurs de comparaison : ==, ===, !=, >, <, >=, <=
 
 Les opérateurs de comparaison en JavaScript permettent de comparer deux valeurs et de retourner un résultat booléen (true ou false). Ces opérateurs sont essentiels pour la prise de décision dans les conditions (if, else, etc.). Voici une explication détaillée des principaux opérateurs de comparaison que vous avez mentionnés :
+
+<!-- omit in toc -->
+#### Exemple
 
 ```js
 let x = 5;
@@ -363,6 +416,9 @@ console.log(x === y); // false, car les types sont différents
 
 L’opérateur == compare deux valeurs **sans tenir compte de leur type**. Si les valeurs sont différentes mais peuvent être converties l’une dans l’autre, JavaScript fera une **coercition de type** (tentera de convertir les valeurs) pour tenter de les égaliser.
 
+<!-- omit in toc -->
+#### Exemple
+
 ```js
 console.log(5 == "5");  // true (car "5" est converti en 5 avant la comparaison)
 console.log(true == 1); // true (car `true` est converti en 1)
@@ -375,6 +431,9 @@ Cela peut entraîner des résultats inattendus car JavaScript essaie de forcer l
 #### === (égalité stricte)
 
 L’opérateur === compare deux valeurs **en tenant compte de leur type**. Les deux valeurs doivent être identiques en valeur et en type pour que la comparaison soit vraie.
+
+<!-- omit in toc -->
+#### Exemple
 
 ```js
 console.log(5 === "5");  // false (car les types sont différents : Number et String)
@@ -389,6 +448,9 @@ L’opérateur === est généralement préféré à == car il évite les erreurs
 
 L’opérateur != compare deux valeurs pour vérifier si elles **ne sont pas égales**, mais sans prendre en compte leur type. Comme pour ==, il effectue une **coercition de type** si nécessaire.
 
+<!-- omit in toc -->
+##### Exemple
+
 ```js
 console.log(5 != "5");  // false (car "5" est converti en 5, donc ils sont égaux)
 console.log(5 != 6);    // true (car 5 n'est pas égal à 6)
@@ -400,6 +462,9 @@ console.log(false != 0); // false (car `false` est converti en 0, donc ils sont 
 
 L’opérateur !== vérifie si deux valeurs **ne sont pas égales** ou si elles sont de **types différents**. Il compare la valeur et le type, comme le fait ===.
 
+<!-- omit in toc -->
+##### Exemple
+
 ```js
 console.log(5 !== "5");  // true (les types sont différents : Number et String)
 console.log(5 !== 5);    // false (les valeurs et les types sont identiques)
@@ -410,6 +475,9 @@ console.log(false !== 0); // true (car `false` est de type Boolean et 0 est de t
 #### > et < (supérieur à et inférieur à)
 
 L’opérateur > vérifie si la valeur de gauche est **strictement supérieure** à la valeur de droite tandis que l’opérateur < vérifie si la valeur de gauche est **strictement inférieure** à la valeur de droite.
+
+<!-- omit in toc -->
+##### Exemple
 
 ```js
 console.log(10 > 5);  // true (car 10 est plus grand que 5)
@@ -426,6 +494,9 @@ console.log("a" < "b"); // true (comparaison lexicographique, "a" vient avant "b
 
 L’opérateur >= vérifie si la valeur de gauche est **supérieure ou égale** à la valeur de droite.
 tandis que l’opérateur >= vérifie si la valeur de gauche est **inférieur ou égale** à la valeur de droite.
+
+<!-- omit in toc -->
+##### Exemple
 
 ```js
 console.log(10 >= 5);  // true (car 10 est plus grand que 5)
@@ -445,6 +516,9 @@ Ce n'est plus trop d'actualité de nos jours car on préférera quand même util
 
 - prompt : demande à l’utilisateur de saisir une valeur.
 - alert : affiche un message à l’utilisateur. Utiliser le signe + pour ajouter une string et une variable dans votre alerte.
+
+<!-- omit in toc -->
+### Exemple
 
 ```js
 let nom = prompt("Quel est votre nom ?");
