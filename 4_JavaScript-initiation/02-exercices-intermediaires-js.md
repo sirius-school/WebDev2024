@@ -54,7 +54,7 @@ Faites en sorte que la phrase "Bienvenue dans les exercices JavaScript" s'affich
 
 > Sujets: console, variables
 
-1. Déclarez 5 variables: `title` (string), `genre` (number), `year` (number), `actor1` (string) et `actor2` (string)
+1. Déclarez 5 variables: `title` (string), `genre` (string), `year` (number), `actor1` (string) et `actor2` (string)
 2. Stockez des valeurs pour chacune de vos variables correspondant à un film au choix.
 3. Affichez les 5 valeurs dans un ou de multiples `console.log()`
 
@@ -96,7 +96,7 @@ On va un peu améliorer notre calculatrice et la rendre un peu moins statique.
 > Sujets: console, variables, objets
 
 1. Créez une variable `monFilmCulte`
-2. Insérer comme valeur un objet contenant les clés suivantes: `title` (string), `genre` (number), `year` (number), `actor1` (string) et `actor2` (string) et insérer les valeurs de votre film préféré.
+2. Insérer comme valeur un objet contenant les clés suivantes: `title` (string), `genre` (string), `year` (number), `actor1` (string) et `actor2` (string) et insérer les valeurs de votre film préféré.
 3. Faites un `console.log` de chacune des 5 clés.
 
 ## 😅 Exercice 7 - Comparaison entre deux nombres
