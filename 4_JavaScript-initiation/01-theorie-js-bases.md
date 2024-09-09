@@ -178,13 +178,13 @@ Alors c'est encore une fois très simple pour le moment, on va tout simplement �
 Le but d'une variable est aussi de chancer de valeur en cours d'exécution du script en fonction des données introduites par l'utilisateur ou des résultats de nos opérations. Pour réassigner une valeur à une variable c'est très simple, il suffit d'indiquer la nom de la variable sans le "let", "var" ou "const", de placer un signe égale et de mettre la nouvelle valeur. Vous pouvez faire ça où vous voulez dans votre script (même si le scope posera problème plus tard, mais on en reparlera) tant que c'est après la déclaration de la variable
 
 ```js
-let prénom = John;
+let prenom = "John";
 
-let nom = Smith;
+let nom = "Smith";
 console.log(nom); // Smith
 
 // Réassignation
-nom = Bond;
+nom = "Bond";
 console.log(nom); // Bond
 ```
 
