@@ -8,7 +8,7 @@ Bienvenue dans le cours d'initiation à JavaScript! On va apprendre les bases de
 2. [Exercices intermédiaires JavaScript](./02-exercices-intermediaires-js.md)
 3. [Théorie - JavaScript - les conditions](./03-theorie-js-conditions.md)
 4. [Exercices - Conditions](./04-exercices-conditions.md)
-5. 🪛*wip*🪛 Théorie - JavaScript - Boucles
+5. 🪛*wip*🪛 [Théorie - JavaScript - Boucles](./05-theorie-boucles.md)
 6. 🪛*wip*🪛 Exercices - Boucles
 7. 🪛*wip*🪛 Théorie - JavaScript - Fonctions
 8. 🪛*wip*🪛 Exercices - Fonctions
