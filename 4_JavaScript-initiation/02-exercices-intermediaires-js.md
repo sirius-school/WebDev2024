@@ -26,7 +26,7 @@ Impossible?: 😡
 <!-- omit in toc -->
 ## :memo: Objectifs
 
-- Réaliser sa première page de script JavaScript en utilisant la théorie déjà vue
+- Réaliser ses premier script JavaScript en utilisant la théorie déjà vue
 - Suivre des consignes précises
 
 <!-- omit in toc -->

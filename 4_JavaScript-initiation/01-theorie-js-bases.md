@@ -111,6 +111,8 @@ On va souvent avoir besoin de tester notre script tout au long de sa conception.
 
 Vous pouvez retrouver votre console dans les outils de développements de votre navigateur (F12 ou inspecter).
 
+Il existe aussi `console.warn()` qui affiche un symbole attention et met le message en évidence. Ainsi que `console.error()` qui affiche un symbole d'erreur et met le message en rouge.
+
 <!-- omit in toc -->
 ### Exercice pratique
 
@@ -394,6 +396,8 @@ let b = 2;
 let somme = a + b; // 12
 let produit = a * b; // 20
 let modulo = a % b; // 0 (reste de la division)
+a++; // Incrémentation 11
+a--; // Décrémentation 9
 ```
 
 ### Opérateurs de comparaison : ==, ===, !=, >, <, >=, <=

@@ -1,5 +1,5 @@
 <!-- omit in toc -->
-# Exercices intermédiaires JS
+# Exercices conditions JS
 
 Voici quelques exercices simples pour apprendre à manipuler un peu tout le javascript qu'on vient de voir.
 
@@ -24,7 +24,7 @@ Impossible?: 😡
 <!-- omit in toc -->
 ## :memo: Objectifs
 
-- Réaliser sa première page de script JavaScript en utilisant la théorie déjà vue
+- Réaliser ses premier script JavaScript en utilisant la théorie déjà vue
 - Suivre des consignes précises
 
 <!-- omit in toc -->
