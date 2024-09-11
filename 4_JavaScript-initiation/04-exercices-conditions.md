@@ -65,7 +65,7 @@ Comme ce sont des petits exercices, pas besoin de créer un dossier et fichier p
 2. Créer une condition qui vérifie si le résultat de la division est égale à 0, si oui, cela veut dire que le nombre est paire, si non, qu'il est impaire. C'est ce qu'on appel le `modulo` et oui c'est dans le cours, mais pas totalement expliqué, il va falloir allez voir sur le net c'est quoi "modulo".
 3. Indiquez le résultat dans la console.
 
-**Bonus**: Utiliser `isNaN()`. Cela permet de vérifier que ce que le visiteur à indiqué est bien un nombre. `NaN` veut dire "Not A Number". C'est quelque chose qu'on reverra plus tard, mais si vous êtes chaud vous pouvez vous renseigner sur la [fonction ici](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/isNaN).
+**Bonus**: Utiliser `isNaN()`. Cela permet de vérifier que le visiteur à bien indiqué un nombre. `NaN` veut dire "Not A Number". C'est quelque chose qu'on reverra plus tard, mais si vous êtes chaud vous pouvez vous renseigner sur la [fonction ici](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/isNaN).
 
 ## 😊 Exercice 3 : Note d'examen
 
@@ -74,7 +74,7 @@ Comme ce sont des petits exercices, pas besoin de créer un dossier et fichier p
 **Objectif** : Afficher une appréciation en fonction de la note obtenue.
 
 1. Créez une variable `note` et ajoutez un prompt. Soyez bien sûr de stocker **un nombre** dans cette variable.
-2. Créez un `switch` pour affichez dans la console un message en fonction de la note obtenue (voir tableau)
+2. Créez les conditions nécessaires par rapport au tableau ci-desssous.
 
 | Note | Message| 
 | :--- |:------:|
