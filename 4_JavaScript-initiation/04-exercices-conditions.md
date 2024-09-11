@@ -20,6 +20,7 @@ Impossible?: 😡
 - [😊 Exercice 3 : Note d'examen](#-exercice-3--note-dexamen)
 - [😰 Exercice 4 : Calcul de la réduction](#-exercice-4--calcul-de-la-réduction)
 - [😰 Exercice 5 : Jeu de devinette](#-exercice-5--jeu-de-devinette)
+- [😊 Exercice 6 : Conversion des jours de la semaine](#-exercice-6--conversion-des-jours-de-la-semaine)
 
 <!-- omit in toc -->
 ## :memo: Objectifs
@@ -83,6 +84,8 @@ Comme ce sont des petits exercices, pas besoin de créer un dossier et fichier p
 | 11 - 8  | Passable |
 | 7-0  | Insuffisant |
 
+**Bonus**: Utiliser `isNaN()` pour vérifier que le visiteur à bien indiqué un nombre. Et vérifier aussi qu'il a indiqué un chiffre entre 0 et 20.
+
 ## 😰 Exercice 4 : Calcul de la réduction
 
 > Sujets: console, prompt, condition, opérateur arithmétique
@@ -108,11 +111,22 @@ Comme ce sont des petits exercices, pas besoin de créer un dossier et fichier p
 
 > Sujets: console, prompt, condition, opérateur arithmétique, Math.floor
 
-**Objectif** : Deviner un nombre aléatoire.
+**Objectif** : Deviner un nombre aléatoire entre 1 et 10.
 
 1. Créez une variable `nombreMystere` et copiez le code suivant comme valeur: `Math.floor(Math.random() * 10) + 1`. Ceci va générer un chiffre aléatoire entre 1 et 10. Pas de panique, vous entendrez encore parler de `Math.floor` plus tard.
 2. Créez un prompt dans une variable `nombreDevine` pour demander à votre visiteur un chiffre entre 1 et 10.
 3. Vérifier avec des conditions si le chiffre entré est plus petit, plus grand ou égale au chiffre mystère.
 4. Affichez un message dans la console en fonction du résultat.
 
-**Bonus**: Utiliser `isNaN()` pour vérifier que ce que le visiteur à écrit est bien un numéro.
+**Bonus**: Utiliser `isNaN()` pour vérifier que le visiteur à bien indiqué un nombre. Et vérifier aussi qu'il a indiqué un chiffre entre 1 et 10.
+
+## 😊 Exercice 6 : Conversion des jours de la semaine
+
+> Sujets: console, prompt, condition, opérateur arithmétique, Math.floor
+
+**Objectif** : Utiliser une structure switch pour convertir un numéro en jour de la semaine.
+
+1. Créez une variable `nombre` et ajoutez un prompt. Soyez bien sûr de stocker **un nombre** dans cette variable.
+2. Ajouter un `switch` pour vérifier à quel jour correspond le nombre entré et l'indiquer dans la console.
+
+**Bonus**: Utiliser `isNaN()` pour vérifier que le visiteur à bien indiqué un nombre. Et vérifier aussi qu'il a indiqué un chiffre entre 1 et 7.
