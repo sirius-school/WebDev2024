@@ -75,7 +75,7 @@ Comme ce sont des petits exercices, pas besoin de créer un dossier et fichier p
 **Objectif** : Afficher une appréciation en fonction de la note obtenue.
 
 1. Créez une variable `note` et ajoutez un prompt. Soyez bien sûr de stocker **un nombre** dans cette variable.
-2. Créez les conditions nécessaires par rapport au tableau ci-desssous.
+2. Créez les conditions nécessaires avec un `switch` par rapport au tableau ci-desssous.
 
 | Note | Message| 
 | :--- |:------:|
@@ -122,7 +122,7 @@ Comme ce sont des petits exercices, pas besoin de créer un dossier et fichier p
 
 ## 😊 Exercice 6 : Conversion des jours de la semaine
 
-> Sujets: console, prompt, condition, opérateur arithmétique, Math.floor
+> Sujets: console, prompt, condition, switch
 
 **Objectif** : Utiliser une structure switch pour convertir un numéro en jour de la semaine.
 
