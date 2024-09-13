@@ -94,9 +94,9 @@ Comme ce sont des petits exercices, pas besoin de créer un dossier et fichier p
 
 1. Créez une variable `age` et ajoutez un prompt demandant l'âge du visiteur. Soyez bien sûr de stocker **un nombre** dans cette variable.
 2. Créez une variable `prix` et ajoutez un prompt demandant le prix au visiteur. Soyez bien sûr de stocker **un nombre** dans cette variable.
-3. Créez une variable `réduction` qui est égale à 0.
-4. Créez une condition qui va appliquez une ristourne en % sur le prix en fonction de l'âge. Pour ce faire, il faut mettre à jour la variable `ristourne` avec la valeur **en décimal** du pourcentage (15% = 0.15). Voir tableau pour la valeur de la réduction
-5. Créez une variable `prixFinal` qui va faire le calcul `prix - (prix * réduction)`
+3. Créez une variable `reduction` qui est égale à 0.
+4. Créez une condition qui va appliquez une ristourne en % sur le prix en fonction de l'âge. Pour ce faire, il faut mettre à jour la variable `reduction` avec la valeur **en décimal** du pourcentage (15% = 0.15). Voir tableau pour la valeur de la réduction
+5. Créez une variable `prixFinal` qui va faire le calcul `prix - (prix * reduction)`
 6. Affichez le résultat dans la console
 
 | Age | Réduction| 
