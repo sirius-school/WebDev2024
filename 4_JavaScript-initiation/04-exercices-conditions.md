@@ -53,7 +53,7 @@ Comme ce sont des petits exercices, pas besoin de créer un dossier et fichier p
 1. Créez un nouveau document javascript.
 2. Créez une variable `age` (number) et ajoutez un prompt qui demandera l'âge du visiteur. Soyez bien sûr de stocker **un nombre** dans cette variable.
 3. Ajoutez ensuite une condition `if` pour vérifier si l'âge est inférieur à 18. Dans ce cas affichez "Vous êtes mineur" dans la console.
-4. Faites ensuite un `if else` pour vérifier si l'âge est supérieur ou égal à 18 mais inférieur à 65. Il va falloir utiliser un opérateur logique. Ensuite affichez "Vous êtes adulte" dans la console.
+4. Faites ensuite un `else if` pour vérifier si l'âge est supérieur ou égal à 18 mais inférieur à 65. Il va falloir utiliser un opérateur logique. Ensuite affichez "Vous êtes adulte" dans la console.
 5. Puis faites un `else` pour indiquer que la personne est "senior" si son age es égale ou supérieur à 65.
 
 ## 😅 Exercice 2 : Parité d'un nombre
