@@ -23,6 +23,7 @@ Impossible?: 😡
 - [😰 Exercice 6 : Boucle imbriquée (tables de multiplication)](#-exercice-6--boucle-imbriquée-tables-de-multiplication)
 - [😰 Exercice 7 : Trouver un élément dans un tableau](#-exercice-7--trouver-un-élément-dans-un-tableau)
 - [😰 Exercice 8 : FizzBuzz](#-exercice-8--fizzbuzz)
+- [😰 Exercice 9 : Jeu de devinette (avec plusieurs réponses)](#-exercice-9--jeu-de-devinette-avec-plusieurs-réponses)
 
 <!-- omit in toc -->
 ## :memo: Objectifs
@@ -175,3 +176,15 @@ const nombreCherche = 30;
 - Manipuler des conditions multiples dans la boucle.
 - Utiliser le modulo (%) pour vérifier si un chiffre est un multiple ou non.
 - Utiliser plusieurs `else if`
+
+## 😰 Exercice 9 : Jeu de devinette (avec plusieurs réponses)
+
+> Sujets: console, variables, boucles, prompt, literal
+
+**Objectif** : Reprend [l'exercice - jeu de devinette](./04-exercices-conditions.md#-exercice-5--jeu-de-devinette) qu'on a fait précédement. Cette-fois ci, fais en sorte que le comparaison soit affiché dans le prompt de l'utilisateur et qu'il puis essayer à nouveau de deviner le même chiffre.
+
+**Indices** :
+
+- Utiliser une boucle while.
+- Créer une variable `résultat` pour stocker "Trop petit" ou "Trop grand".
+- Dans le prompt qui redemande à l'utilisateur de choisir un nouveau nombre, indique la valeur de la variable résultat grâce à un `Template literals`. Exemple: \`${resultat}. Essayez encore, chiffre de 1 à 10 (ou appuyez sur Annuler pour quitter)\`
