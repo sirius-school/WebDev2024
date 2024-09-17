@@ -185,6 +185,9 @@ const nombreCherche = 30;
 
 **Indices** :
 
-- Utiliser une boucle while.
-- Créer une variable `résultat` pour stocker "Trop petit" ou "Trop grand".
+- Utiliser une boucle while pour ta logique, tant que le nombre n'a pas été trouvé.
+- Créer une variable `resultat` pour stocker "Trop petit" ou "Trop grand".
+- Effectue ta logique avec les conditions pour vérifier si le chiffre proposé est plus petit, plus grand ou égale au chiffre mystère. Stock le résulta dans la variable `resultat`.
+- Utilise `break` pour sortir de la boucle si la bonne réponse est donnée.
+- En dehors de ta boucle il faudra écrire le prompt qui va redemander le chiffre à l'utilisateur.
 - Dans le prompt qui redemande à l'utilisateur de choisir un nouveau nombre, indique la valeur de la variable résultat grâce à un `Template literals`. Exemple: \`${resultat}. Essayez encore, chiffre de 1 à 10 (ou appuyez sur Annuler pour quitter)\`
