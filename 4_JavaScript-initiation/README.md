@@ -11,7 +11,7 @@ Bienvenue dans le cours d'initiation à JavaScript! On va apprendre les bases de
 5. [Théorie - JavaScript - Boucles](./05-theorie-boucles.md)
 6. [Exercices - Boucles](./06-exercices-boucles.md)
 7. [Théorie - JavaScript - Fonctions](./07-theorie-fonctions.md)
-8. 🪛*wip*🪛 Exercices - Fonctions
+8. [Exercices - Fonctions](./08-exercices-fonctions.md)
 9. 🪛*wip*🪛 Théorie - Manipulation du DOM
 10. 🪛*wip*🪛 Exercices - Manipulation du DOM
 11. 🪛*wip*🪛 Théorie - JavaScript - Tableaux
