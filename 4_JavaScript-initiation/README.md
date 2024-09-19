@@ -10,12 +10,14 @@ Bienvenue dans le cours d'initiation à JavaScript! On va apprendre les bases de
 4. [Exercices - Conditions](./04-exercices-conditions.md)
 5. [Théorie - JavaScript - Boucles](./05-theorie-boucles.md)
 6. [Exercices - Boucles](./06-exercices-boucles.md)
-7. 🪛*wip*🪛 Théorie - JavaScript - Fonctions
+7. [Théorie - JavaScript - Fonctions](./07-theorie-fonctions.md)
 8. 🪛*wip*🪛 Exercices - Fonctions
-9. 🪛*wip*🪛 Théorie - JavaScript - Tableaux
-10. 🪛*wip*🪛 Exercices - Tableaux
-11. 🪛*wip*🪛 Théorie - JavaScript - Objets
-12. 🪛*wip*🪛 Exercices - Objets
+9. 🪛*wip*🪛 Théorie - Manipulation du DOM
+10. 🪛*wip*🪛 Exercices - Manipulation du DOM
+11. 🪛*wip*🪛 Théorie - JavaScript - Tableaux
+12. 🪛*wip*🪛 Exercices - Tableaux
+13. 🪛*wip*🪛 Théorie - JavaScript - Objets
+14. 🪛*wip*🪛 Exercices - Objets
 
 ## La règle d'OR
 
