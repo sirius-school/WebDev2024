@@ -20,7 +20,7 @@ Impossible?: 😡
 - [😊 Exercice 3 : Déterminer si un nombre est pair](#-exercice-3--déterminer-si-un-nombre-est-pair)
 - [😊 Exercice 4 : Calculer la factorielle d’un nombre](#-exercice-4--calculer-la-factorielle-dun-nombre)
 - [😅 Exercice 5 : Trouver le plus grand nombre dans un tableau](#-exercice-5--trouver-le-plus-grand-nombre-dans-un-tableau)
-- [😰 Exercice 6 : Compter les voyelles dans une chaîne de caractères](#-exercice-6--compter-les-voyelles-dans-une-chaîne-de-caractères)
+- [😰/😡 Exercice 6 : Compter les voyelles dans une chaîne de caractères](#-exercice-6--compter-les-voyelles-dans-une-chaîne-de-caractères)
 - [😊 Exercice 7 : Doubler un nombre avec une fonction fléchée](#-exercice-7--doubler-un-nombre-avec-une-fonction-fléchée)
 
 <!-- omit in toc -->
@@ -137,7 +137,12 @@ console.log(trouverMax([3, 7, 2, 5, 10]));  // Affiche 10
 console.log(trouverMax([1, 20, 3, 14]));    // Affiche 20
 ```
 
-## 😰 Exercice 6 : Compter les voyelles dans une chaîne de caractères
+**Indices**
+
+- A vous de créer un tableau contenant des chiffres, et pas dans l'ordre croissant ou décroissant, mais full random!
+- Il vous faudra une variable pour stocker la valeur max trouvé à chaque itération dans votre tableau.
+
+## 😰/😡 Exercice 6 : Compter les voyelles dans une chaîne de caractères
 
 > Sujets: variables, fonctions, opérateurs arithmétique, tableau, include()
 
@@ -147,7 +152,7 @@ Parcourir une chaîne de caractères et utiliser des conditions pour filtrer les
 
 **Énoncé**
 
-Créez une fonction compterVoyelles qui prend une chaîne de caractères en paramètre et retourne le nombre de voyelles (a, e, i, o, u) présentes dans la chaîne.
+Créez une fonction compterVoyelles qui prend une chaîne de caractères en paramètre et retourne le nombre de voyelles (a, e, i, o, u, y) présentes dans la chaîne.
 
 ```js
 console.log(compterVoyelles("Bonjour tout le monde"));  // Affiche 8
@@ -156,8 +161,9 @@ console.log(compterVoyelles("JavaScript"));             // Affiche 3
 
 **Indices**
 
-- Stocker les voyelles dans un tableau
-- Utilisez la fonction [includes()](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Array/includes) pour vérifier si les voyelles sont présentes dans le tableau qu'on passe en paramètres
+- Stocker les voyelles dans une chaîne de caractère `const voyelles = "aeiouyAEIOUY";`
+- Utilisez la fonction [includes()](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Array/includes) pour vérifier si les voyelles sont présentes dans le tableau qu'on passe en paramètres.
+- Vous pouvez parcourir votre chaine de caractère un peu à la manière d'un tableau, caractère par caractère en utilisant la syntaxe suivante: `string[i]`
 
 ## 😊 Exercice 7 : Doubler un nombre avec une fonction fléchée
 
