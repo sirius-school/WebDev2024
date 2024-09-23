@@ -125,6 +125,8 @@ let direAuRevoir = function() {
 direAuRevoir(); // Affiche "Au revoir !"
 ```
 
+Une fonction anonyme est particulièrement utile lorsqu’on a besoin d’une fonction de manière temporaire ou dans un contexte spécifique (comme les callbacks ou les événements), où le nommage et la réutilisation de la fonction ne sont pas nécessaires. Cela aide à garder le code plus propre, plus concis et mieux organisé, en particulier lorsqu’il s’agit de manipulation d’événements ou de traitement de données avec des méthodes comme `map`, `filter`, ou `forEach`.
+
 ## Les fonctions fléchées (arrow functions)
 
 Les fonctions fléchées sont une autre manière d’écrire des fonctions de façon plus concise, en particulier pour les fonctions courtes.
@@ -143,6 +145,8 @@ function multiplier(a, b) {
 // Simplification
 const multiplier = (a, b) => a * b;
 ```
+
+Les **fonctions fléchées** sont très pratiques pour des opérations simples et dans des contextes spécifiques (comme les fonctions de rappel ou les expressions courtes). Toutefois, elles ne remplacent pas toujours les **fonctions classiques**, qui offrent plus de flexibilité dans certaines situations (comme l’utilisation de `this`, `arguments`, ou pour les constructeurs). Le choix entre les deux dépend donc du contexte et des besoins spécifiques du code que tu écris.
 
 ## Portée des variables dans les fonctions
 
