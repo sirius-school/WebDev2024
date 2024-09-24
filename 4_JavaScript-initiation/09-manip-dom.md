@@ -10,6 +10,15 @@ Le DOM (Document Object Model) est la représentation en mémoire de la structur
   - [Sélection par ID](#sélection-par-id)
   - [Sélection par Classe](#sélection-par-classe)
   - [Sélection par Tag (balise)](#sélection-par-tag-balise)
+  - [Sélection avec querySelector et querySelectorAll](#sélection-avec-queryselector-et-queryselectorall)
+- [Modifier des Classes et Attributs](#modifier-des-classes-et-attributs)
+  - [Modifier les classes](#modifier-les-classes)
+  - [Modifier les Attributs](#modifier-les-attributs)
+- [Modifier le Contenu d’un Élément](#modifier-le-contenu-dun-élément)
+  - [Modifier le Texte](#modifier-le-texte)
+  - [Modifier le Contenu HTML](#modifier-le-contenu-html)
+- [Ajouter ou Supprimer des Éléments](#ajouter-ou-supprimer-des-éléments)
+  - [Créer et Ajouter des Éléments](#créer-et-ajouter-des-éléments)
 
 ## Sélectionner des Éléments du DOM
 
@@ -51,7 +60,7 @@ console.log(textes)
 
 ### Sélection par Tag (balise)
 
-La méthode `getElementsByTagName` sélectionne tous les éléments d’un type de balise (ex. tous les <p>).
+La méthode `getElementsByTagName` sélectionne tous les éléments d’un type de balise (ex. tous les `<p>`).
 
 ```html
 <p class="a">1</p>
@@ -63,4 +72,91 @@ La méthode `getElementsByTagName` sélectionne tous les éléments d’un type 
 const paragraphes = document.getElementsByTagName('p');
 console.log(paragraphes);
 // Résultat: HTMLCollection(3) [p.a, p#b, p, b: p#b]
+```
+
+### Sélection avec querySelector et querySelectorAll
+
+Ces deux méthodes permettent de sélectionner un ou plusieurs éléments en utilisant des sélecteurs CSS.
+
+- `querySelector` sélectionne le premier élément qui correspond au sélecteur.
+- `querySelectorAll` sélectionne tous les éléments qui correspondent au sélecteur. Retourne une `NodeList`, c’est-à-dire une collection d’éléments
+
+```js
+const premierTitre = document.querySelector('h1');
+const tousLesParagraphes = document.querySelectorAll('p');
+```
+
+## Modifier des Classes et Attributs
+
+Maintenant qu'on sait comment sélectionner nos éléments HTML, il est temps de faire nos premières modifications. Voyons comment on peut modifier ses classes ou attributs.
+
+### Modifier les classes
+
+La propriété `classList` permet de manipuler les classes **d’un élément**.
+
+- **add**: ajouter une classe
+- **remove**: supprimer une classe
+- **toggle**: ajouter ou retirer une classe selon qu’elle existe ou non
+- **contains**: vérifier si une classe est présente
+
+```js
+const monElement = document.querySelector('div');
+monElement.classList.add('nouvelle-classe');
+monElement.classList.remove('ancienne-classe');
+monElement.classList.toggle('visible');
+```
+
+Si on veut changer **tous** nos éléments, on peut utiliser `querySelectorAll`, ce dernier nous retourne une `NodeList` qu'on doit parcourir avec la fonction `forEach` comme dans l'exemple ci-dessous.
+
+```js
+const elements = document.querySelectorAll('.ma-classe');
+
+// Boucler sur chaque élément de la NodeList
+elements.forEach(function(element) {
+    element.classList.add('nouvelle-classe');
+});
+```
+
+### Modifier les Attributs
+
+Utilisez `setAttribute` pour modifier ou ajouter un attribut à un élément. Pour supprimer un attribut, utilisez removeAttribute.
+
+```js
+const image = document.querySelector('img');
+image.setAttribute('src', 'nouvelle-image.webp');
+image.removeAttribute('alt');
+```
+
+## Modifier le Contenu d’un Élément
+
+Il existe différentes façons de modifier le contenu d’un élément.
+
+### Modifier le Texte
+
+La propriété `textContent` permet de modifier (remplacer!) ou lire le texte à l’intérieur d’un élément.
+
+```js
+const paragraphe = document.querySelector('p');
+paragraphe.textContent = 'Nouveau contenu de paragraphe';
+```
+
+### Modifier le Contenu HTML
+
+La propriété `innerHTML` permet d’injecter (remplacer!) du contenu HTML dans un élément.
+
+```js
+const div = document.querySelector('div');
+div.innerHTML = '<p>Ceci est un nouveau paragraphe</p>';
+```
+
+## Ajouter ou Supprimer des Éléments
+
+### Créer et Ajouter des Éléments
+
+Vous pouvez créer un nouvel élément avec `createElement` et l’ajouter au DOM avec `appendChild` ou `insertBefore`.
+
+```js
+const nouvelleDiv = document.createElement('div');
+nouvelleDiv.textContent = 'Ceci est une nouvelle div';
+document.body.appendChild(nouvelleDiv); // Ajoute à la fin du body
 ```
