@@ -19,6 +19,9 @@ Le DOM (Document Object Model) est la représentation en mémoire de la structur
   - [Modifier le Contenu HTML](#modifier-le-contenu-html)
 - [Ajouter ou Supprimer des Éléments](#ajouter-ou-supprimer-des-éléments)
   - [Créer et Ajouter des Éléments](#créer-et-ajouter-des-éléments)
+    - [appendChild](#appendchild)
+    - [insertBefore](#insertbefore)
+  - [Supprimer un Élément](#supprimer-un-élément)
 
 ## Sélectionner des Éléments du DOM
 
@@ -84,6 +87,12 @@ Ces deux méthodes permettent de sélectionner un ou plusieurs éléments en uti
 ```js
 const premierTitre = document.querySelector('h1');
 const tousLesParagraphes = document.querySelectorAll('p');
+```
+
+Il est possible de sélectionner un élément précis dans notre `NodeList` à la manière d'un tableau. Il suffit d'utiliser les crochets pour préciser l'index que l'on souhaite.
+
+```js
+const leParagraphe2DeTousLesParagraphes = document.querySelectorAll('p')[1];
 ```
 
 ## Modifier des Classes et Attributs
@@ -153,10 +162,43 @@ div.innerHTML = '<p>Ceci est un nouveau paragraphe</p>';
 
 ### Créer et Ajouter des Éléments
 
-Vous pouvez créer un nouvel élément avec `createElement` et l’ajouter au DOM avec `appendChild` ou `insertBefore`.
+Vous pouvez créer un nouvel élément avec `createElement` et l’ajouter au DOM avec `appendChild` ou `createBefore`.
+
+#### appendChild
+
+**Fonctionnement** : La méthode appendChild ajoute un élément en dernier enfant d'un élément parent. Elle place toujours le nouvel élément à la fin de la liste des enfants de ce parent.
 
 ```js
 const nouvelleDiv = document.createElement('div');
 nouvelleDiv.textContent = 'Ceci est une nouvelle div';
 document.body.appendChild(nouvelleDiv); // Ajoute à la fin du body
+```
+
+**Quand l'utiliser ?**
+
+Lorsqu'on veut ajouter un élément à la fin
+
+#### insertBefore
+
+**Fonctionnement** : La méthode insertBefore insère un élément avant un autre élément spécifique qui est déjà un enfant du même parent. Il te permet de définir plus précisément l'endroit où tu veux insérer l'élément dans la hiérarchie des enfants.
+
+```js
+const nouvelleDiv = document.createElement('div');
+nouvelleDiv.textContent = 'Ceci est une nouvelle div';
+const secondParagraphe = document.querySelectorAll('p')[1];
+document.body.insertBefore(nouvelleDiv, secondParagraphe);
+```
+
+**Quand l'utiliser ?**
+
+Lorsqu'on veut plus de contrôle sur la position (par exemple, avant un élément spécifique).
+
+### Supprimer un Élément
+
+La méthode `removeChild` permet de supprimer un élément enfant.
+
+```js
+const parent = document.querySelector('#parent');
+const enfant = document.querySelector('.enfant');
+parent.removeChild(enfant);
 ```
