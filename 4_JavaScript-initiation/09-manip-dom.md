@@ -22,6 +22,7 @@ Le DOM (Document Object Model) est la représentation en mémoire de la structur
     - [appendChild](#appendchild)
     - [insertBefore](#insertbefore)
   - [Supprimer un Élément](#supprimer-un-élément)
+- [Récupérer la Valeur d'un Champ de Formulaire](#récupérer-la-valeur-dun-champ-de-formulaire)
 
 ## Sélectionner des Éléments du DOM
 
@@ -201,4 +202,28 @@ La méthode `removeChild` permet de supprimer un élément enfant.
 const parent = document.querySelector('#parent');
 const enfant = document.querySelector('.enfant');
 parent.removeChild(enfant);
+```
+
+## Récupérer la Valeur d'un Champ de Formulaire
+
+La méthode la plus courante pour récupérer la valeur d'un champ est d'utiliser la propriété `.value` sur l'élément du DOM représentant le champ.
+
+Voici un exemple avec un champ texte où nous récupérons la valeur saisie par l'utilisateur lorsqu'il soumet le formulaire.
+
+```html
+<form id="monFormulaire">
+  <input type="text" id="monChamp" placeholder="Entrez votre nom">
+  <button type="submit">Envoyer</button>
+</form>
+```
+
+```js
+const formulaire = document.getElementById('monFormulaire');
+
+formulaire.addEventListener('submit', function(event) {
+    event.preventDefault(); // Empêche la soumission du formulaire
+    const champ = document.getElementById('monChamp');
+    const valeur = champ.value; // Récupère la valeur du champ
+    console.log('Valeur du champ : ' + valeur);
+});
 ```
