@@ -23,6 +23,7 @@ Le DOM (Document Object Model) est la représentation en mémoire de la structur
     - [insertBefore](#insertbefore)
   - [Supprimer un Élément](#supprimer-un-élément)
 - [Récupérer la Valeur d'un Champ de Formulaire](#récupérer-la-valeur-dun-champ-de-formulaire)
+- [Conclusion](#conclusion)
 
 ## Sélectionner des Éléments du DOM
 
@@ -227,3 +228,7 @@ formulaire.addEventListener('submit', function(event) {
     console.log('Valeur du champ : ' + valeur);
 });
 ```
+
+## Conclusion
+
+Il reste beaucoup de chose à apprendre sur la manipulation du DOM. Le cours que vous venez de lire n'est qu'un petit aperçu de ce que vous allez rencontrer le plus souvent. Il est impératif pour vous, en tant que développeur, de continuer à apprendre par vous même. Vous voulez faire quelque chose en particulier? Il est y a la solution sur le web, c'est obligé! Il faut juste un petit peu chercher.
