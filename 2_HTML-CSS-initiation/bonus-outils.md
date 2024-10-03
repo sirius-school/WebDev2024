@@ -12,6 +12,7 @@ Voici une collection de liens qui pourront t'aider pendant et après ta formatio
   - [JavaScript](#javascript)
 - [Les chaines Youtube intéressantes](#les-chaines-youtube-intéressantes)
 - [Les sites outils](#les-sites-outils)
+  - [Les IA](#les-ia)
   - [Editeur de code](#editeur-de-code)
   - [Couleurs](#couleurs)
   - [Générateur CSS/Image/SVG](#générateur-cssimagesvg)
@@ -49,6 +50,14 @@ Voici les liens à retenir pour retrouver toutes les explications nécessaires �
 - [Balo :belgium:](https://www.youtube.com/c/BALOPRISONNIER)
 
 ## Les sites outils
+
+### Les IA
+
+- [ChatGPT](https://chat.openai.com/)
+- [Copilot - Microsoft](https://copilot.microsoft.com/)
+- [Copilot - Github](https://github.com/features/copilot)
+- [Hugging Face](https://huggingface.co/) : Communauté IA
+- [Dall-E](https://openai.com/index/dall-e-2/): Génération d'images
 
 ### Editeur de code
 

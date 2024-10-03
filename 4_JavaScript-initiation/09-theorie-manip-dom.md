@@ -130,7 +130,7 @@ elements.forEach(function(element) {
 
 ### Modifier les Attributs
 
-Utilisez `setAttribute` pour modifier ou ajouter un attribut à un élément. Pour supprimer un attribut, utilisez removeAttribute.
+Utilisez `setAttribute` pour modifier ou ajouter un attribut à un élément. Pour supprimer un attribut, utilisez `removeAttribute`.
 
 ```js
 const image = document.querySelector('img');
