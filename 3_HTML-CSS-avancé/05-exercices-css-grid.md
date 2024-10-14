@@ -31,13 +31,11 @@ Impossible?: 😡
 
 - [😄 \> 😰 CSS Grid Garden](#---css-grid-garden)
 - [😄 Créer une grille basique](#-créer-une-grille-basique)
-- [😊 Créer une grille basique et y placer des éléments](#-créer-une-grille-basique-et-y-placer-des-éléments)
-- [Pixel art "facile"](#pixel-art-facile)
 - [😰 Ghosty, le gentil petit fantôme](#-ghosty-le-gentil-petit-fantôme)
 
 ## 😄 > 😰 CSS Grid Garden
 
-[![CSS Grid Garden](img/13/css-grid-garden.jpeg 'CSS Grid Garden')](https://cssgridgarden.com/#fr)
+[![CSS Grid Garden](img/grid-ex/css-grid-garden.jpeg 'CSS Grid Garden')](https://cssgridgarden.com/#fr)
 
 Tout comme pour Flexbox, voici un jeu pour vous apprendre à utiliser grid. Essaye d'aller le plus loin possible.
 
@@ -58,11 +56,11 @@ Tout comme pour Flexbox, voici un jeu pour vous apprendre à utiliser grid. Essa
 
 > :bulb: Aide toi de la fonction `repeat()` pour définir les colonnes et les rangées ainsi que de l'unité de mesure `fr`.
 
-## 😊 Créer une grille basique et y placer des éléments
+<!-- ## 😊 Créer une grille basique et y placer des éléments
 
 **Objectif :** Avoir plusieurs éléments dans un conteneur grid et les placer à des positions spécifiques.
 
-![01-grid](img/13/02-)
+![01-grid](img/grid-ex/)
 
 **Instructions :**
 
@@ -74,13 +72,13 @@ Tout comme pour Flexbox, voici un jeu pour vous apprendre à utiliser grid. Essa
 
 ## Pixel art "facile"
 
-On va créer un pixel art. Pour cela, on va utiliser une grille de 10x10. Chaque cellule de la grille aura une taille de 50px par 50px. Ensuite on va reproduire l'image ci-dessous 
+On va créer un pixel art. Pour cela, on va utiliser une grille de 10x10. Chaque cellule de la grille aura une taille de 50px par 50px. Ensuite on va reproduire l'image ci-dessous  -->
 
 ## 😰 Ghosty, le gentil petit fantôme
 
 **Objectif :** Réalisez un fantôme du jeu Pac-Man en utilisant une grille de 14x14. Et soyons fou, l'animé avec un mouvement de va et vient vertical.
 
-![04-ghost](img/13/04-ghost.gif)
+![04-ghost](img/grid-ex/04-ghost.gif)
 
 **Instructions :**
 

@@ -6,7 +6,7 @@ Il existe bon nombres de méthodologie de nommage pour les classes et id, elles 
 <!-- omit in toc -->
 # Table des matières
 
-- [BEM (Block Element Modifier) : B__E — M](#bem-block-element-modifier--b__e--m)
+- [BEM (Block Element Modifier) : B\_\_E — M](#bem-block-element-modifier--b__e--m)
   - [Comment qu'on écrit avec BEM](#comment-quon-écrit-avec-bem)
   - [Convention de nommage BEM](#convention-de-nommage-bem)
   - [Avantages et Inconvénients](#avantages-et-inconvénients)
@@ -27,7 +27,7 @@ Voilà où BEM peut intervenir.
 
 Il va falloir penser vos éléments autrement, voici un exemple:
 
-![bem](img/07/bem.gif)
+![bem](img/bem/bem.gif)
 
 ### Comment qu'on écrit avec BEM
 

@@ -2,7 +2,7 @@
 
 Tu vas devoir travailler avec un collègue pour reproduire cette maquette de la manière la plus précise possible.
 
-![creative-maquette](img/11/creative.png)
+![creative-maquette](creative/creative.png)
 
 ## :memo: Objectifs
 

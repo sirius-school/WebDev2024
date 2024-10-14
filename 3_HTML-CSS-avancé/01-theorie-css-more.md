@@ -6,19 +6,22 @@ Voyons ensemble pleins de nouvelles choses en CSS, un peu en vrac. A vous de cho
 <!-- omit in toc -->
 ## Table des matières
 
-- [Techniques](#techniques)
+- [Techniques avancées en CSS](#techniques-avancées-en-css)
   - [Variables ou custom properties](#variables-ou-custom-properties)
-  - [RGB, Hexadecimal ou HSL?](#rgb-hexadecimal-ou-hsl)
+  - [Import](#import)
   - [Nesting](#nesting)
   - [Placeholder](#placeholder)
+- [Unités et couleurs](#unités-et-couleurs)
+  - [Unités de mesure](#unités-de-mesure)
+  - [RGB, Hexadecimal ou HSL?](#rgb-hexadecimal-ou-hsl)
+- [Propriétés et spécificité](#propriétés-et-spécificité)
   - [Spécificité CSS](#spécificité-css)
   - [!important](#important)
-- [Propriétés](#propriétés)
   - [Aspect-ratio](#aspect-ratio)
   - [Formes](#formes)
   - [Inherit](#inherit)
 
-## Techniques
+## Techniques avancées en CSS
 
 Voici quelques nouvelles technique disponible en CSS. Ce ne sont pas des propriétés mais plus d'autres façons d'utiliser CSS pour faire ce qu'on veut.
 
@@ -45,7 +48,6 @@ element {
 
 [:arrow_up: Revenir au top](#table-des-matières)
 
-<!-- omit in toc -->
 ### Import
 
 Vous commencez sans doute à avoir une feuille de style à rallonge et vous ne vous y retrouvez plus? Et bien la solution réside dans les `import`. En effet la règle `@import`permet d'inclure une feuille de style dans une autre. Ainsi vous pouvez diviser votre travail en plusieurs feuilles en fonction des différentes sections que vous devez styliser.
@@ -81,92 +83,9 @@ Il est donc intéressant de créer une feuille de style principale `style.css` e
 @import "content.css";
 
 /* Des propriétés liées à toutes vos pages (comme les polices d'écriture, les couleurs,...) */
-
 ```
 
-[:arrow_up: Revenir au top](#table-des-matières)
-
-### RGB, Hexadecimal ou HSL?
-
-Jusqu'à maintenant on a principalement utilisé des codes hexadécimaux pour définir nos couleurs dans nos feuilles de styles. Mais cela n'est pas très pratique... Voyons une solution: l'utilisation des couleurs HSL.
-
-<!-- omit in toc -->
-#### La problématique
-
-Le soucis avec les couleurs définie en **RGB** ou **hexadecimal** c'est qu'on a pas une idée claire de ce que représente le code en couleur. Alors oui on peut s'aider du **color picker** de VSCode, mais nous pourrions aussi déterminer nos couleurs différemment.
-
-```css
-.rgb{color: rgb(255,0,0)}
-.hex{color: #FF0000}
-```
-
-<!-- omit in toc -->
-#### La solution
-
-Utiliser les couleurs en **HSL**.
-
-- H pour "hue" ou teinte
-- S pour "saturation"
-- L pour "lightness" ou luminosité
-
-```css
-.hsl{color: hsl(0, 100%, 50%);}
-```
-
-La première valeur prend un chiffre de 0 à 360 et les deux autres prennent un %. Voyons comment retrouver nos couleurs.
-
-<!-- omit in toc -->
-##### Hue
-
-La teinte est en faite la couleur que vous souhaitez. Prenez la roue de couleur ci-dessous. On démarre à 0 en haut et donc dans les tons de rouge. Ensuite on tourne dans le sens des aiguilles d'une montre. Par exemple si on prend la valeur 90 on se retrouve dans les verts. À 180 on est dans du cyan, à 270 on est dans les bleus-mauve et si on revient à 360 on retourne en rouge. Une fois que l'on a compris cela, c'est déjà plus simple.
-
-![hue](img/03/hue-wheel.png)
-
-<!-- omit in toc -->
-##### Saturation
-
-La saturation c'est à quel point la couleur est grise. Si la valeur approche de 0% on est dans les gris et si on approche des 100% on a la couleur pure.
-
-![saturation](img/03/saturation.png)
-
-<!-- omit in toc -->
-##### Lightness
-
-La luminosité détermine si la couleur est plus proche du noir (0%) ou du blanc (100%)
-
-![lightness](img/03/lightness.png)
-
-<!-- omit in toc -->
-#### Conclusion
-
-Il est donc très facile d'apporter des modifications à une couleur, il suffit de trouver la bonne teinte, ensuite si elle ne convient pas totalement on peut facilement changer sa saturation ou luminosité. 
-
-C'est aussi plus simple à gérer en cas de changement de couleur. Exemple:
-
-```css
-.button{background-color: hsl(0, 100%, 50%)}
-.button:hover{background-color: hsl(0, 100%, 30%)}
-
-.button-hex{background-color: #ff0000}
-.button-hex:hover{background-color: #990000}
-
-.button-rgb{background-color: rgb(255, 0, 0)}
-.button-rgb:hover{background-color: rgb(153, 0, 0)}
-```
-
-> Dans cet exemple, on change que la luminosité, mais lorsqu'on li la couleur en HSL ça à du sens, tandis que l'exemple en hexadecimal ou rgb est plus confus.
-
-Et pour allez encore plus loins on pourrait utiliser les variables CSS.
-
-```css
-:root{--primary: 0}
-.button{background-color: hsl(var(--primary), 100%, 50%)}
-.button:hover{background-color: hsl(var(--primary), 100%, 30%)}
-```
-
-> Dans cet exemple, on utilise une variable, du coup si on décide de changer notre couleur principale, il suffit de changer la variable et on garde le même effet de hover sur notre bouton.
-
-> :bulb: Voici [un site web](https://itpastorn.github.io/webbteknik/future-stuff/svg/color-wheel.html) pour retrouver une couleur sur la roue chromatique
+Attention cependant à ne pas abuser des `@import` car vous risqué aussi d'avoir des soucis de doublon et du coup des résultats non-désirés. De plus, chaque import est une requête HTTP et donc ralentit le chargement de votre page. Il est donc préférable de regrouper vos fichiers CSS en un seul fichier pour le déploiement. Cela se fait grâce à des outils comme Webpack ou Parcel. Mais ici on est en initiation, donc on va se contenter de séparer nos fichiers pour une meilleure lisibilité.
 
 [:arrow_up: Revenir au top](#table-des-matières)
 
@@ -303,6 +222,131 @@ Je ne vais pas vous décrire toutes les fonctionnalités ici, il suffit de lire 
 
 [:arrow_up: Revenir au top](#table-des-matières)
 
+## Unités et couleurs
+
+### Unités de mesure
+
+Vous vous êtes sans doute rendus compte qu'il y avait pas mal d'unités de mesures à utiliser sur nos pages web. On a vu les `px`, les `%` mais il y a auss les `em`, les `rem`, les `vh`, les `vw`, les `vmin`, les `vmax`, les `fr`, les `ch`, les `ex`, les `cm`, les `mm`, les `in`, les `pt`,... Bref, cela fait tout de même pas mal d'unités de mesure. Mais quand utiliser quoi?
+
+Et bien il n'y a pas de réponse toute faite. Cela dépend de ce que vous voulez faire. Voici un petit résumé des unités de mesure les plus utilisées:
+
+- **px**: C'est l'unité de mesure la plus courante. Elle est fixe et ne change pas en fonction de la taille de la police de caractère de l'élément parent. C'est donc une unité de mesure absolue.
+- **%**: C'est une unité de mesure relative. Elle est calculée en fonction de la taille de l'élément parent.
+- **em**: C'est une unité de mesure relative. Elle est calculée en fonction de la taille de la police de caractère de l'élément parent.
+- **rem**: C'est une unité de mesure relative. Elle est calculée en fonction de la taille de la police de caractère de l'élément racine (soit la balise `html`).
+- **vh**: C'est une unité de mesure relative. Elle est calculée en fonction de la hauteur de la fenêtre du navigateur.
+- **vw**: C'est une unité de mesure relative. Elle est calculée en fonction de la largeur de la fenêtre du navigateur.
+- **vmin**: C'est une unité de mesure relative. Elle est calculée en fonction de la plus petite dimension de la fenêtre du navigateur.
+- **vmax**: C'est une unité de mesure relative. Elle est calculée en fonction de la plus grande dimension de la fenêtre du navigateur.
+- **fr**: C'est une unité de mesure relative. Elle est calculée en fonction de l'espace disponible dans un conteneur.
+- ~~**ch**~~: C'est une unité de mesure relative. Elle est calculée en fonction de la largeur du caractère `0` de la police de caractère utilisée. *Utilisation moins fréquente, préférer `em` ou `rem`*
+- ~~**ex**~~: C'est une unité de mesure relative. Elle est calculée en fonction de la hauteur du caractère `x` de la police de caractère utilisée. *Utilisation moins fréquente, préférer `em` ou `rem`*
+- ~~**cm**~~ C'est une unité de mesure absolue. Elle est calculée en fonction du centimètre. *Utilisation déconseillée pour le web*
+- ~~**mm**~~: C'est une unité de mesure absolue. Elle est calculée en fonction du millimètre. *Utilisation déconseillée pour le web*
+- ~~**in**~~: C'est une unité de mesure absolue. Elle est calculée en fonction du pouce. *Utilisation déconseillée pour le web*
+- ~~**pt**~~: C'est une unité de mesure absolue. Elle est calculée en fonction du point. *Utilisation déconseillée pour le web*
+- ~~**pc**~~: C'est une unité de mesure absolue. Elle est calculée en fonction du pica. *Utilisation déconseillée pour le web*
+- ~~**q**~~: C'est une unité de mesure absolue. Elle est calculée en fonction du quart de millimètre. *Utilisation déconseillée pour le web*
+
+Voilà la liste complète, alors ça va mieux? Non? C'est normal, il n'y a pas de réponse toute faite. Il faut tester, essayer, voir ce qui fonctionne le mieux pour vous. Mais voici quelques conseils:
+
+- Utilisez les unités relatives pour les tailles de police, les marges, les paddings, les largeurs, les hauteurs,...
+- Utilisez les unités absolues pour les bordures, les ombres, les tailles d'images,...
+
+Et si vous avez vraiment besoin d'une unité de mesure spécifique, n'hésitez pas à consulter [:book: la documentation](https://developer.mozilla.org/fr/docs/Web/CSS/length) pour en savoir plus.
+
+Il y a également ce site qui permet de déterminer qu'elle unité de mesure utiliser en fonction de ce que vous voulez faire: [What Unit?](https://whatunit.com/) (à mettre en favoris 😉 )
+
+[:arrow_up: Revenir au top](#table-des-matières)
+
+### RGB, Hexadecimal ou HSL?
+
+Jusqu'à maintenant on a principalement utilisé des codes hexadécimaux pour définir nos couleurs dans nos feuilles de styles. Mais c'est compliqué de savoir quelle couleur c'est ou de faire des modifications rapidement... Voyons une solution: l'utilisation des couleurs HSL.
+
+<!-- omit in toc -->
+#### La problématique
+
+Le soucis avec les couleurs définie en **RGB** ou **hexadecimal** c'est qu'on a pas une idée claire de ce que représente le code en couleur. Alors oui on peut s'aider du **color picker** de VSCode, mais nous pourrions aussi déterminer nos couleurs différemment.
+
+Le principe du code hexadécimal est de définir une couleur en fonction de ses composantes rouge, vert et bleu. Chaque composante est définie par un chiffre de 0 à 255. Par exemple, le rouge pur est défini par `#FF0000` ou `rgb(255,0,0)`. Mais si on veut une couleur un peu plus sombre, il faut jouer avec les valeurs. Par exemple, pour un rouge un peu plus sombre on pourrait utiliser `#990000` ou `rgb(153,0,0)`. Mais si on veut une couleur un peu plus claire, il faut encore jouer avec les valeurs. Par exemple, pour un rouge un peu plus clair on pourrait utiliser `#FF6666` ou `rgb(255,102,102)`. Ce n'est pas précis et c'est compliqué de savoir quelle couleur on obtiendra.
+
+```css
+.rgb{color: rgb(255,0,0)}
+.hex{color: #FF0000}
+```
+
+<!-- omit in toc -->
+#### La solution
+
+Utiliser les couleurs en **HSL**. C'est un système de couleur qui permet de définir une couleur en fonction de 3 valeurs:
+
+- **H** pour "hue" ou teinte
+- **S** pour "saturation"
+- **L** pour "lightness" ou luminosité
+
+```css
+.hsl{color: hsl(0, 100%, 50%);}
+```
+
+La première valeur prend un chiffre de 0 à 360 et les deux autres prennent un %. Voyons comment retrouver nos couleurs.
+
+<!-- omit in toc -->
+##### Hue
+
+La teinte est en faite la couleur que vous souhaitez. Prenez la roue de couleur ci-dessous. On démarre à 0 en haut et donc dans les tons de rouge. Ensuite on tourne dans le sens des aiguilles d'une montre. Par exemple si on prend la valeur 90 on se retrouve dans les verts. À 180 on est dans du cyan, à 270 on est dans les bleus-mauve et si on revient à 360 on retourne en rouge. Une fois que l'on a compris cela, c'est déjà plus simple. Il faut juste garder la roue en mémoire au début.
+
+![hue](img/css-more/hue-wheel.png)
+
+<!-- omit in toc -->
+##### Saturation
+
+La saturation c'est à quel point la couleur est grise. Si la valeur approche de 0% on est dans les gris et si on approche des 100% on a la couleur pure.
+
+![saturation](img/css-more/saturation.png)
+
+<!-- omit in toc -->
+##### Lightness
+
+La luminosité détermine si la couleur est plus proche du noir (0%) ou du blanc (100%)
+
+![lightness](img/css-more/lightness.png)
+
+<!-- omit in toc -->
+#### Conclusion
+
+Il est donc très facile d'apporter des modifications à une couleur, il suffit de trouver la bonne teinte, ensuite si elle ne convient pas totalement on peut facilement changer sa saturation ou luminosité. 
+
+C'est aussi plus simple à gérer en cas de changement de couleur. Exemple:
+
+```css
+.button{background-color: hsl(0, 100%, 50%)}
+.button:hover{background-color: hsl(0, 100%, 30%)}
+
+.button-hex{background-color: #ff0000}
+.button-hex:hover{background-color: #990000}
+
+.button-rgb{background-color: rgb(255, 0, 0)}
+.button-rgb:hover{background-color: rgb(153, 0, 0)}
+```
+
+> Dans cet exemple, on change que la luminosité, mais lorsqu'on li la couleur en HSL ça à du sens, tandis que l'exemple en hexadecimal ou rgb est plus confus.
+
+Et pour allez encore plus loins on pourrait utiliser les variables CSS.
+
+```css
+:root{--primary: 0}
+.button{background-color: hsl(var(--primary), 100%, 50%)}
+.button:hover{background-color: hsl(var(--primary), 100%, 30%)}
+```
+
+> Dans cet exemple, on utilise une variable, du coup si on décide de changer notre couleur principale, il suffit de changer la variable et on garde le même effet de hover sur notre bouton.
+
+> :bulb: Voici [un site web](https://itpastorn.github.io/webbteknik/future-stuff/svg/color-wheel.html) pour retrouver une couleur sur la roue chromatique
+
+[:arrow_up: Revenir au top](#table-des-matières)
+
+## Propriétés et spécificité
+
 ### Spécificité CSS
 
 Jusqu'à présent on a vu une certaine logique dans notre code CSS: les propriétés sont lue de haut en bas, du coup celle lue en dernier prend l'avantage sur les autres. Prenons l'exemple suivant:
@@ -397,8 +441,6 @@ Est-ce une bonne pratique? Pas vraiment, il vaut mieux éviter d'utiliser cette 
 
 [:arrow_up: Revenir au top](#table-des-matières)
 
-## Propriétés
-
 ### Aspect-ratio
 
 Je vous en ai déjà parlé normalement, mais si vous avez oublié, voici la propriété `aspect-ratio`. Celle-ci permet de définir un ratio entre la largeur et la hauteur pour un élément. Ce qui veut dire aussi que si le parent ou le viewport change de taille, le navigateur ajustera les dimensions de l'élément pour maintenir le ratio demandé.
@@ -415,7 +457,6 @@ img{
 [:book: La documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio)
 
 [:arrow_up: Revenir au top](#table-des-matières)
-
 
 ### Formes
 

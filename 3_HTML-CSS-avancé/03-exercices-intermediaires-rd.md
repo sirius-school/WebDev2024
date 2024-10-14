@@ -42,7 +42,7 @@ Impossible?: 😡
 
 Crée une page HTML avec un paragraphe de texte. Utilise une media query pour rendre le texte plus grand lorsque la largeur de l'écran est inférieure à 600 pixels.
 
-![text](img/02/01-text.gif)
+![text](img/responsive-design-ex/01-text.gif)
 
 1. Utilise `lorem` pour mettre du texte rapidement dans ton `<p></p>`
 2. Ajoute ton CSS et met une taille de `2rem` à ton paragraphe.
@@ -55,7 +55,7 @@ Crée une page HTML avec un paragraphe de texte. Utilise une media query pour re
 
 Crée trois blocs de couleur sur une page. Utilise des media queries pour changer leurs hauteurs et couleurs à différents points de rupture d'écran.
 
-![blocks](img/02/02-blocks.gif)
+![blocks](img/responsive-design-ex/02-blocks.gif)
 
 1. Ajoute une balise `<main></main>`
 2. Ajoute 3 `div` à l'intérieur de `<main></main>`.
@@ -68,7 +68,7 @@ Crée trois blocs de couleur sur une page. Utilise des media queries pour change
 
 Conçois un menu de navigation horizontal simple avec des liens. Utilise des media queries pour transformer le menu en une version verticale lorsqu'il est affiché sur un écran plus étroit.
 
-![blocks](img/02/03-menu.gif)
+![blocks](img/responsive-design-ex/03-menu.gif)
 
 1. Crée ton menu en HTML. Place le dans un `header`. Tu peux utiliser cette commande Emmet pour générer 5 liens rapidement: `li[href="#"]{Lien $}*5`
 2. Pas besoin de recopier le style du gif, amuse toi!
@@ -82,7 +82,7 @@ Conçois un menu de navigation horizontal simple avec des liens. Utilise des med
 
 Insère une image dans ta page HTML et utilise la balise `<picture></picture>` pour avoir une image réactive. Regarde le .gif qui suit et [:book: relis la théorie](./01-theorie-responsive-design.md#images-responsive).
 
-![img-responsive](img/02/04-img-responsive.gif)
+![img-responsive](img/responsive-design-ex/04-img-responsive.gif)
 
 1. Insère la balise `<picture></picture>`
 2. Ajoute ces images en tant que **source**. Ici on utilise un service de [placeholder](https://placehold.co/) pour nos images, c'est à dire que la taille de l'image est 
@@ -101,7 +101,7 @@ Crée une grille de cartes avec des images et des titres. Utilise une media quer
 
 Tu peux créer le style que tu veux et t'amuser avec les propriétés. Ou bien inspire toi de l'exemple
 
-![grid-responsive](img/02/05-grid-responsive.gif)
+![grid-responsive](img/responsive-design-ex/05-grid-responsive.gif)
 
 1. Englobe tes futures cards dans une balise `<main></main>`.
 2. Crée l'HTML nécessaire pour créer une card. Il te faudra une `div.card`, une image aléatoire, une `div.details` qui comprend un `h2` et un `p`
@@ -119,7 +119,7 @@ Alors pour cet exercice ce n'est pas le responsive qui est compliqué, c'est jus
 
 Il faut que le formulaire soit agencé correctement sur une page dont la largeur est importante, puis qu'il s'adapte sur mobile (**max-width:480px**).
 
-![form](img/02/06-form.gif)
+![form](img/responsive-design-ex/06-form.gif)
 
 ```html
 <div class="container">

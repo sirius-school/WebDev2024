@@ -47,7 +47,7 @@ Impossible?: 😡
 
 Voici un exemple, vous n'êtes pas obligé d'avoir exactement la même chose pour les couleurs.
 
-![ex-carre-anim](./img/05/anim_ex.gif)
+![ex-carre-anim](./img/anim-ex/anim_ex.gif)
 
 ## 😄 Transition (W3School quiz)
 
@@ -61,7 +61,7 @@ Voici un exemple, vous n'êtes pas obligé d'avoir exactement la même chose pou
 
 Reproduit le style de card dans l'exemple ci-dessous.
 
-![card-anim](./img/05/card-anim.gif)
+![card-anim](./img/anim-ex/card-anim.gif)
 
 1. Créer une div avec la classe `card`
 2. Créer une div avec la classe `card__inside`

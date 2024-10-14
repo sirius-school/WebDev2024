@@ -61,7 +61,7 @@ Permet de déplacer l'élément sur un axe horizontale (X) ou verticale (Y)
 
 > :bulb: il est intéressant de noter que en utilisant translate, les autres contenu ne vont pas être impacté.
 
-![translate](./img/04/translate.gif)
+![translate](./img/anim/translate.gif)
 
 > :bulb: Il est également possible de combiner les deux axes en une seule ligne `transform: translate(200px, -50px)`
 

@@ -76,25 +76,25 @@ C'est l'enfant direct du **grid container**.
 
 C'est la ligne qui divise la structure de notre grille. Elle peut-être horizontale ou verticale.
 
-![grid-line](./img/12/grid/terms-grid-line.svg)
+![grid-line](./img/grid/terms-grid-line.svg)
 
 ### Grid Cell
 
 C'est l'espace contenu entre 4 grid line.
 
-![grid-cell](./img/12/grid/terms-grid-cell.svg)
+![grid-cell](./img/grid/terms-grid-cell.svg)
 
 ### Grid Track
 
 C'est l'espace entre 2 grid line adjacente. On peut voir ça comme une colone ou une rangée. 
 
-![grid-track](./img/12/grid/terms-grid-track.svg)
+![grid-track](./img/grid/terms-grid-track.svg)
 
 ### Grid Area
 
 L'espace compris entre 4 grid line. Il peut être composé de plusieurs grid cell.
 
-![grid-area](./img/12/grid/terms-grid-area.svg)
+![grid-area](./img/grid/terms-grid-area.svg)
 
 ## Création d'une grille
 
@@ -139,7 +139,7 @@ Ou bien encore pour une grid avec 5 colonnes et 3 rangées de tailles variables 
 }
 ```
 
-![template-example](./img/12/grid/template-columns-rows-01.svg)
+![template-example](./img/grid/template-columns-rows-01.svg)
 
 > Par défaut ces lines auront une valeur numérique positive et négative qui leurs sont attribués comme noms. Mais il est possible de définir leurs noms. Voyons cela.
 
@@ -152,7 +152,7 @@ Pour donner un nom aux lines il suffit de placer ce nom devant la valeur et entr
 }
 ```
 
-![template-example](./img/12/grid/template-column-rows-02.svg)
+![template-example](./img/grid/template-column-rows-02.svg)
 
 ##### La fonction repeat()
 
@@ -250,7 +250,7 @@ Il est également possible de définir notre grid avec le nom que l'on donne à 
 }
 ```
 
-![grid-template-area](./img/12/grid/dddgrid-template-areas.svg)
+![grid-template-area](./img/grid/dddgrid-template-areas.svg)
 
 #### grid-template
 
@@ -286,7 +286,7 @@ Il est possible de gérer l'intersection entre les colonnes et rangées. C'est c
 
 > Dans ce cas-ci, tous les espaces entres colonnes et rangées auront un gap de 50px. Mais il est possible de définir les rangée et puis les colonnes en plaçant 2 valeurs à la suite. Il est également possible d'utiliser les propriétés **grid-row-gap** et **grid-columns-gap**.
 
-![gap](./img/12/grid/dddgrid-gap.png)
+![gap](./img/grid/dddgrid-gap.png)
 
 #### justify-content
 

@@ -4,9 +4,6 @@ Bienvenue dans le cours sur l'HTML et le CSS de niveau avancé :fire:!
 
 Nous allons allez plus loin et voir certains concepts clés utilisés lors de la réalisation de page web ainsi que de nouveaux outils pour nous y aider.
 
-:calendar: **Durée:** 50 jours
-:bar_chart: **Niveau:** Avancé
-
 ## Table des matières
 
 1. [Théorie - CSS - Plus de CSS, toujours plus](01-theorie-css-more.md)
@@ -16,9 +13,9 @@ Nous allons allez plus loin et voir certains concepts clés utilisés lors de la
 5. [Exercices - CSS - Grid](05-exercices-css-grid.md)
 6. [Théorie - CSS - Animations](06-theorie-css-animations.md)
 7. [Exercices - CSS - Animations](07-exercices-css-animations.md)
-<!-- 8.  [Théorie - CSS - Tailwind](08-theorie-tailwind.md)
-9.  [Exercices - CSS - Tailwind](09-exercices-tailwind.md)
-10. [Exercice Final - Maquette Creative](10-exercice-maquette-creative.md) -->
+8. [Théorie - CSS - Tailwind](08-theorie-tailwind.md)
+9. [Exercices - CSS - Tailwind](09-exercices-tailwind.md)
+<!-- 10. [Exercice Final - Maquette Creative](10-exercice-maquette-creative.md) -->
 
 ## Bonus
 

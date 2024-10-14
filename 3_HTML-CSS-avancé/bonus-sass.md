@@ -1,7 +1,7 @@
 <!-- omit in toc -->
 # Syntactically Awesome Style Sheet
 
-![sass-logo](img/bonus/sass.png)
+![sass-logo](img/sass/sass.png)
 
 Sass est un pré-processeur CSS, c'est à dire un petit programme qui va générer du CSS grâce à sa propre syntaxe. Il permet d'utiliser des fonctionnalités qui ne sont pas (encore) présentes dans CSS, comme par exemple le nesting, les mixins, les variables, l'inheritance et encore pleins d'autres choses.
 
@@ -68,10 +68,10 @@ Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force
 
 Dans votre projet il suffit de créer un fichier `main.scss` dans un dossier `sass`.
 
-Une fois dans le fichier Sass, vous pouvez cliquer sur le bouton `Watch Sass`en bas de votre Vscode ![watch-sass](img/bonus/watchsass.png)
+Une fois dans le fichier Sass, vous pouvez cliquer sur le bouton `Watch Sass`en bas de votre Vscode ![watch-sass](img/sass/watchsass.png)
 
 Une fenêtre `Output` devrait apparaître
-![output](img/bonus/output-sass.png)
+![output](img/sass/output-sass.png)
 
 Cette fenêtre vous indique que le fichier `.scss` est bien surveillé. Si vous ajoutez du contenu et que vous sauvegardez elle indiquera qu'elle a détecté des changements et qu'elle a généré les fichiers `.css` et `.css.map`. Ceux-ci sont situés dans le même dossier que le fichier `.scss`
 
@@ -91,13 +91,13 @@ sass --watch ./sass:./css
 
 Cette commande surveillera tous les fichiers dans le dossier "sass" et générera les fichiers dans le dossier "css". On sépare les deux dossiers par un `:`.
 
-![terminal-sass](img/bonus/sass-terminal.png)
+![terminal-sass](img/sass/sass-terminal.png)
 
 > :exclamation::exclamation::exclamation: Quand vous exécutez ces commandes, faites bien attention à où vous vous trouvez. Dans les exemples plus haut je suis à la racine de mon projet. Pensez à utiliser `cd` pour naviguer dans vos dossiers si ce n'est pas votre cas.
 
 Peu importe la méthode utilisée, le fait de surveiller votre fichier `.scss` permet aussi de détecter d'éventuel problème de syntaxe. En effet, si Sass détecte un soucis il ne générera pas le fichier et vous indiquera dans la fenêtre "Output" ou dans le terminal, où se situe le problème. Donc gardez à l'oeil cette fenêtre.
 
-![error-sass](img/bonus/error-sass.png)
+![error-sass](img/sass/error-sass.png)
 
 [:arrow_up:Revenir au top](#syntactically-awesome-style-sheet)
 

@@ -37,7 +37,7 @@ Voyons ensemble comment rendre nos pages accessibles sur toutes les tailles d'é
 
 ## Qu'est-ce que c'est que le responsive design
 
-![rwd-screens](img/01/responsive-screens.gif)
+![rwd-screens](img/responsive-design/responsive-screens.gif)
 
 Le Responsive Design, c'est l'art de perfectionner l'ergonomie de votre interface pour garantir une expérience optimale sur une variété d'appareils, qu'il s'agisse de smartphones, de tablettes, d'ordinateurs, et bien plus encore.
 
@@ -58,7 +58,7 @@ Auparavant, avant l'avènement des tablettes et des smartphones, les concepteurs
 
 Le Responsive Design, quant à lui, vise à résoudre ce problème en adoptant une approche plus sophistiquée pour adapter la mise en page et les éléments de la page en fonction de la taille du viewport. Cette approche permet une expérience utilisateur plus fluide et agréable, en optimisant la lisibilité et la convivialité sur une gamme variée d'appareils, des ordinateurs de bureau aux smartphones.
 
-![responsive](./img/01/webadev-responsive.jpg)
+![responsive](./img/responsive-design/webadev-responsive.jpg)
 
 > Crédit: [Webadev](https://www.webadev.com/)
 
@@ -136,7 +136,7 @@ Cependant, il est important de noter que son utilisation peut varier en fonction
 
 ## Vue en grille
 
-![grid-layout](img/01/grid-layout.webp)
+![grid-layout](img/responsive-design/grid-layout.webp)
 
 La vue en grille de 12 colonnes (par exemple) est un système de mise en page très courant en conception web, notamment dans le cadre du Responsive Design. Ce système divise l'espace horizontal d'une page web en 12 colonnes égales. Chaque élément de la page est ensuite positionné en utilisant ces colonnes, ce qui permet de créer une mise en page flexible et réactive qui s'adapte aux différentes tailles d'écran. Voici comment cela fonctionne dans le contexte du Responsive Design :
 
@@ -188,7 +188,7 @@ Ensuite en HTML il faut que l'ensemble des colonnes utilisés dans une rangée s
 
 Les Media Queries sont une technique en CSS3 qui permet de conditionner l'application de certaines règles CSS en fonction de caractéristiques spécifiques du périphérique ou de l'écran sur lequel une page web est affichée.
 
-![media-query](img/01/media-query-css.webp)
+![media-query](img/responsive-design/media-query-css.webp)
 
 ```css
 /* Si la largeur de la fenêtre du navigateur est de 600px ou moins, le fond de body deviendra rouge*/
@@ -199,11 +199,11 @@ Les Media Queries sont une technique en CSS3 qui permet de conditionner l'applic
 }
 ```
 
-![media-query](img/01/media-query.webp)
+![media-query](img/responsive-design/media-query.webp)
 
 Les Media Queries permettent de rendre une page web réactive en adaptant son apparence en fonction des caractéristiques de l'appareil ou de la fenêtre du navigateur, ce qui améliore l'expérience utilisateur sur différents écrans et tailles de dispositifs.
 
-![media-query](img/01/media-type-in-CSS.webp)
+![media-query](img/responsive-design/media-type-in-CSS.webp)
 
 :book: [La documentation des MQ](https://www.w3schools.com/cssref/css3_pr_mediaquery.asp)
 
@@ -232,7 +232,7 @@ Voici [le résultat](https://www.w3schools.com/css/tryit.asp?filename=tryrespons
 
 ### Penser son site en Mobile First
 
-![media-query](img/01/media-query-for-mobile-first.webp)
+![media-query](img/responsive-design/media-query-for-mobile-first.webp)
 
 Le concept de "Mobile First" en Responsive Design est une approche de conception qui privilégie la création et l'optimisation d'un site web pour les appareils mobiles, tels que les smartphones, avant de s'occuper des versions pour les écrans plus grands. En commençant par concevoir pour les mobiles, on place l'accent sur la simplicité, la performance et l'efficacité, en s'assurant que le site fonctionne bien sur des écrans plus petits. Ensuite, des ajustements progressifs sont apportés pour améliorer l'expérience sur des écrans plus larges, ce qui garantit une expérience utilisateur optimale sur une variété d'appareils, tout en réduisant la complexité et la charge des ressources pour les utilisateurs mobiles. Cette approche favorise la réactivité et la fluidité de la conception, en accordant la priorité à la base essentielle avant d'ajouter des fonctionnalités pour les écrans plus grands.
 
@@ -332,14 +332,14 @@ C'est évident et pourtant on y pense pas toujours. Mais avoir la bonne taille d
 
 C'est bien beau de créer tout un ensemble de règles pour les différents appareils. Mais on ne fait pas ça de tête et sans tester. Pour vous aidez il n'y a pas besoin de lancer votre site sur votre smartphone ou tablette, mais à tout simplement utiliser les outils de développement de chrome/firefox.
 
-Appuyez sur `F12` et cliquez ensuite sur l'icône suivante: ![mobileview](img/01/mobileview.png)
+Appuyez sur `F12` et cliquez ensuite sur l'icône suivante: ![mobileview](img/responsive-design/mobileview.png)
 
 Une fois l'interface ouverte vous pouvez sélectionner différentes résolution pré-définie, en rajouter vous même ou tout simplement utiliser le mode `responsive` pour tester la réactivité de votre site.
 
-![chrome](img/01/chrome.png) **Avantage de chrome:** il est possible de "voir" vos media queries en cliquant sur les 3 petits points en haut à droite. Cela permet d'avoir une visualisation des différentes tailles configurées et de redimensionner votre site immédiatement en cliquant sur une de ces tailles.
+![chrome](img/responsive-design/chrome.png) **Avantage de chrome:** il est possible de "voir" vos media queries en cliquant sur les 3 petits points en haut à droite. Cela permet d'avoir une visualisation des différentes tailles configurées et de redimensionner votre site immédiatement en cliquant sur une de ces tailles.
 
-![show-media-query](img/01/showmediaquery.png)
-![media-query](img/01/mediaquery.png)
+![show-media-query](img/responsive-design/showmediaquery.png)
+![media-query](img/responsive-design/mediaquery.png)
 
 [:arrow_up: Revenir au top](#table-des-matières)
 
