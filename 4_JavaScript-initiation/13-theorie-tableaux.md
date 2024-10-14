@@ -120,19 +120,31 @@ console.log(fruits.includes("Mangue")); // true
 
 Permet de supprimer ou d’ajouter des éléments à un tableau.
 
+- Le premier argument est l’indice à partir duquel tu veux commencer la suppression.
+- Le second argument est le nombre d’éléments que tu veux supprimer.
+- Le troisième argument optionnel sert à indiquer les éléments qu'on veut rajouter à la suite.
+
+```js
+let fruits = ["Pomme", "Banane", "Mangue"];
+```
+
 ```js
 // Supprimer 1 élément à partir de l'indice 1
-fruits.splice(1, 1);
-console.log(fruits); // ["Pomme", "Mangue"]
+fruits.splice(1, 2);
+console.log(fruits); // ["Pomme"]
 
 // Ajouter des éléments à partir de l'indice 1
 fruits.splice(1, 0, "Banane", "Kiwi");
-console.log(fruits); // ["Pomme", "Banane", "Kiwi", "Mangue"]
+console.log(fruits); // ["Pomme", "Banane", "Kiwi"]
 ```
 
 ### slice()
 
 Retourne une partie du tableau sans modifier l’original.
+
+```js
+let fruits = ["Pomme", "Banane", "Mangue"];
+```
 
 ```js
 let selection = fruits.slice(1, 3);
