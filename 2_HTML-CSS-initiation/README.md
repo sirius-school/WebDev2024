@@ -2,11 +2,7 @@
 
 Bienvenue dans le cours d'initiation à l'HTML et le CSS! On va apprendre les bases de l'HTML et du CSS pour réaliser tes premières pages web !
 
- Tout le cours est dispo mais ne te précipite pas non plus. Nous allons voir toute la matière ensemble et je te dirais quand réaliser les exercices.
-
-:calendar: **Durée** | :bar_chart: **Niveau**
-----------|---------
- 30 jours |  Initiation
+Tout le cours est dispo mais ne te précipite pas non plus. Nous allons voir toute la matière ensemble et je te dirais quand réaliser les exercices.
 
 ## Table des matières
 
