@@ -61,19 +61,19 @@ index.html
 
 ### index.html
 
-![index](./img/16/index.png)
+![index](./img/feelthemusic/index.png)
 
-![index-decoupe](./img/16/index-decoupe.png)
+![index-decoupe](./img/feelthemusic/index-decoupe.png)
 
 > La découpe en "bloc" et donc en éléments HTML!
 
 ### discover.html
 
-![discover](./img/16/discover.png)
+![discover](./img/feelthemusic/discover.png)
 
 ### comments.html
 
-![comments](./img/16/comment.png)
+![comments](./img/feelthemusic/comment.png)
 
 ## Les ressources
 

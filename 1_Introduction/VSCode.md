@@ -46,7 +46,7 @@ VSCode est un outil merveilleux avec pleins de fonctionnalités, même trop par 
 
 ### Écran d’accueil
 
-![vs-code-opening](src/images/vscode-screens/vscode-full-opening.png)
+![vs-code-opening](./img/vscode-screens/vscode-full-opening.png)
 
 À l'ouverture, pour la première fois, VSCode affiche un écran de démarrage qui vous propose de le configurer. Vous pouvez éventuellement sélectionné votre thème. Ce qui nous intéresse ici c'est la création d'un nouveau fichier ou l'ouverture d'un dossier.
 
@@ -54,13 +54,13 @@ Pour tous les exercices il va falloir travailler dans un dossier, du coup cliquo
 
 ### Dossier de confiance
 
-![vs-code-opening](src/images/vscode-screens/vscode-trust.png)
+![vs-code-opening](./img/vscode-screens/vscode-trust.png)
 
 Quand vous ouvrez un dossier pour la première fois il est possible que VSCode vous demande si vous pouvez avoir confiance envers les auteurs de ce dossier et de ses fichiers. Évidement, dans notre cas, on peut se faire confiance. Cet avertissement est là pour vous prévenir que si vous avez téléchargé du code en ligne et que vous n'êtes pas sûr de la source, il vaudrait mieux ne pas l'exécuter. Il est possible que du code se lance automatiquement et compromette votre ordinateur. Méfiance donc...
 
 ### Dossier ouvert
 
-![vs-code-folder-opened](src/images/vscode-screens/vscode-folder-opened.png)
+![vs-code-folder-opened](./img/vscode-screens/vscode-folder-opened.png)
 
 Une fois un dossier ouvert on se retrouve avec l'arborescence de notre dossier sur le côté gauche de la fenêtre de VSCode. De là on peut ouvrir tous les fichiers "texte" que l'on souhaite. Que ce soit de l'HTML, du CSS, du JavaScript ou tout autre langage de programmation. VSCode est aussi capable de vous afficher des images dans la plupart des formats courant (jpg, png,...).
 
@@ -85,19 +85,19 @@ Nom-de-projet
 
 ### Menu de gauche
 
-![menu](src/images/vscode-screens/menu-left.png)
+![menu](./img/vscode-screens/menu-left.png)
 
 Vous pouvez retrouver sur le côté gauche un menu qui contient plusieurs panneaux.
 
-![files](src/images/vscode-screens/menu-files.png)
+![files](./img/vscode-screens/menu-files.png)
 
 - Le premier est la gestion de vos dossiers et fichiers. Vous serez amené à utiliser ce panneau constamment pour passer d'un fichier à un autre.
 
-![search](src/images/vscode-screens/menu-search.png)
+![search](./img/vscode-screens/menu-search.png)
 
 - Le deuxième est l'outil de recherche global. Il permet de chercher dans tous les fichiers de votre dossier actif. Il est également possible de remplacer toutes les occurrences d'un mot dans vos fichiers. Très pratique!
 
-![plugins](src/images/vscode-screens/menu-plugins.png)
+![plugins](./img/vscode-screens/menu-plugins.png)
 
 - Le cinquième est le panneau qui permet de gérer les extensions installées et d'en trouver des autres. Voyons ça un peu plus loin.
 
@@ -107,8 +107,8 @@ Les autres menus servent notamment à gérer le `versioning` de votre projet ou 
 
 Une fonctionnalité fort appréciable sur VScode surtout lorsque vous n'avez qu'un écran, c'est la possibilité de `split`/séparer les différentes vues. Pour ce faire il suffit d'avoir plusieurs onglets de fichiers ouvert. Ensuite cliquer et glisser un onglet dans un des coins/bords de la fenêtre de VScode pour voir apparaître en transparence l'espace que va prendre le nouvel onglet.
 
-![split-view](src/images/vscode-screens/vscode-split.png)
-![splitted-view](src/images/vscode-screens/vscode-splitted.png)
+![split-view](./img/vscode-screens/vscode-split.png)
+![splitted-view](./img/vscode-screens/vscode-splitted.png)
 
 ## Tips dans l'éditeur
 
@@ -141,7 +141,7 @@ Live Server permet de simuler un serveur sur votre machine pour voir comment se 
 
 Pour utiliser Live Server, il suffit d'ouvrir non pas un fichier avec VSCode, mais un dossier. Vous retrouverez dans la barre latéral l'onglet avec vos fichiers, si vous cliquez droit dessus vous aurez l'option `Open with Live Server`
 
-![live-server](src/images/live-server.png)
+![live-server](./img/live-server.png)
 
 [:floppy_disk: Installer Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 

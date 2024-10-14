@@ -48,7 +48,7 @@ Un terme compliqué pour un outil simple que vous utilisez déjà tout les jours
 
 Lorsque l'on parle d'affichage client, on parle donc de ce que votre navigateur interprète du serveur.
 
-![interpretation](./src/images/interprete.gif)
+![interpretation](./img/histoire-web/interprete.gif)
 
 Pour que votre navigateur puisse interpreter ces données, il faut qu'elles aient été rendues disponibles et compréhensibles à la lecture de votre navigateur via le développement Client, c'est à dire le développement **Front-End**.
 
@@ -74,7 +74,7 @@ Nous venons de voir l'utilité d'un client, nous avons abordé la notion de serv
 Un serveur HTTP (ou WebService) est un logiciel utilisé pour stocker, transférer, manipuler des données (fichiers) à travers le protocole HTTP.
 Il est le contenant et l'opérateur de toute les informations d'un site web, ou d'une application (web / mobile / bureau).
 
-![source : Schéma provenant d'OpenClassRoom ](./src/images/serveur.jpg)
+![source : Schéma provenant d'OpenClassRoom ](./img/histoire-web/serveur.jpg)
 
 > Source : Schéma provenant d'OpenClassRoom
 
@@ -111,7 +111,7 @@ Une URL est donc personnalisée et **unique**.
 
 L'anatomie d'une URL lorsqu'elle est disponible sur un serveur distant (hébergée par un serveur physique : le web hosting) se compose comme suit :
 
-![](./src/images/url.png)
+![](./img/histoire-web/url.png)
 
 > Source : www.mission-internet.fr
 
@@ -131,7 +131,7 @@ Lorsque nos fichiers sont hébergé en ``local``, c'est à dire non pas sur le w
 
 Dans ce cadre l'URL peut se représenter comme suit :
 
-![localhost](./src/images/localhost.jpg)
+![localhost](./img/histoire-web/localhost.jpg)
 
 > Source : MDN
 

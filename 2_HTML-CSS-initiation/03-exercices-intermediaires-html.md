@@ -101,7 +101,7 @@ Il est temps de réaliser ta première page. Suis bien ce pas-à-pas.
 
 Tu devrais avoir quelque chose dans ce goût-là. Si c'est le cas, tant mieux tu peux passer à [l'exercice suivant](4-exercice-recette.md). Sinon, revois la théorie et pose des questions!
 
-![exo-inter-example](img/03/ex-inter-example.png)
+![exo-inter-example](img/html-ex-inter/ex-inter-example.png)
 
 [Revenir à la liste des exercices](#liste-des-exercices)
 
@@ -126,7 +126,7 @@ Dans cet exercice je vais te guider pour faire une mise en page un rien plus com
 
 Voilà le résultat que tu devrais avoir.
 
-![ex-magik](./img/03/ex-magik.png)
+![ex-magik](./img/html-ex-inter/ex-magik.png)
 
 ## 😊 Exercice 3 (optionnel)
 
@@ -142,6 +142,6 @@ Tu peux utiliser le zoom de ton navigateur sur ta page pour agrandir le texte et
 
 Voici le résultat souhaité. Fais bien attention à ta structure html, montre moi le résultat.
 
-![ex03](./img/03/ex03.gif)
+![ex03](./img/html-ex-inter/ex03.gif)
 
 [:rewind: Retour au sommaire du cours](./README.md#table-des-matières)

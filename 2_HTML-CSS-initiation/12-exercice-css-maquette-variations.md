@@ -28,8 +28,10 @@ Le but de cet exercice est de créer une structure HTML et de ne plus y toucher 
 
 > :exclamation: **Ces screenshots sont des exemples.** Tu peux reproduire le contenu à l'identique, mais n'hésite pas à changer les tailles, les positions et les couleurs! 
 
-![variant01](img/12/12-01.png)
+![variant01](img/maquette-variation-ex/12-01.png)
 
-![variant02](img/12/12-03.png)
+![variant02](img/maquette-variation-ex/12-02.png)
+
+![variant03](img/maquette-variation-ex/12-03.png)
 
 [:rewind: Retour au sommaire du cours](README.md#table-des-matières)

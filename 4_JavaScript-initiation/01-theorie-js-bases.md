@@ -269,7 +269,7 @@ let string = "42";
 
 Si on essaye d'utiliser les deux variables plus haut pour les additionner on aura pas du tout "84" comme résultat, car l'un est un number mais l'autre un string. C'est là qu'il faut faire attention.
 
-![js-age-string-number](./img/01/age_number_string.jpg)
+![js-age-string-number](./img/js-bases/age_number_string.jpg)
 
 ### Boolean
 
@@ -377,7 +377,7 @@ console.log(y); // null
 
 Tout ceci fait beaucoup d'information d'un coup, mais c'est la base qu'il faut comprendre pour pouvoir commencer son périple en JavaScript. Vous allez forcément vous tromper dans les types de données que vous utiliserez au début, c'est tout à fait normal, JS peut être très bordélique au début, mais vous verrez que très vite tout ferra sens.
 
-![js-confusing](./img/01/js-confusing.png)
+![js-confusing](./img/js-bases/js-confusing.png)
 
 ## Opérateurs
 

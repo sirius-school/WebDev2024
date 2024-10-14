@@ -129,7 +129,7 @@ Tout d'abord voyons ensemble comment placer une image avec float.
 
 Voici le résultat que tu devrais avoir:
 
-![float-image](./img/08/float_image.png)
+![float-image](./img/css-ex-inter/float_image.png)
 
 <!-- omit in toc -->
 ### Colones
@@ -144,7 +144,7 @@ Nous allons créer ensemble un système de colones avec float. Ce n'est pas la m
 
 Voici le résultat que tu devrais avoir:
 
-![float-col](./img/08/float_col.png)
+![float-col](./img/css-ex-inter/float_col.png)
 
 <!-- omit in toc -->
 ### Mise en page complexe
@@ -161,7 +161,7 @@ Voici le résultat que tu devrais avoir:
 
 Voici le résultat que tu devrais avoir:
 
-![float-advanced](./img/08/float_advanced.png)
+![float-advanced](./img/css-ex-inter/float_advanced.png)
 
 ## 😰 CSS Zen Garden (optionnel)
 

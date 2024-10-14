@@ -31,11 +31,11 @@ Alors comme ça il parait que la maquette précédente était trop simple? Pas d
 
 ## Screenshot
 
-![discord variante](./img/09b/discord-variante.gif)
+![discord variante](./img/discord-variante/discord-variante.gif)
 
 > :bulb: je t'ai mis un petit gif pour que tu vois un peu comment se comporte le site. Pas besoin qu'il soit responsive, mais il faut tout de même qu'il reste un peu flexible. Ne mets pas des dimensions fixes partout!
 
-![discord variante](./img/09b/discord-variante.png)
+![discord variante](./img/discord-variante/discord-variante.png)
 
 ## HTML
 

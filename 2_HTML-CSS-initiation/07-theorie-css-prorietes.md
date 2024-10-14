@@ -276,7 +276,7 @@ body{
 
 Permet de gérer la taille de notre image grâce à : **auto**, **cover**, **contain**,...
 
-![bg-size](img/07/bg-size.png)
+![bg-size](img/css-proprietes/bg-size.png)
 
 ### background-repeat
 
@@ -289,10 +289,10 @@ body{
 }
 ```
 
-![no-repeat](img/07/norepeat.png)
-![repeat-x](img/07/repeatx.png)
-![repeat-y](img/07/repeaty.png)
-![repeat](img/07/repeat.png)
+![no-repeat](img/css-proprietes/norepeat.png)
+![repeat-x](img/css-proprietes/repeatx.png)
+![repeat-y](img/css-proprietes/repeaty.png)
+![repeat](img/css-proprietes/repeat.png)
 
 Définit la répétition d'une image d'arrière-plan si le conteneur est plus grand que l'image. Prends les valeurs suivantes: **no-repeat**, **repeat-x**, **repeat-y**, **repeat**.
 
@@ -348,7 +348,7 @@ Les éléments en `display:inline;` (span, a, strong, img,...) prennent la large
 
 Les éléments en inline-block peuvent prendre une hauteur spécifique contrairement aux éléments en `display:inline;`
 
-![inline-block](img/07/inline-block.png)
+![inline-block](img/css-proprietes/inline-block.png)
 
 ### display: block
 
@@ -464,7 +464,7 @@ h1{
 
 > Dans cet exemple, nous avons notre container qui fait 200px. A l'intérieur nous avons 2 div avec la classe *item*. Le comportement normal voudrait que ces dernières ne dépassent pas la largeur fixe de notre container. Cependant, si on ajoute la valeur **max-content** à nos div, celle-ci prendront toujours la largeur maximum par rapport à leur contenu et ne s'adapteront plus à leurs parent.
 
-![example-max-content](./img/07/exemple-max-content.gif)
+![example-max-content](./img/css-proprietes/exemple-max-content.gif)
 
 #### Min-content
 
@@ -521,7 +521,7 @@ Il y a plusieurs valeurs possibles pour **overflow**:
 
 ### margin & padding
 
-![marges](img/07/marges.png)
+![marges](img/css-proprietes/marges.png)
 
 ```css
 // On aura des marges équivalente de chaque côté
@@ -622,7 +622,7 @@ body{width: 100%}
 
 Permet de placer un contenu en dehors du "flux" de la page et le reste des blocks "coule" autour. Prends **left**, **right** ou **none** comme valeur.
 
-![float](img/07/float.png)
+![float](img/css-proprietes/float.png)
 
 [:arrow_up: Revenir au top](#table-des-matières)
 
@@ -636,7 +636,7 @@ Permet de placer un contenu en dehors du "flux" de la page et le reste des block
 
 Permet d'empêcher le contournement des blocs flottants. Prends **left**, **right** ou **both** comme valeur.
 
-![un exemple de float et clear](img/07/float&clear.png)
+![un exemple de float et clear](img/css-proprietes/float&clear.png)
 
 ### Créer un affichage en colones
 
@@ -745,11 +745,11 @@ Si nous ne précision pas d'élément en `position:relative` notre bulle va se p
 
 **Image 1**
 
-![position-relative](img/07/pos-absolute.png)
+![position-relative](img/css-proprietes/pos-absolute.png)
 
 **Image 2**
 
-![position-relative](img/07/pos-relative.png)
+![position-relative](img/css-proprietes/pos-relative.png)
 
 Un élément se comporte de la même manière que avec static. On peut se servir des propriétés **top**, **left**, **right**, **bottom** pour déplacer l'élément. Le reste du contenu ne sera pas affecté.
 

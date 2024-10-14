@@ -1,12 +1,12 @@
 # Bienvenue chez Sirius School 2024
 
-![Présentation](src/Images/webdev-header.png)
+![Présentation](./img/webdev-header.png)
 
 Tu te prépares à embarquer pour 6 mois de plaisir et de (légères) souffrances dans le monde du développement web ! 😈 🔥
 
 Ensemble nous apprendrons les bases des 3 langages principaux du web, autrement dit l'HTML, le CSS et le JavaScript ! 💪 🛠️
 
-![trinity](src/Images/trinity.png)
+![trinity](./img/trinity.png)
 
 ## Au programme
 
@@ -30,7 +30,7 @@ Tout au long de la formation, tu auras des projets à réaliser pour mettre en p
 
 ## Charte
 
-![charte](src/Images/charte.png)
+![charte](./img/charte.png)
 
 Voici quelques points de règles à respecter pour que ta formation se passe le mieux possible!
 
@@ -79,7 +79,7 @@ Tu es autorisé à utiliser les appareils mis à ta disposition dans la réfecto
 
 ## Veilles technologiques
 
-![home](src/Images/watch.png)
+![home](./img/watch.png)
 
 Dans le but d'être toujours actif dans ton apprentissage, il est plus que conseillé de t'organiser une petite veille technologique. C'est à dire, de toi même continuer à te renseigner sur les sujets qui te passionne dans le code ou le graphisme.
 
@@ -112,7 +112,7 @@ N'hésite pas à jeter un oeil sur des collections d'images pour t'inspirer. Il 
 
 ### Discord
 
-![discord](src/Images/discord.png)
+![discord](./img/discord.png)
 
 Cette année on va utiliser Discord pour communiquer. C'est gratuit et simple.
 
@@ -121,7 +121,7 @@ Cette année on va utiliser Discord pour communiquer. C'est gratuit et simple.
 
 ## Activité brise glace
 
-![fun](src/Images/fun.png)
+![fun](./img/fun.png)
 
 Et maintenant place au fun!
 

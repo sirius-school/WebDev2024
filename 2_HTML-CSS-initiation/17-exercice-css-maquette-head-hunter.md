@@ -21,7 +21,7 @@ Voici une autre maquette assez identique à la précédente en terme de mise en 
 
 ## Screenshot
 
-![index](./img/17/HH.jpg)
+![index](./img/headhunter/headhunter.jpg)
 
 ## Les ressources
 

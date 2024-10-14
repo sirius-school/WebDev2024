@@ -3,7 +3,7 @@
 
 Les boucles sont une des structures fondamentales de la programmation, permettant d’exécuter plusieurs fois un bloc de code. JavaScript offre plusieurs types de boucles, chacune ayant ses particularités et son utilité selon le contexte. Les boucles permettent d’automatiser des tâches répétitives, telles que l’affichage de plusieurs valeurs ou l’itération à travers des collections de données.
 
-![loop](./img/05/loop2.gif)
+![loop](./img/js-loop/loop2.gif)
 
 <!-- omit in toc -->
 ## Table des matières
@@ -237,4 +237,4 @@ Les boucles sont des outils indispensables pour effectuer des tâches répétiti
 
 N’oubliez pas d’utiliser les instructions break et continue avec parcimonie, car elles peuvent rendre votre code plus difficile à comprendre si elles sont utilisées de manière excessive.
 
-![loop](./img/05/loop.gif)
+![loop](./img/js-loop/loop.gif)

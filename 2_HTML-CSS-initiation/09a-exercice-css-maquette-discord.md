@@ -35,9 +35,9 @@ Il est temps de mettre en pratique tout ce qu'on a vu jusqu'à maintenant. Tu va
 
 Le premier screenshot représente la page "zoomée", mais au final tu dois arriver au résultat du screenshot 2.
 
-![exo-css](./img/09/ex-css.png)
+![exo-css](./img/discord/ex-css.png)
 
-![exo-css](./img/09/ex-css-2.png)
+![exo-css](./img/discord/ex-css-2.png)
 
 ## HTML
 

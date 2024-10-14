@@ -62,45 +62,45 @@ Un exemple serait le dossier `node_modules` d'un projet NPM. Il s'agit d'un doss
 
 Si tu as bien lié ton compte github.com à Github Desktop, lorsque tu cliques sur le menu déroulant en haut à gauche du programme :
 
-![Alt text](./src/images/github-desktop/scrollMenu.png)
+![Alt text](./img/github-desktop/scrollMenu.png)
 
 Tu auras la possibilité d'ajouter un repository au programme Github Desktop :
 
-![Alt text](./src/images/github-desktop/addRepo.png)
+![Alt text](./img/github-desktop/addRepo.png)
 
 En cliquant sur le bouton *Add* ou *Ajouter* tu auras 3 possibilités :
 
-![Alt text](./src/images/github-desktop/addRepoPoss.png)
+![Alt text](./img/github-desktop/addRepoPoss.png)
 
 - **Clone repository**: Cette option te permet de cloner un projet existant sur Github.com qui t'appartient ou dont tu possède l'url.
 
 - **Create new repository**: Cette option te permet de créer un repository totalement vierge. Cette modal apparaîtra :
 
-![Alt text](./src/images/github-desktop/modalCreatNewRepo.png)
+![Alt text](./img/github-desktop/modalCreatNewRepo.png)
 
 > Si tu souhaites le publier directement sur Github.com et commencé le tracking, il faut cliquer sur **Publish repository**
 
-![Alt text](./src/images/github-desktop/publishRepo.png)
+![Alt text](./img/github-desktop/publishRepo.png)
 
 - **Add existing repository**: Cette option permet d'ajouter un dossier qui est déjà un tracké par Git mais pas encore disponible sur Github.com. Tu dois choisir le dossier de ton projet dans le modal suivant :
 
-![Alt text](./src/images/github-desktop/modalExistingRepo.png)
+![Alt text](./img/github-desktop/modalExistingRepo.png)
 
 ### Une autre façon d'ajouter un repository
 
 Si un projet qui est déjà sur Github.com mais pas sur Github Desktop ni sur ta machine, tu peux l'ajouter directement cliquant sur le bouton vert **code** puis sur **"Open with Github Desktop"** :
 
-![Alt text](./src/images/github-desktop/openInGithubDesktop.png)
+![Alt text](./img/github-desktop/openInGithubDesktop.png)
 
 ## Naviguer avec Github Desktop
 
 Tu peux aussi voir la liste de tes projets dans le menu déroulant
 
-![List repos](./src/images/github-desktop/repoList.png)
+![List repos](./img/github-desktop/repoList.png)
 
 Si tu cliques droit sur l'un de tes projets plusieurs options s'offrent à toi :
 
-![Alt text](./src/images/github-desktop/githubDesktopRigthClick.png)
+![Alt text](./img/github-desktop/githubDesktopRigthClick.png)
 
 Voici celles qui nous intéresse :
 
@@ -113,7 +113,7 @@ Voici celles qui nous intéresse :
 
 Dès que vous modifier une ligne de code, ne serais-ce que d'un caractère (même un espace!), Git le détecte et vous indique avoir perçu le changement. Il surveille aussi les ajouts et suppressions de fichiers. Cela est indiqué dans la colonne de gauche de Github Desktop. Le petit symbole à droite du fichier vous indique aussi le type de changement détecté.
 
-![git-commit-changes](./src/images/github-desktop/commit-all.png)
+![git-commit-changes](./img/github-desktop/commit-all.png)
 
 - L’icône rouge indique des fichiers supprimés.
 - L’icône jaune indique des fichiers modifiés.
@@ -121,7 +121,7 @@ Dès que vous modifier une ligne de code, ne serais-ce que d'un caractère (mêm
 
 Avec *Github Desktop* vous avez la possibilité de supprimer les changements fichier par fichier. En cliquant droit sur l'un des éléments modifiés dans la liste de gauche et en sélectionnant **Discard changes...**. :exclamation: Cette action est irréversible!
 
-![Alt text](./src/images/github-desktop/discardChanges.png)
+![Alt text](./img/github-desktop/discardChanges.png)
 
 ## Commit
 
@@ -130,7 +130,7 @@ Lorsque vous avez finis de travailler sur un ou des fichiers et que vous voulez 
 En bas à gauche du programme, vous avez un champ qui vous permet d'ajouter un message à votre commit. Il est super important de noter les changements que vous avez effectués dans votre code. Un bon message vous permettra de vous y retrouver plus facilement si vous devez revenir en arrière. Même si il est possible d'ajouter une description c'est purement facultatif.
 
 
-![Alt text](./src/images/github-desktop/commit.png)
+![Alt text](./img/github-desktop/commit.png)
 
 Il ne reste plus qu'à cliquer sur le bouton **"Commit to *[Nom de votre branche actuelle]*"** et le tour est jouer, votre commit est enregistré.
 
@@ -140,11 +140,11 @@ Une fois les changements validés avec le commit, il faut encore envoyer ces cha
 
 Deux façons de Push s'offrent à vous. Lorsque vous effectuez un commit, Github Desktop est assez malin pour vous proposer de Push directement :
 
-![Alt text](./src/images/github-desktop/pushBlue.png)
+![Alt text](./img/github-desktop/pushBlue.png)
 
 La deuxième façon est de le faire sur le bouton juste à coté des branches :
 
-![Alt text](./src/images/github-desktop/pushButton.png)
+![Alt text](./img/github-desktop/pushButton.png)
 
 ## Fetch & Pull
 
@@ -152,9 +152,9 @@ Si vous travaillez à plusieurs ou sur une autre machine, vous devez récupérer
 
 Le "fetch" se fait quasiment automatiquement lorsque vous sélectionner un repository sur Github Desktop, il va donc comparé la version en ligne et la version sur votre machine. Si la version en ligne est plus récente, le programme vous proposera de "Pull".
 
-![Alt text](./src/images/github-desktop/pullButton.png)
+![Alt text](./img/github-desktop/pullButton.png)
 
-![Alt text](./src/images/github-desktop/pullBlue.png)
+![Alt text](./img/github-desktop/pullBlue.png)
 
 ## Les branches
 
@@ -164,31 +164,31 @@ Une branche sur Git est comme une version parallèle de votre projet. Imaginez q
 
 1. Ouvrez GitHub Desktop. Si vous avez déjà cloné un dépôt, il apparaîtra dans la liste des dépôts disponibles. Sinon, vous devrez cloner un dépôt en utilisant l'URL du dépôt distant.
 
-![List repos](./src/images/github-desktop/repoList.png)
+![List repos](./img/github-desktop/repoList.png)
 
 2. Une fois que vous avez sélectionné le dépôt sur lequel vous souhaitez travailler, assurez-vous d'être sur l'onglet "Current repository" (dépôt actuel) dans GitHub Desktop.
 
-![Alt text](./src/images/github-desktop/scrollMenu.png)
+![Alt text](./img/github-desktop/scrollMenu.png)
 
 3. En haut de la fenêtre de l'application, vous verrez un bouton avec le nom de la branche actuelle. Cliquez sur ce bouton pour afficher une liste déroulante des branches disponibles.
 
-![Alt text](./src/images/github-desktop/branchMenu.png)
+![Alt text](./img/github-desktop/branchMenu.png)
 
 4. Dans la liste déroulante, cliquez sur l'option "New branch" (Nouvelle branche). Une fenêtre contextuelle s'ouvrira vous demandant de donner un nom à votre nouvelle branche.
 
-![Alt text](./src/images/github-desktop/newBranchModal.png)
+![Alt text](./img/github-desktop/newBranchModal.png)
 
 5. Entrez un nom qui décrit la fonctionnalité que vous souhaitez créer pour votre nouvelle branche. Il est courant d'utiliser des noms qui décrivent la fonctionnalité ou le correctif que vous allez développer.
 
 6. Vous pouvez également choisir de créer la nouvelle branche à partir de la branche actuelle ou d'une autre branche disponible. Par défaut, GitHub Desktop sélectionnera automatiquement la branche actuelle.
 
-![Alt text](./src/images/github-desktop/chooseCloneBranch.png)
+![Alt text](./img/github-desktop/chooseCloneBranch.png)
 
 7. Une fois que vous avez donné un nom à votre nouvelle branche et sélectionné la branche de départ, cliquez sur le bouton "Create branch" (Créer une branche).
 
 8. GitHub Desktop créera maintenant la nouvelle branche localement sur votre ordinateur. La nouvelle branche apparaîtra dans la liste déroulante des branches en haut de la fenêtre.
 
-![Alt text](./src/images/github-desktop/optionsBranchMenu.png)
+![Alt text](./img/github-desktop/optionsBranchMenu.png)
 
 9. Pour publier votre nouvelle branche sur GitHub, cliquez sur le bouton "Publish branch" (Publier la branche) à côté de la nouvelle branche dans la liste déroulante. Cela enverra la branche sur le dépôt distant correspondant sur GitHub.
 
@@ -204,11 +204,11 @@ Vous avez créé avec succès une nouvelle branche sur GitHub Desktop. Vous pouv
 
 4. Dans la liste déroulante des branches, sélectionnez la branche que vous voulez mettre à jour. La branche sélectionnée sera votre branche actuelle. Cliquez sur le bouton de la branche actuelle pour afficher la liste déroulante des branches.
 
-![Alt text](./src/images/github-desktop/optionsBranchMenu.png)
+![Alt text](./img/github-desktop/optionsBranchMenu.png)
 
 5. Dans la liste déroulante, vous verrez l'option "Choose a branch to merge into [le nom de votre branche actuelle]" (Choisir une branche à fusionner avec). Sélectionner la branche qui doit nourrir votre branche actuelle. Ceci va amener vos changements sur la branche actuelle de la branche que vous avez sélectionné.
 
-![Alt text](./src/images/github-desktop/chooseBranchToMerge.png)
+![Alt text](./img/github-desktop/chooseBranchToMerge.png)
 
 6. Après avoir sélectionné la branche, cliquez sur le bouton "Merge branch" (Fusionner la branche). Cela déclenchera le processus de fusion entre votre branche actuelle et la branche sélectionnée.
 
@@ -230,11 +230,11 @@ Assurez-vous que la fusion a été correctement effectuée dans votre dépôt (r
 
 4. Une liste d'options apparaît dont l'option 'delete' cliquez sur cette option.
 
-![Alt text](./src/images/github-desktop/branchOptions.png)
+![Alt text](./img/github-desktop/branchOptions.png)
 
 5. Une fenêtre contextuelle apparaîtra pour confirmer la suppression de la branche. Vérifiez une fois de plus que vous souhaitez bien supprimer la branche, car **cette action est irréversible**.
 
-![Alt text](./src/images/github-desktop/modalDeleteBranch.png)
+![Alt text](./img/github-desktop/modalDeleteBranch.png)
 
 6. Cochez 'Yes, delete this branch on the remote' (Oui, supprimer cette branche sur le dépôt distant) si vous souhaitez supprimer la branche aussi bien en local, sur votre machine et sur Github.com.
 
