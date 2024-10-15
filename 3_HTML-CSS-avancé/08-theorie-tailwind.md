@@ -3,7 +3,7 @@
 
 Tailwind est un framework CSS axé sur un côté "utility-first". Il est un peu différent des frameworks CSS traditionnels comme Bootstrap ou Foundation. Plutôt que de te fournir une série de classes prédéfinies pour des composants (comme des boutons, des modales, etc.), Tailwind te permet de construire rapidement des designs personnalisés en utilisant des classes utilitaires.Pour simplifier, il propose des classes déjà toute faite pour paramétrer tes éléments HTML directement sans écrire la moindre ligne de CSS plutôt que de proposer des éléments déjà tout fait.
 
-![tailwind](img/tailwind/tailwind.gif)
+![tailwind](./img/tailwind/tailwind.gif)
 
 <!-- omit in toc -->
 ## Table des matières
@@ -24,9 +24,9 @@ Tailwind est un framework CSS axé sur un côté "utility-first". Il est un peu 
 
 Tailwind est finalement qu'une simple feuille de style css comme tu en as déjà réalisés. Sauf qu'ici toutes les classes sont déjà pré-remplie par des propriétés et valeurs définies qui vont te permettre d'appliquer rapidement des propriétés tels que `flex`, `color`, `width`,...
 
-![utility-not](img/tailwind/utility-not.png)
+![utility-not](./img/tailwind/utility-not.png)
 
-![utility-not](img/tailwind/utility.png)
+![utility-not](./img/tailwind/utility.png)
 
 Tailwind possède un "style" propre avec des valeurs communes. Il est tout à fait possible de le configurer pour qu'il génère notre feuille de style avec nos propres codes couleurs ou nos propres fonts.
 

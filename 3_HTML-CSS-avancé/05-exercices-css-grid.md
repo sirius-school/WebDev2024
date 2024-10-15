@@ -35,7 +35,7 @@ Impossible?: 😡
 
 ## 😄 > 😰 CSS Grid Garden
 
-[![CSS Grid Garden](img/grid-ex/css-grid-garden.jpeg 'CSS Grid Garden')](https://cssgridgarden.com/#fr)
+[![CSS Grid Garden](./img/grid-ex/css-grid-garden.jpeg 'CSS Grid Garden')](https://cssgridgarden.com/#fr)
 
 Tout comme pour Flexbox, voici un jeu pour vous apprendre à utiliser grid. Essaye d'aller le plus loin possible.
 
@@ -43,7 +43,7 @@ Tout comme pour Flexbox, voici un jeu pour vous apprendre à utiliser grid. Essa
 
 **Objectif :** Créer une grille de 3x3 (trois colonnes et trois rangées) où chaque cellule a une taille égale.
 
-![01-grid](img/13/01-grid.png)
+![01-grid](./img/grid-ex/01-grid.png)
 
 **Instructions :**
 
@@ -60,7 +60,7 @@ Tout comme pour Flexbox, voici un jeu pour vous apprendre à utiliser grid. Essa
 
 **Objectif :** Avoir plusieurs éléments dans un conteneur grid et les placer à des positions spécifiques.
 
-![01-grid](img/grid-ex/)
+![01-grid](./img/grid-ex/)
 
 **Instructions :**
 
@@ -78,7 +78,7 @@ On va créer un pixel art. Pour cela, on va utiliser une grille de 10x10. Chaque
 
 **Objectif :** Réalisez un fantôme du jeu Pac-Man en utilisant une grille de 14x14. Et soyons fou, l'animé avec un mouvement de va et vient vertical.
 
-![04-ghost](img/grid-ex/04-ghost.gif)
+![04-ghost](./img/grid-ex/04-ghost.gif)
 
 **Instructions :**
 

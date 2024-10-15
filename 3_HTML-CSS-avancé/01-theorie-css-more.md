@@ -295,21 +295,21 @@ La première valeur prend un chiffre de 0 à 360 et les deux autres prennent un 
 
 La teinte est en faite la couleur que vous souhaitez. Prenez la roue de couleur ci-dessous. On démarre à 0 en haut et donc dans les tons de rouge. Ensuite on tourne dans le sens des aiguilles d'une montre. Par exemple si on prend la valeur 90 on se retrouve dans les verts. À 180 on est dans du cyan, à 270 on est dans les bleus-mauve et si on revient à 360 on retourne en rouge. Une fois que l'on a compris cela, c'est déjà plus simple. Il faut juste garder la roue en mémoire au début.
 
-![hue](img/css-more/hue-wheel.png)
+![hue](./img/css-more/hue-wheel.png)
 
 <!-- omit in toc -->
 ##### Saturation
 
 La saturation c'est à quel point la couleur est grise. Si la valeur approche de 0% on est dans les gris et si on approche des 100% on a la couleur pure.
 
-![saturation](img/css-more/saturation.png)
+![saturation](./img/css-more/saturation.png)
 
 <!-- omit in toc -->
 ##### Lightness
 
 La luminosité détermine si la couleur est plus proche du noir (0%) ou du blanc (100%)
 
-![lightness](img/css-more/lightness.png)
+![lightness](./img/css-more/lightness.png)
 
 <!-- omit in toc -->
 #### Conclusion

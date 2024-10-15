@@ -1,7 +1,7 @@
 <!-- omit in toc -->
 # Maquette City Night Life
 
-![splash-screen](img/citynight/splash.png)
+![splash-screen](./img/citynight/splash.png)
 
 Il est de nouveau temps pour toi de réaliser une maquette que ton client t'as envoyé.
 
@@ -54,7 +54,7 @@ Cet exercice te semble peut-être bien compliqué, et pourtant, tu as vu toute l
 - Utilise les **[variables CSS](https://www.w3schools.com/css/css3_variables.asp)** pour ne pas devoir tout le temps recopier les codes hexadécimaux
 - Essaye d'allez le plus loin possible dans la réalisation de cette maquette. Il est toujours préférable de montrer un travail qui n'a pas tout le contenu mais dont le contenu présent est correctement mis en page.
 
-![you-can-do-it](img/citynight/you-can-do-it.gif)
+![you-can-do-it](./img/citynight/you-can-do-it.gif)
 
 [:arrow_up: Revenir au top](#table-des-matières)
 

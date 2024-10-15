@@ -101,7 +101,7 @@ Il est temps de réaliser ta première page. Suis bien ce pas-à-pas.
 
 Tu devrais avoir quelque chose dans ce goût-là. Si c'est le cas, tant mieux tu peux passer à [l'exercice suivant](4-exercice-recette.md). Sinon, revois la théorie et pose des questions!
 
-![exo-inter-example](img/html-ex-inter/ex-inter-example.png)
+![exo-inter-example](./img/html-ex-inter/ex-inter-example.png)
 
 [Revenir à la liste des exercices](#liste-des-exercices)
 

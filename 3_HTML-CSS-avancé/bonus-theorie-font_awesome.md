@@ -39,7 +39,7 @@ Il est possible d'utiliser directement une balise HTML pour afficher son icône.
 
 Une fois votre icône sélectionné cliquez sur la balise `<i>`. Cela copie la balise complète qui est maintenant prête à être intégrée dans votre fichier HTML.
 
-![fa-icon](img/font-awesome/fa-icon.gif)
+![fa-icon](./img/font-awesome/fa-icon.gif)
 
 [:arrow_up: Revenir au top](#table-des-matières)
 

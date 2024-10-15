@@ -27,7 +27,7 @@ Voilà où BEM peut intervenir.
 
 Il va falloir penser vos éléments autrement, voici un exemple:
 
-![bem](img/bem/bem.gif)
+![bem](./img/bem/bem.gif)
 
 ### Comment qu'on écrit avec BEM
 

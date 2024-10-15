@@ -140,7 +140,7 @@ Contrôle l'alignement horizontal des éléments flexibles dans le conteneur. Le
 }
 ```
 
-![justify-content](img/flexbox/justify-content.svg)
+![justify-content](./img/flexbox/justify-content.svg)
 
 #### Align-items
 
@@ -153,7 +153,7 @@ Contrôle l'alignement vertical des éléments flexibles dans le conteneur. Les 
 }
 ```
 
-![align-items](img/flexbox/align-items.svg)
+![align-items](./img/flexbox/align-items.svg)
 
 #### Align-content
 
@@ -167,7 +167,7 @@ Contrôle l'alignement vertical de l'espace supplémentaire dans le conteneur lo
 }
 ```
 
-![align-content](img/flexbox/align-content.svg)
+![align-content](./img/flexbox/align-content.svg)
 
 [:arrow_up: Revenir au top](#table-des-matières)
 

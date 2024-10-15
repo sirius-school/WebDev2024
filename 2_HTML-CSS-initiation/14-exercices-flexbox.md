@@ -38,7 +38,7 @@ Impossible?: 😡
 
 ## 😄 > 😅 Flexbox Froggy (obligatoire!)
 
-[![CSS Grid Garden](img/flexbox-ex/css-flexbox-froggy.jpeg 'CSS Flexbox Froggy')](https://flexboxfroggy.com/#fr)
+[![CSS Grid Garden](./img/flexbox-ex/css-flexbox-froggy.jpeg 'CSS Flexbox Froggy')](https://flexboxfroggy.com/#fr)
 
 Essaie de compléter tous les exercices sur ce petit jeu, cela t'aidera à encore mieux visualiser les différentes propriétés liées à Flexbox. Le but est de placer les grenouilles de couleur sur les nénuphars de la même couleur.
 
@@ -64,7 +64,7 @@ Et tu n'en as pas encore assez de Flexbox? Et bien tiens, voici encore un p'tit 
 
 Reproduis la mise en page suivante. Il faut 4 `<div>` par rangé, il y a donc 2 rangés. Le tout doit resté `flexible`. Ne te fie pas aux tailles que tu vois sur le screenshot.
 
-![ex1](img/flexbox-ex/flexbox-ex1.gif)
+![ex1](./img/flexbox-ex/flexbox-ex1.gif)
 
 Pour ce faire tu auras besoin du code HTML et CSS suivant:
 
@@ -124,7 +124,7 @@ section{
 
 Reproduis la mise en page suivante. Attention au sens des `<div>`, ce n'est plus de gauche à droite mais de haut en bas. On a donc 3 colonnes. Le tout doit resté `flexible`. Ne te fie pas aux tailles que tu vois sur le screenshot.
 
-![ex2](img/flexbox-ex/flexbox-ex2.gif)
+![ex2](./img/flexbox-ex/flexbox-ex2.gif)
 
 Reprends le code HTML plus haut, rajoute cette `<div>` et trouve comment faire en sorte qu'elle soit différente comme sur le screenshot.
 
@@ -136,7 +136,7 @@ Reprends le code HTML plus haut, rajoute cette `<div>` et trouve comment faire e
 
 Reproduis la mise en page suivante. Le tout doit resté `flexible`. Ne te fie pas aux tailles que tu vois sur le screenshot.
 
-![ex2](img/flexbox-ex/flexbox-ex3.gif)
+![ex2](./img/flexbox-ex/flexbox-ex3.gif)
 
 Utilise l'HTML et CSS suivant.
 
