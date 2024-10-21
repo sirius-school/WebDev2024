@@ -13,9 +13,10 @@ Voici une collection de liens qui pourront t'aider pendant et après ta formatio
 - [Les chaines Youtube intéressantes](#les-chaines-youtube-intéressantes)
 - [Les sites outils](#les-sites-outils)
   - [Les IA](#les-ia)
-  - [Editeur de code](#editeur-de-code)
+  - [Éditeur de code](#éditeur-de-code)
   - [Couleurs](#couleurs)
   - [Générateur CSS/Image/SVG](#générateur-cssimagesvg)
+- [Divers](#divers)
 
 ## La documentation et les cheatsheet
 
@@ -35,6 +36,7 @@ Voici les liens à retenir pour retrouver toutes les explications nécessaires �
 - [W3School - CSS :us:](https://www.w3schools.com/css/default.asp)
 - [CSS Reference :us:](https://cssreference.io/)
 - [Cheatsheet CSS interactive :us:](https://htmlcheatsheet.com/css/)
+- [Quelle unité de mesure choisir? :us:](https://whatunit.com/)
 
 ### JavaScript
 
@@ -46,8 +48,14 @@ Voici les liens à retenir pour retrouver toutes les explications nécessaires �
 
 - [Kevin Powel :us:](https://www.youtube.com/kepowob)
 - [Design Course - Gary Simmons :us:](https://www.youtube.com/c/DesignCourse)
+- [Web Dev Simplified :us:](https://www.youtube.com/@WebDevSimplified)
+- [Grafikart :fr:](https://www.youtube.com/@grafikart)
 - [Le Designer Du Web :fr:](https://www.youtube.com/c/LeDesignerduWeb)
 - [Balo :belgium:](https://www.youtube.com/c/BALOPRISONNIER)
+- [BastiUi](https://www.twitch.tv/BastiUi)
+- [V2F :fr:](https://www.youtube.com/@V2F)
+- [Juxtopposed :us:](https://www.youtube.com/@juxtopposed)
+- [Hyperplexed](https://www.youtube.com/@Hyperplexed)
 
 ## Les sites outils
 
@@ -59,9 +67,10 @@ Voici les liens à retenir pour retrouver toutes les explications nécessaires �
 - [Hugging Face](https://huggingface.co/) : Communauté IA
 - [Dall-E](https://openai.com/index/dall-e-2/): Génération d'images
 
-### Editeur de code
+### Éditeur de code
 
 - [CodePen](https://codepen.io/): Pour utiliser un éditeur HTML/CSS/JavaScript en ligne et découvrir des tas d'exemples.
+- [JS Fiddle](https://jsfiddle.net/): Éditeur en ligne puissant
 
 ### Couleurs
 
@@ -75,3 +84,11 @@ Voici les liens à retenir pour retrouver toutes les explications nécessaires �
 - [Gradient Generator](https://cssgradient.io/)
 - [Fancy Border Radius generator](https://9elements.github.io/fancy-border-radius/)
 - [Clip Path](https://bennettfeely.com/clippy/)
+- [Générateur d'élement responsive (grid, clamp,...)](https://utopia.fyi/)
+- [CSS source pour différentes formes](https://sharkcoder.com/visual/shapes)
+
+Si vous chercher un effet particulier, utilisez un moteur de recherche! 
+
+## Divers
+
+- [Une liste avec pleins d'outils divers et variés par Matty McTech](https://docs.google.com/spreadsheets/u/0/d/e/2PACX-1vQMvTHtsEwB5LPF1zipHIZaVsUrQQBBVLazZLr-aaFOwrGAGEEUtWg9KRgweYLwcHKnevpk8ATT7skN/pubhtml?pli=1#)
