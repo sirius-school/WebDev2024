@@ -52,10 +52,10 @@ Voici les liens à retenir pour retrouver toutes les explications nécessaires �
 - [Grafikart :fr:](https://www.youtube.com/@grafikart)
 - [Le Designer Du Web :fr:](https://www.youtube.com/c/LeDesignerduWeb)
 - [Balo :belgium:](https://www.youtube.com/c/BALOPRISONNIER)
-- [BastiUi](https://www.twitch.tv/BastiUi)
+- [BastiUi :fr:](https://www.twitch.tv/BastiUi)
 - [V2F :fr:](https://www.youtube.com/@V2F)
 - [Juxtopposed :us:](https://www.youtube.com/@juxtopposed)
-- [Hyperplexed](https://www.youtube.com/@Hyperplexed)
+- [Hyperplexed :us:](https://www.youtube.com/@Hyperplexed)
 
 ## Les sites outils
 
@@ -91,4 +91,5 @@ Si vous chercher un effet particulier, utilisez un moteur de recherche!
 
 ## Divers
 
+- [The Stocks](https://thestocks.im/): Le site ultime qui répertorie des dizaines et des dizaines de sites ressources! 
 - [Une liste avec pleins d'outils divers et variés par Matty McTech](https://docs.google.com/spreadsheets/u/0/d/e/2PACX-1vQMvTHtsEwB5LPF1zipHIZaVsUrQQBBVLazZLr-aaFOwrGAGEEUtWg9KRgweYLwcHKnevpk8ATT7skN/pubhtml?pli=1#)
