@@ -21,6 +21,8 @@ Bienvenue dans le cours d'initiation à JavaScript! On va apprendre les bases de
 15. 🪛*wip*🪛 Théorie - JavaScript - Objets
 16. 🪛*wip*🪛 Exercices - Objets
 
+- [🧰 La boîte à outils de l'intégrateur junior!](../boite-outils.md)
+
 ## La règle d'OR
 
 ![google-that-shit](../2_HTML-CSS-initiation/./img/google-it.gif)

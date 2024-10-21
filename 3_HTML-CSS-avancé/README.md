@@ -25,6 +25,7 @@ Ici, tu trouveras des cours sur des sujets bonus. Si on a le temps de les voir, 
 - [Théorie - CSS - Font Awesome](bonus-theorie-font_awesome.md)
 - [SASS](bonus-sass.md)
 - [Bootstrap (obsolete)](bonus-bootstrap.md)
+- [🧰 La boîte à outils de l'intégrateur junior!](../boite-outils.md)
 
 ## La règle d'OR
 

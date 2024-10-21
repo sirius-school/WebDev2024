@@ -25,8 +25,8 @@ Tout le cours est dispo mais ne te précipite pas non plus. Nous allons voir tou
 17. [Exercice - Maquette Flexbox - Head Hunter](16-exercice-css-maquette-head-hunter.md)
 
 - [Exercices supplémentaires](bonus-exos-supp.md)
-- [La boîte à outils de l'intégrateur junior!](bonus-outils.md)
 - [Bonne pratiques](bonus-bonnes-pratiques.md)
+- [🧰 La boîte à outils de l'intégrateur junior!](../boite-outils.md)
 
 ## La règle d'OR
 

@@ -9,6 +9,8 @@ Bienvenue dans le cours d'initiation au développement web! On va aborder quelqu
 3. [Markdown](./markdown.md)
 4. [Github Desktop](./github_desktop.md)
 
+- [🧰 La boîte à outils de l'intégrateur junior!](../boite-outils.md)
+
 ## La règle d'OR
 
 ![google-that-shit](./img/google-it.gif)

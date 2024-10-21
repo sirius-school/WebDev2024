@@ -52,7 +52,7 @@ element {
 
 Vous commencez sans doute à avoir une feuille de style à rallonge et vous ne vous y retrouvez plus? Et bien la solution réside dans les `import`. En effet la règle `@import`permet d'inclure une feuille de style dans une autre. Ainsi vous pouvez diviser votre travail en plusieurs feuilles en fonction des différentes sections que vous devez styliser.
 
-Il est également possible d'utiliser les mediaqueries pour utiliser une feuille de style particulière si la règle est respectée.
+Il est également possible d'utiliser les `mediaqueries` pour utiliser une feuille de style particulière si la règle est respectée.
 
 **Exemple**: main.css, header.css, footer.css, nav.css, card.css, print.css...
 
