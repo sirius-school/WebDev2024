@@ -17,6 +17,7 @@ Voici une collection de liens qui pourront t'aider pendant et après ta formatio
   - [Couleurs](#couleurs)
   - [Générateur CSS/Image/SVG](#générateur-cssimagesvg)
 - [Divers](#divers)
+- [Logiciel](#logiciel)
 
 ## La documentation et les cheatsheet
 
@@ -46,6 +47,8 @@ Voici les liens à retenir pour retrouver toutes les explications nécessaires �
 
 ## Les chaines Youtube intéressantes
 
+- [✨ Playlist Youtube sélectionné par Mr.james](https://youtube.com/playlist?list=PLwbCpKhDKCsfLkcOSH1G45xcXR6xynR0i&si=mstLfmVTjo05O7ZW)
+
 - [Kevin Powel :us:](https://www.youtube.com/kepowob)
 - [Design Course - Gary Simmons :us:](https://www.youtube.com/c/DesignCourse)
 - [Web Dev Simplified :us:](https://www.youtube.com/@WebDevSimplified)
@@ -54,8 +57,8 @@ Voici les liens à retenir pour retrouver toutes les explications nécessaires �
 - [Balo :belgium:](https://www.youtube.com/c/BALOPRISONNIER)
 - [BastiUi :fr:](https://www.twitch.tv/BastiUi)
 - [V2F :fr:](https://www.youtube.com/@V2F)
-- [Juxtopposed :us:](https://www.youtube.com/@juxtopposed)
-- [Hyperplexed :us:](https://www.youtube.com/@Hyperplexed)
+- [✨ Juxtopposed :us:](https://www.youtube.com/@juxtopposed)
+- [✨ Hyperplexed :us:](https://www.youtube.com/@Hyperplexed)
 
 ## Les sites outils
 
@@ -77,6 +80,7 @@ Voici les liens à retenir pour retrouver toutes les explications nécessaires �
 - [Roue chromatique](https://itpastorn.github.io/webbteknik/future-stuff/svg/color-wheel.html): Pour retrouver directement une couleur en HSL
 - [Coolors](https://coolors.co/): Choix de palette de couleurs
 - [Adobe Color](https://color.adobe.com/fr/create/): Choix de couleurs
+- [✨ Contrast Checker](https://coolors.co/contrast-checker/112a46-acc8e5)
 
 ### Générateur CSS/Image/SVG
 
@@ -86,10 +90,15 @@ Voici les liens à retenir pour retrouver toutes les explications nécessaires �
 - [Clip Path](https://bennettfeely.com/clippy/)
 - [Générateur d'élement responsive (grid, clamp,...)](https://utopia.fyi/)
 - [CSS source pour différentes formes](https://sharkcoder.com/visual/shapes)
+- [✨ Générateur de Favicon](https://favicon.io/)
 
 Si vous chercher un effet particulier, utilisez un moteur de recherche! 
 
 ## Divers
 
-- [The Stocks](https://thestocks.im/): Le site ultime qui répertorie des dizaines et des dizaines de sites ressources! 
+- [✨ The Stocks](https://thestocks.im/): Le site ultime qui répertorie des dizaines et des dizaines de sites ressources! 
 - [Une liste avec pleins d'outils divers et variés par Matty McTech](https://docs.google.com/spreadsheets/u/0/d/e/2PACX-1vQMvTHtsEwB5LPF1zipHIZaVsUrQQBBVLazZLr-aaFOwrGAGEEUtWg9KRgweYLwcHKnevpk8ATT7skN/pubhtml?pli=1#)
+
+## Logiciel
+
+- [✨ Responsively](https://responsively.app/download) : pour afficher plusieurs fenêtres responsive d'une même url en même temps. Pratique pour tester!
