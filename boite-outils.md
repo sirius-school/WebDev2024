@@ -48,7 +48,6 @@ Voici les liens à retenir pour retrouver toutes les explications nécessaires �
 ## Les chaines Youtube intéressantes
 
 - [✨ Playlist Youtube sélectionné par Mr.james](https://youtube.com/playlist?list=PLwbCpKhDKCsfLkcOSH1G45xcXR6xynR0i&si=mstLfmVTjo05O7ZW)
-
 - [Kevin Powel :us:](https://www.youtube.com/kepowob)
 - [Design Course - Gary Simmons :us:](https://www.youtube.com/c/DesignCourse)
 - [Web Dev Simplified :us:](https://www.youtube.com/@WebDevSimplified)
