@@ -80,7 +80,7 @@ Conçois un menu de navigation horizontal simple avec des liens. Utilise des med
 
 ## 😊 Images Réactives 
 
-Insère une image dans ta page HTML et utilise la balise `<picture></picture>` pour avoir une image réactive. Regarde le .gif qui suit et [:book: relis la théorie](./01-theorie-responsive-design.md#images-responsive).
+Insère une image dans ta page HTML et utilise la balise `<picture></picture>` pour avoir une image réactive. Regarde le .gif qui suit et [:book: relis la théorie](./02-theorie-responsive-design.md#images-responsive).
 
 ![img-responsive](./img/responsive-design-ex/04-img-responsive.gif)
 
