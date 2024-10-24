@@ -38,6 +38,7 @@ Voici les liens à retenir pour retrouver toutes les explications nécessaires �
 - [CSS Reference :us:](https://cssreference.io/)
 - [Cheatsheet CSS interactive :us:](https://htmlcheatsheet.com/css/)
 - [Quelle unité de mesure choisir? :us:](https://whatunit.com/)
+- [One-liner CSS :us:](https://1linelayouts.glitch.me/)
 
 ### JavaScript
 
