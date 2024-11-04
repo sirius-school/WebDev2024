@@ -8,26 +8,28 @@ Regarde [cette animation](https://codepen.io/miocene/pen/mjLPVp) ou encore cette
 <!-- omit in toc -->
 ## Table des matières
 
-- [Animations](#animations)
-- [Transform](#transform)
-  - [Translate](#translate)
-  - [Scale](#scale)
-  - [Rotate](#rotate)
-  - [Skew](#skew)
-  - [Multiple valeurs](#multiple-valeurs)
-- [Perspective 3D](#perspective-3d)
-  - [La propriété perspective](#la-propriété-perspective)
-  - [Les transformations 3D](#les-transformations-3d)
-  - [L'effet de perspective](#leffet-de-perspective)
-- [Transition](#transition)
-- [Keyframes](#keyframes)
-  - [From \& To](#from--to)
-  - [Pourcentages](#pourcentages)
-- [Amusez-vous](#amusez-vous)
+- [Animations CSS](#animations-css)
+- [Quelques nouvelles propriétés](#quelques-nouvelles-propriétés)
+  - [Transform](#transform)
+    - [Translate](#translate)
+    - [Scale](#scale)
+    - [Rotate](#rotate)
+    - [Skew](#skew)
+    - [Multiple valeurs](#multiple-valeurs)
+  - [Transformation 3D](#transformation-3d)
+    - [La propriété perspective](#la-propriété-perspective)
+    - [Les transformations 3D](#les-transformations-3d)
+    - [L'effet de perspective](#leffet-de-perspective)
+- [Animation](#animation)
+  - [Transition](#transition)
+  - [Keyframes](#keyframes)
+    - [From \& To](#from--to)
+    - [Pourcentages](#pourcentages)
+  - [Amusez-vous](#amusez-vous)
 
-## Animations
+## Animations CSS
 
-Beaucoup des propriétés vues jusqu'à maintenant sont animables. Que ce soit `color`, `font-size`, `border` ou encore `flex`.
+Les animations en CSS permettent de donner vie aux éléments HTML en changeant progressivement leurs propriétés. Les animations ajoutent du dynamisme et de l’interactivité à une page, sans nécessiter de JavaScript.
 
 Voici quelques exemples d'animations courantes:
 
@@ -45,11 +47,15 @@ Il y en a tellement, comme on dit en anglais "Sky is the limit". Mais avant de s
 
 [:arrow_up: Revenir au top](#table-des-matières)
 
-## Transform
+## Quelques nouvelles propriétés
 
-Avant de voir comment faire une animation voyons une nouvelle  propriétés animable: `transform`. Celle-ci permet de faire des modifications à vos éléments et peut prendre plusieurs valeurs.
+Avant de commencer à animer, voyons quelques nouvelles propriétés animable.
 
-### Translate
+### Transform
+
+La propriété transform en CSS permet de manipuler un élément en appliquant des transformations géométriques, comme des rotations, des échelles, des translations, ou des inclinaisons. Elle est particulièrement utile pour ajouter des effets visuels et est souvent utilisée dans les animations CSS.
+
+#### Translate
 
 Permet de déplacer l'élément sur un axe horizontale (X) ou verticale (Y)
 
@@ -65,21 +71,21 @@ Permet de déplacer l'élément sur un axe horizontale (X) ou verticale (Y)
 
 > :bulb: Il est également possible de combiner les deux axes en une seule ligne `transform: translate(200px, -50px)`
 
-### Scale
+#### Scale
 
-Permet d'agrandir l'élément et son contenu. Il est possible de le faire sur l'axe X ou Y. Le paramètre accepté est un chiffre qui détermine le nombre de fois que l'élément est agrandis ou rétrécis.
+Redimensionne un élément en fonction des valeurs de x (largeur) et y (hauteur). Le paramètre accepté est un chiffre qui détermine le nombre de fois que l'élément est agrandis ou rétrécis.
 
 ```css
 .element {
-  transform: scale(20);
+  transform: scale(3, 1.5);
 }
 ```
 
 > :bulb: il est possible d'utiliser `scaleX` ou `scaleY`
 
-### Rotate
+#### Rotate
 
-Permet d'éffectuer une rotation dans le sens des aiguilles d'une montre (par défaut) avec votre élément et son contenu. Il faut indiquer un paramètre en `deg` (degrés) et il peut être positif ou négatif.
+Fait tourner un élément de l’angle spécifié dans le sens des aiguilles d'une montre (par défaut). Il faut indiquer un paramètre en `deg` (degrés) et il peut être positif ou négatif.
 
 ```css
 .element {
@@ -93,7 +99,7 @@ Permet d'éffectuer une rotation dans le sens des aiguilles d'une montre (par d�
 
 [Voir des exemples de rotation sur axes](https://codepen.io/team/css-tricks/pen/ebb6b5a5cec86aa04168f03e26c7501c)
 
-### Skew
+#### Skew
 
 Permet d'incliner un élément sur l'axe X ou Y. Prend comme paramètre une valeur en degrés (`deg`).
 
@@ -107,7 +113,7 @@ Permet d'incliner un élément sur l'axe X ou Y. Prend comme paramètre une vale
 
 [Voir des exemples de skew](https://codepen.io/team/css-tricks/pen/povNBmQ)
 
-### Multiple valeurs
+#### Multiple valeurs
 
 Il est tout à fait possible d'écrire plusieurs valeurs à la propriété transform, il suffit de les espacer.
 
@@ -117,13 +123,15 @@ Il est tout à fait possible d'écrire plusieurs valeurs à la propriété trans
 }
 ```
 
+> 🚨 Il ne faut pas écrire une nouvelle propriété transform par transformation que l'on veut. Sinon c'est le dernier transform qui prendra le dessus.
+
 [:arrow_up: Revenir au top](#table-des-matières)
 
-## Perspective 3D
+### Transformation 3D
 
-La perspective en CSS est une propriété qui vous permet d'ajouter de la profondeur et de la perspective à un élément HTML, créant ainsi l'illusion d'une vue en trois dimensions. Cette propriété est couramment utilisée en conjonction avec des transformations 3D pour créer des effets de perspective tels que des rotations et des inclinaisons d'objets dans un espace tridimensionnel simulé. Voici comment fonctionne la perspective en CSS :
+En CSS, les transformations 3D permettent de manipuler des éléments dans l’espace, en simulant profondeur et angles. C’est utile pour donner un effet de relief aux éléments HTML. Cela permet de créer des boutons ou des cartes avec des effets de profondeur, des animations d'éléments qui tournent ou basculent ou une galerie d'image avec vue en perspective.
 
-### La propriété perspective
+#### La propriété perspective
 
 Pour ajouter de la perspective à un élément et à son contenu, vous devez utiliser la propriété perspective. Cette propriété définit la distance à laquelle l'observateur (l'utilisateur) se trouve de l'élément en trois dimensions.
 
@@ -133,9 +141,9 @@ Pour ajouter de la perspective à un élément et à son contenu, vous devez uti
 }
 ```
 
-> Dans cet exemple, la valeur 1000px indique que l'observateur est situé à 1000 pixels de l'élément .container. Plus la valeur est petite, plus l'effet de perspective sera prononcé.
+> Dans cet exemple, la valeur 1000px indique que l'observateur est situé à 1000 pixels de l'élément `.container`. Plus la valeur est petite, plus l'effet de perspective sera prononcé.
 
-### Les transformations 3D
+#### Les transformations 3D
 
 Une fois que vous avez défini la perspective sur un conteneur, vous pouvez appliquer des transformations 3D aux éléments enfants de ce conteneur. Les transformations 3D incluent des propriétés telles que rotateX(), rotateY(), rotateZ(), translateZ(), etc vues plus haut.
 
@@ -150,7 +158,7 @@ Une fois que vous avez défini la perspective sur un conteneur, vous pouvez appl
 
 > Dans cet exemple, l'élément avec la classe .box subit une rotation autour de l'axe Y de 45 degrés et est déplacé vers l'avant de 100 pixels en utilisant translateZ(). La perspective définie sur le conteneur parent influencera la façon dont cette transformation est rendue visuellement.
 
-### L'effet de perspective
+#### L'effet de perspective
 
 Lorsque vous appliquez des transformations 3D aux éléments à l'intérieur du conteneur avec perspective, l'effet de perspective donnera l'illusion que les éléments se déplacent dans un espace en trois dimensions par rapport à l'observateur. Les éléments proches de l'observateur sembleront plus grands, tandis que les éléments éloignés sembleront plus petits, ce qui crée une sensation de profondeur.
 
@@ -166,7 +174,9 @@ La perspective en CSS est particulièrement utile pour créer des animations et 
 
 [:arrow_up: Revenir au top](#table-des-matières)
 
-## Transition
+## Animation
+
+### Transition
 
 Voyons maintenant comment on peut controller le passage d'un état à un autre. Ça s'appel une transition.
 
@@ -230,9 +240,9 @@ Cela nous fait déjà beaucoup de contrôle sur notre transition, mais il existe
 
 [:arrow_up: Revenir au top](#table-des-matières)
 
-## Keyframes
+### Keyframes
 
-### From & To
+#### From & To
 
 C'est avec les keyframes qu'on va définir comment notre animation fonctionne et qu'on va pouvoir allez plus loin. Ce sont des "bloc" d'animation qu'on va pouvoir appliquer sur nos éléments. On va définir un état de base (from) et on va définir un état d'arrivé (to). Voyons cela en pratique.
 
@@ -271,7 +281,7 @@ On retrouve également des propriétés tels que:
 
 [Voici des exemples d'animations et plus d'information](https://css-tricks.com/almanac/properties/a/animation/#sub-properties)
 
-### Pourcentages
+#### Pourcentages
 
 Il est également possible de diviser votre animation en utilisant des %. Pour chaque x% on va définir les états de notre animation. De 0% à 100% est accompli en fonction de la durée définie.
 
@@ -297,7 +307,7 @@ Il est également possible de diviser votre animation en utilisant des %. Pour c
 
 [:arrow_up: Revenir au top](#table-des-matières)
 
-## Amusez-vous
+### Amusez-vous
 
 C'est à vous de jouer maintenant, créez des animations, tentez des choses, voyez comment ça se comporte.
 
