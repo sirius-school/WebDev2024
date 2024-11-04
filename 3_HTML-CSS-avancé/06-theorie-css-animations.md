@@ -20,6 +20,7 @@ Regarde [cette animation](https://codepen.io/miocene/pen/mjLPVp) ou encore cette
     - [La propriété perspective](#la-propriété-perspective)
     - [Les transformations 3D](#les-transformations-3d)
     - [L'effet de perspective](#leffet-de-perspective)
+  - [Filter](#filter)
 - [Animation](#animation)
   - [Transition](#transition)
   - [Keyframes](#keyframes)
@@ -173,6 +174,25 @@ Lorsque vous appliquez des transformations 3D aux éléments à l'intérieur du 
 La perspective en CSS est particulièrement utile pour créer des animations et des transitions 3D réalistes, ainsi que pour donner un effet de profondeur à des scènes complexes. Elle peut être combinée avec d'autres propriétés CSS telles que `transform-origin`, `perspective-origin`, et `backface-visibility` pour un meilleur contrôle sur les effets 3D et leur apparence.
 
 [:arrow_up: Revenir au top](#table-des-matières)
+
+### Filter
+
+Cette propriété permet la modification en temps réel de vos images, c'est comme un filtre Instagram. Ce qui est bien, c'est que c'est animable aussi! Il y a différent effets que voici: filter: none | blur() | brightness() | contrast() | drop-shadow() | grayscale() | hue-rotate() | invert() | opacity() | saturate() | sepia() | url();
+
+```css
+.blur {filter: blur(4px);}
+.brightness {filter: brightness(0.30);}
+.contrast {filter: contrast(180%);}
+.grayscale {filter: grayscale(100%);}
+.huerotate {filter: hue-rotate(180deg);}
+.invert {filter: invert(100%);}
+.opacity {filter: opacity(50%);}
+.saturate {filter: saturate(7);}
+.sepia {filter: sepia(100%);}
+.shadow {filter: drop-shadow(8px 8px 10px green);}
+```
+
+Pour les découvrir je vous renvois sur [cet exemple sur la W3School](https://www.w3schools.com/cssref/tryit.php?filename=trycss3_filter_all)
 
 ## Animation
 
