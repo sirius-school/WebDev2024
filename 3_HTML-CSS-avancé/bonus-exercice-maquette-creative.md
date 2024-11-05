@@ -1,8 +1,6 @@
 # Exercice Maquette Creative
 
-Tu vas devoir travailler avec un collègue pour reproduire cette maquette de la manière la plus précise possible.
-
-![creative-maquette](creative/creative.png)
+![creative-maquette](./img/creative/creative.png)
 
 ## :memo: Objectifs
 
@@ -30,18 +28,6 @@ Voici quelques conseils:
 - Créer une feuille de style commune dans laquelle vous viendrez faire vos imports de vos feuilles de style.
 - Il ne faut pas reproduire à l'identique le contenu. Par exemple sur la page d'accueil, pas besoin d'afficher nécessairement 4 articles dans le container central, tout comme il n'est pas obligé d'en avoir trois dans le widget "Recent Posts". Faites en sortes que le CSS soit prêt pour accueillir un nombre "illimité" de contenu.
 - Responsive? Ne vous pré-occupez pas trop des différentes versions (tablet/smartphone) pour le moment. Essayez déjà d'approcher le plus possible du résultat desktop. Mais si vous avancez bien, pourquoi ne pas essayer du coup.
-
-## Groupes
-
-Groupe 1 | Groupe 2 | Groupe 3 | Groupe 4
---- | --- | --- | ---
-Alhassane | Dorine    | Héloise | Irina
-Cédric    | Angélique | Mohamed | Polat
-
-Groupe 5 | Groupe 6 | Groupe 7 | Groupe 8
---- | --- | --- | ---
-Joseph    | Luc    | Saidou   | Sarah
-Adrien    | Marc   | Giresse  | Sarah
 
 ## Informations maquette
 
