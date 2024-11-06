@@ -69,6 +69,7 @@ Voici les liens à retenir pour retrouver toutes les explications nécessaires �
 - [Copilot - Github](https://github.com/features/copilot)
 - [Hugging Face](https://huggingface.co/) : Communauté IA
 - [Dall-E](https://openai.com/index/dall-e-2/): Génération d'images
+- [✨ There Is An AI For That](https://theresanaiforthat.com/) : Collection d'IA pour faire tout et n'importe quoi
 
 ### Éditeur de code
 
