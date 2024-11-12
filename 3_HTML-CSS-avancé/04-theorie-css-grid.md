@@ -1,8 +1,6 @@
 <!-- omit in toc -->
 # Grid (débutant)
 
-:exclamation: Work in progress
-
 <!-- omit in toc -->
 ## Introduction
 
@@ -200,7 +198,7 @@ Lorsqu'on parle de CSS Grid, on entend souvent parler de l'unité `fr`, mais qu'
 }
 ```
 
-> Ceci aura pour but de prendre 1/3 de l'espace disponible.
+> Ceci aura pour but de prendre 1/3 de l'espace disponible par colone.
 
 **Combinaison avec d'autres unités :** L'avantage du `fr` est qu'il fonctionne bien avec d'autres unités comme `px`, `%`, `em`, etc. Si tu veux une colonne de 200px et que les deux autres se partagent l'espace restant de manière égale, tu peux faire :
 
@@ -214,7 +212,7 @@ L'unité `fr` est super pratique pour créer des mises en page réactives sans a
 
 #### grid-template-areas
 
-Il est également possible de définir notre grid avec le nom que l'on donne à nos grid-area. pour ce faire on écrit le nom de notre grid-area suivi d'un espace et d'une autre grid-area ou d'un point. Si on place un point cela signifie qu'on définit une grid cell vide. 
+Il est également possible de définir notre grid avec le nom que l'on donne à nos grid-area. pour ce faire on écrit le nom de notre grid-area suivi d'un espace et d'une autre grid-area ou d'un point. Si on place un point cela signifie qu'on définit une grid cell vide.
 
 ```css
   .grid-container {
